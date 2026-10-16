@@ -1,0 +1,42 @@
+  ┊ review diff
+a//out/runs/r4-s2-A4-hermes-m2-none-837308000/output.json → b//out/runs/r4-s2-A4-hermes-m2-none-837308000/output.json
+@@ -0,0 +1,32 @@
++{
++  "linkedin": "Only 22% of the 3,940 active remote listings on Loker Dollar disclose any pay figure.\n\nTwo brand-design postings do share rates, both as fixed-price contracts: Stevens pays $3,000-$5,000 per project for a B2B SaaS logistics brand identity, and Sidekicks Creative Studio pays $1,500-$3,000 for a street-food brand. Across the wider market, 64% of listings are open to applicants from any country, so the pool is genuinely global.\n\nThe higher lump sum is not always the better deal. A $3,000-$5,000 fixed contract can mean short, high-pressure sprints, while a $1,500-$3,000 retainer offers steadier cash flow and room to upsell extra assets. Judge scope, timeline, and revision policy before comparing net income.\n\nIf you are hunting remote USD work: focus on listings that publish rates, build a logistics-focused case study if you want Stevens, and apply for both open brand-designer roles now.\n\nhttps://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026",
++  "x_thread": [
++    "Only 22% of the 3,940 active remote listings on Loker Dollar disclose a pay figure. For brand designers, the two that do publish rates are fixed-price contracts.",
++    "Stevens pays $3,000-$5,000 per project for a B2B SaaS logistics brand identity. Sidekicks Creative Studio pays $1,500-$3,000 for a street-food brand. Both are open to any country.",
++    "64% of listings worldwide accept remote applicants, so the pool is global. Across the market, 853 listings (22%) disclose pay and 3,087 (78%) do not.",
++    "Higher fixed-price is not always better. A $3,000-$5,000 sprint can be high-pressure; a $1,500-$3,000 retainer gives steadier cash flow and room to upsell.",
++    "Judge scope, timeline, and revision policy before assuming a bigger lump sum means more net income. Both brand-designer roles are live now.\n\nhttps://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026"
++  ],
++  "carousel": [
++    {
++      "title": "Remote Brand Designer Pay in 2026",
++      "body": "Only 22% of the 3,940 active remote listings on Loker Dollar disclose any pay figure. Two brand-designer roles do publish rates."
++    },
++    {
++      "title": "Stevens: $3,000-$5,000/Project",
++      "body": "Brand Identity Designer for B2B SaaS logistics. Fixed-price project, open to applicants from any country. Live as of 2026-10-12."
++    },
++    {
++      "title": "Sidekicks: $1,500-$3,000/Project",
++      "body": "Brand Identity Designer for a street-food brand. Fixed-price project for a boutique agency serving food-brand clients."
++    },
++    {
++      "title": "Higher Fixed Price? Not Always",
++      "body": "A $3,000-$5,000 contract can mean high-pressure sprints. A $1,500-$3,000 retainer offers steadier cash flow and room to upsell. Compare scope and timeline."
++    },
++    {
++      "title": "Apply for These USD Roles Now",
++      "body": "Both brand-designer listings are live and worldwide-remote. 64% of all listings accept any-country applicants. Browse the full data and apply."
++    }
++  ]
++}
+All constraints verified. Saved to /out/runs/r4-s2-A4-hermes-m2-none-837308000/output.json.
+
+Verified:
+- linkedin: 969 chars, hook first line, ends with the post URL
+- x_thread: 5 posts (161/179/149/155/213 chars, all ≤270), last contains URL
+- carousel: exactly 5 slides, all titles ≤40, all bodies ≤160, slide 1 hook, slide 5 CTA
+- All figures drawn from the post (22%, 3,940, $3,000-$5,000, $1,500-$3,000, 64%, 853/3,087), max 3 hashtags (0 used), plain English.

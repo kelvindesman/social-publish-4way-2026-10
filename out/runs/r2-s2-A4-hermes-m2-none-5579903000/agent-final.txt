@@ -1,0 +1,8 @@
+All constraints verified and saved.
+
+Saved to /out/runs/r2-s2-A4-hermes-m2-none-5579903000/output.json
+
+- linkedin: 1198 chars (600-1800) ✓, hook first line, ends with URL
+- x_thread: 6 tweets, all ≤270, last contains URL ✓
+- carousel: exactly 5 slides, all titles ≤40, bodies ≤160, slide 1 hook / slide 5 CTA ✓
+- Max 3 hashtags: used zero. Plain English, all figures from the post.

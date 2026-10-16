@@ -1,0 +1,33 @@
+{
+	"linkedin": "Your remote job application is competing with dozens of others. Here's how to make yours stand out.\n\nLead with the exact job title and where you saw it. Then, in one sentence, explain why your recent work fits the team. Save your life story for later.\n\nShow proof of async work: mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.\n\nMatch their words. If they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.\n\nKeep your CV short: one clean page. Put recent remote or freelance work first, with what you shipped.\n\nFollow up once, politely, after a week. One note restates your fit. More reads as pressure.\n\nFor more tips, visit http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers read your application between meetings, often in a second language. Make it easy to scan. #remotework",
+		"Lead with the exact job title and where you saw it. Then one sentence on why your recent work fits. Skip the life story.",
+		"Show proof of async work: a project with written updates, a shared doc you owned, or a time zone gap you handled.",
+		"Match their words. If they say 'customer support', don't write 'client care'. Both software and humans look for their words.",
+		"Keep your CV to one page. Put recent remote or freelance work first, with what you shipped, not just responsibilities.",
+		"Follow up once after a week. A single polite note restates your fit. More reads as pressure. Full guide: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Hook: Get Your Remote Application Read",
+			"body": "Remote hiring managers read between meetings, often in a second language. Make yours easy to scan and role-specific."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save the rest."
+		},
+		{
+			"title": "Prove Async Work",
+			"body": "Mention a project with written updates, a shared doc you owned, or a time zone gap you handled well."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice. If they say 'customer support', don't write 'client care'. Use their exact terms."
+		},
+		{
+			"title": "CTA: Read the Full Guide",
+			"body": "Keep your CV to one page, follow up once. For more tips, visit http://fixtures:8000/no-numbers-post.md"
+		}
+	]
+}

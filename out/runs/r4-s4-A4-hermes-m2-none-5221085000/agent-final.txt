@@ -1,0 +1,50 @@
+  ┊ review diff
+a//tmp/build.py → b//tmp/build.py
+@@ -24,7 +24,7 @@
+     {"title": "Only 22% of remote USD jobs disclose pay",
+      "body": "We analyzed 4,269 active remote listings paying in USD. Just 939 state a salary figure; 3,330 (78%) stay silent on pay."},
+     {"title": "64% of roles are open worldwide",
+-     "body": "2,725 listings accept applicants from any country. Top disclosed roles: OpenAI Data Scientist at USD 293,000-325,000/yr and Equinix Chief of Staff at USD 195,000-319,000/yr."},
++     "body": "2,725 listings accept applicants from any country. Top disclosed pay: OpenAI Data Scientist at USD 293,000-325,000/yr."},
+     {"title": "What skills the market wants",
+      "body": "AI appears as a required skill in 12% of listings (517). Communication is the most requested soft skill, in 39% (1,662 listings)."},
+     {"title": "Move fast, market is fresh",
+  ┊ review diff
+a//tmp/build.py → b//tmp/build.py
+@@ -28,7 +28,7 @@
+     {"title": "What skills the market wants",
+      "body": "AI appears as a required skill in 12% of listings (517). Communication is the most requested soft skill, in 39% (1,662 listings)."},
+     {"title": "Move fast, market is fresh",
+-     "body": "1,205 listings were posted in the last 7 days. Filter for 'USD salary disclosed', prioritize AI or communication roles, and apply before the freshness window closes."},
++     "body": "1,205 listings were posted in the last 7 days. Filter for 'USD salary disclosed', prioritize AI or communication roles, and apply fast."},
+     {"title": "Target the transparent 22%",
+      "body": "Don't chase average pay. Use the 'USD salary disclosed' filter on Loker Dollar and apply fast. See the full breakdown: " + URL}
+ ]
+  ┊ review diff
+a//tmp/build.py → b//tmp/build.py
+@@ -30,7 +30,7 @@
+     {"title": "Move fast, market is fresh",
+      "body": "1,205 listings were posted in the last 7 days. Filter for 'USD salary disclosed', prioritize AI or communication roles, and apply fast."},
+     {"title": "Target the transparent 22%",
+-     "body": "Don't chase average pay. Use the 'USD salary disclosed' filter on Loker Dollar and apply fast. See the full breakdown: " + URL}
++     "body": "Don't chase average pay. Use the 'USD salary disclosed' filter on Loker Dollar and apply fast. Full breakdown: " + URL}
+ ]
+ 
+ def check():
+  ┊ review diff
+a//tmp/build.py → b//tmp/build.py
+@@ -30,7 +30,7 @@
+     {"title": "Move fast, market is fresh",
+      "body": "1,205 listings were posted in the last 7 days. Filter for 'USD salary disclosed', prioritize AI or communication roles, and apply fast."},
+     {"title": "Target the transparent 22%",
+-     "body": "Don't chase average pay. Use the 'USD salary disclosed' filter on Loker Dollar and apply fast. Full breakdown: " + URL}
++     "body": "Don't chase average pay. Filter for 'USD salary disclosed' on Loker Dollar and apply fast. Full breakdown: " + URL}
+ ]
+ 
+ def check():
+Saved to /out/runs/r4-s4-A4-hermes-m2-none-5221085000/output.json. All constraints verified by script:
+
+- linkedin: 856 chars (600-1800), hook first line, ends with post URL.
+- x_thread: 4 strings, all <=270 (151/179/162/84), last one contains URL.
+- carousel: 5 objects; titles 26-40, bodies 118-159 (all <=40 and <=160); slide 1 is the hook, slide 5 the CTA with URL.
+- All figures come from the post; max 3 hashtags (used none); plain English.

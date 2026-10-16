@@ -1,0 +1,54 @@
+  ┊ review diff
+a//out/runs/r3-s1-A4-hermes-m2-none-4952100000/output.json → b//out/runs/r3-s1-A4-hermes-m2-none-4952100000/output.json
+@@ -0,0 +1,32 @@
++{
++  "linkedin": "Only 22% of remote listings show a pay figure. The other 78% say \u201CDOE\u201D \u2014 determined on experience.\n\nThat means you apply without knowing the USD rate you'll be offered. Of 4,280 active remote listings on Loker Dollar, just 940 disclose a concrete salary; 3,340 leave the pay blank.\n\nBut a hidden figure isn't necessarily a red flag. DOE gives you room to negotiate \u2014 especially if you have niche AI or data skills, where top candidates can land the high end of the band.\n\nHow to negotiate a DOE wage:\n1. Research global benchmarks to know typical USD rates for your role.\n2. Quantify your impact \u2014 revenue uplift, cost savings \u2014 before you talk.\n3. Anchor high with the range you uncovered, then let the employer adjust.\n4. Ask about total compensation: benefits, equity, bonuses.\n\nMost DOE roles never show their number. The data-backed playbook does.\n\nhttps://lokerdollar.com/en/blog/what-is-doe-wage",
++  "x_thread": [
++    "Only 22% of remote listings show a pay figure. The other 78% are marked DOE \u2014 determined on experience. Here's what that means when you apply. (1/5)",
++    "Of 4,280 active remote listings on Loker Dollar, 940 disclose a concrete USD salary. 3,340 leave the pay blank. So most roles ask you to negotiate without a number on the table.",
++    "A hidden figure isn't always a red flag. In fields like AI and specialized healthcare, DOE can push salaries above market for top candidates.",
++    "Negotiate a DOE wage: research global benchmarks, quantify your impact, anchor with a high range, and ask about total compensation (equity, bonuses, benefits).",
++    "Reference example from the data: Online Consumer Panels America lists $25\u201345/hour for product assessments. That's the one disclosed range in a 7-listing sample.\n\nFull data breakdown: https://lokerdollar.com/en/blog/what-is-doe-wage"
++  ],
++  "carousel": [
++    {
++      "title": "Only 22% of remote jobs show pay",
++      "body": "Of 4,280 active remote listings on Loker Dollar, just 940 disclose a concrete USD salary. The other 78% say DOE \u2014 determined on experience."
++    },
++    {
++      "title": "What does DOE mean?",
++      "body": "DOE means the employer sets your pay after reviewing your resume, skills, and market value. No fixed number up front \u2014 but room to aim high."
++    },
++    {
++      "title": "Hidden pay isn't a red flag",
++      "body": "In fast-changing fields like AI and specialized healthcare, DOE can push salaries above market for top candidates. It's often a negotiation lever."
++    },
++    {
++      "title": "How to negotiate a DOE wage",
++      "body": "Research global benchmarks, quantify your impact, anchor with a high range, and ask about total compensation \u2014 equity, bonuses, and benefits."
++    },
++    {
++      "title": "Browse DOE roles on Loker Dollar",
++      "body": "Reference point: Online Consumer Panels America lists $25\u201345/hour for product assessments. Set your range, filter worldwide remote jobs, and start the conversation."
++    }
++  ]
++}
+  ┊ review diff
+a//out/runs/r3-s1-A4-hermes-m2-none-4952100000/output.json → b//out/runs/r3-s1-A4-hermes-m2-none-4952100000/output.json
+@@ -26,7 +26,7 @@
+     },
+     {
+       "title": "Browse DOE roles on Loker Dollar",
+-      "body": "Reference point: Online Consumer Panels America lists $25\u201345/hour for product assessments. Set your range, filter worldwide remote jobs, and start the conversation."
++      "body": "Online Consumer Panels America lists $25\u201345/hour for product assessments. Set your range, filter worldwide remote jobs, and start the conversation."
+     }
+   ]
+ }
+All constraints pass:
+- linkedin: 902 chars (600-1800), hook first line, ends with URL ✓
+- x_thread: 5 posts, all ≤270, last contains URL ✓
+- carousel: 5 slides, slide 1 hook, slide 5 CTA, all titles ≤40, bodies ≤160 ✓
+- Facts all from the post (22%, 78%, 4,280, 940, 3,340, $25–45/hr, DOE definition, negotiation steps) ✓
+- 0 hashtags (within max 3) ✓
+
+Saved to /out/runs/r3-s1-A4-hermes-m2-none-4952100000/output.json. Done.

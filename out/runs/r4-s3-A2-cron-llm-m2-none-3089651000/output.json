@@ -1,0 +1,33 @@
+{
+	"linkedin": "12% of remote listings now require AI skills. Our latest snapshot of 3,928 listings shows 487 explicitly mention AI. Top pay? Jabil offers USD 132,400–238,400 for a Sr. Principal Product Engineer. But 78% of listings hide salary. Communication still leads at 41%. See the full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026",
+	"x_thread": [
+		"12% of remote listings now require AI skills. That's 487 out of 3,928 analyzed. What does it mean for your career?",
+		"Top AI-adjacent role: Jabil's Sr. Principal Product Engineer pays USD 132,400–238,400/year. But 78% of listings hide pay.",
+		"AI demand beats leadership (11%) and sales (9%), but communication still leads at 41%.",
+		"AI skills appear across roles: engineering, people ops, sales, even insurance agents.",
+		"Want to find remote AI jobs? Search 'AI' on Loker Dollar: https://lokerdollar.com/en/jobs",
+		"Full data and analysis: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
+	],
+	"carousel": [
+		{
+			"title": "AI Skills in Remote Jobs",
+			"body": "12% of remote listings now require AI skills. 487 out of 3,928 analyzed."
+		},
+		{
+			"title": "Top Pay Example",
+			"body": "Jabil offers USD 132,400–238,400/year for a Sr. Principal Product Engineer with AI-adjacent cloud expertise."
+		},
+		{
+			"title": "Salary Transparency Gap",
+			"body": "78% of listings hide pay. Only 22% disclose salary. Negotiate with market data."
+		},
+		{
+			"title": "AI vs Other Skills",
+			"body": "AI (12%) beats leadership (11%) and sales (9%). Communication leads at 41%."
+		},
+		{
+			"title": "Find AI Remote Jobs",
+			"body": "Search 'AI' on Loker Dollar to filter remote roles listing AI skills. Start now: https://lokerdollar.com/en/jobs"
+		}
+	]
+}

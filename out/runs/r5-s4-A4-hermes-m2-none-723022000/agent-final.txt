@@ -1,0 +1,66 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/check.py → b//tmp/hermes-home/cache/scratch/check.py
+@@ -0,0 +1,25 @@
++import json
++
++data = {
++    "linkedin": "Only 22% of remote job listings show their pay.\n\nOur analysis of 4,269 active USD remote listings found 939 (22%) that disclose a salary figure; 78% stay silent on pay. For Indonesian job seekers chasing USD roles, that silence matters when you negotiate.\n\nThe good news: 64% of listings (2,725) are open to applicants anywhere in the world. And when pay is disclosed, the top end is clear - OpenAI lists a Data Scientist at USD 293,000-325,000/yr and Equinix a Chief of Staff at USD 195,000-319,000/yr.\n\nSkill demand: AI appears in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days, so the market moves fast.\n\nOur take: don't chase average USD pay. Target the transparent 22% where the range is explicit.\n\nhttps://lokerdollar.com/en/blog/best-remote-usd-jobs",
++    "x_thread": [
++        "Only 22% of remote job listings disclose a salary. Of 4,269 active USD remote listings, just 939 (22%) show pay; 78% stay silent. Data as of Oct 13, 2026.",
++        "The upside: 64% (2,725) of listings are open to applicants anywhere in the world. When pay is disclosed, top roles run high - OpenAI Data Scientist at USD 293,000-325,000/yr.",
++        "Skill demand: AI appears in 12% of listings; communication in 39%. Both correlate with the highest pay brackets. 1,205 listings were posted in the last 7 days.",
++        "Our take: don't chase average USD pay. Filter for 'USD salary disclosed' and target the transparent 22%. Full breakdown here: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
++    ],
++    "carousel": [
++        {"title": "Only 22% of remote jobs show pay", "body": "Of 4,269 active USD remote listings, just 939 (22%) disclose a salary. 78% stay silent. Most candidates negotiate without a baseline."},
++        {"title": "64% are open worldwide", "body": "2,725 of 4,269 listings accept applicants from any country. For Indonesian talent, that widens the real field beyond local postings."},
++        {"title": "Top disclosed pay", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The top end is explicit."},
++        {"title": "Skills that signal pay", "body": "AI appears in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days - the market moves fast."},
++        {"title": "Target the transparent 22%", "body": "Don't chase average USD pay. Filter for 'USD salary disclosed' and apply while listings are fresh. Full data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"}
++    ]
++}
++
++print("linkedin chars:", len(data["linkedin"]))
++for i, t in enumerate(data["x_thread"]):
++    print(f"x_thread[{i}] chars: {len(t)}")
++print("x_thread count:", len(data["x_thread"]))
++for s in data["carousel"]:
++    print(f"carousel title {len(s['title'])} body {len(s['body'])}: {s['title']}")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/check.py → b//tmp/hermes-home/cache/scratch/check.py
+@@ -13,7 +13,7 @@
+         {"title": "64% are open worldwide", "body": "2,725 of 4,269 listings accept applicants from any country. For Indonesian talent, that widens the real field beyond local postings."},
+         {"title": "Top disclosed pay", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The top end is explicit."},
+         {"title": "Skills that signal pay", "body": "AI appears in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days - the market moves fast."},
+-        {"title": "Target the transparent 22%", "body": "Don't chase average USD pay. Filter for 'USD salary disclosed' and apply while listings are fresh. Full data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"}
++        {"title": "Target the transparent 22%", "body": "Don't chase average USD pay. Filter for 'USD salary disclosed' and apply while fresh. Full data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"}
+     ]
+ }
+ 
+  ┊ review diff
+a//out/runs/r5-s4-A4-hermes-m2-none-723022000/output.json → b//out/runs/r5-s4-A4-hermes-m2-none-723022000/output.json
+@@ -0,0 +1,16 @@
++{
++  "linkedin": "Only 22% of remote job listings show their pay.\n\nOur analysis of 4,269 active USD remote listings found 939 (22%) that disclose a salary figure; 78% stay silent on pay. For Indonesian job seekers chasing USD roles, that silence matters when you negotiate.\n\nThe good news: 64% of listings (2,725) are open to applicants anywhere in the world. And when pay is disclosed, the top end is clear - OpenAI lists a Data Scientist at USD 293,000-325,000/yr and Equinix a Chief of Staff at USD 195,000-319,000/yr.\n\nSkill demand: AI appears in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days, so the market moves fast.\n\nOur take: don't chase average USD pay. Target the transparent 22% where the range is explicit.\n\nhttps://lokerdollar.com/en/blog/best-remote-usd-jobs",
++  "x_thread": [
++    "Only 22% of remote job listings disclose a salary. Of 4,269 active USD remote listings, just 939 (22%) show pay; 78% stay silent. Data as of Oct 13, 2026.",
++    "The upside: 64% (2,725) of listings are open to applicants anywhere in the world. When pay is disclosed, top roles run high - OpenAI Data Scientist at USD 293,000-325,000/yr.",
++    "Skill demand: AI appears in 12% of listings; communication in 39%. Both correlate with the highest pay brackets. 1,205 listings were posted in the last 7 days.",
++    "Our take: don't chase average USD pay. Filter for 'USD salary disclosed' and target the transparent 22%. Full breakdown here: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
++  ],
++  "carousel": [
++    {"title": "Only 22% of remote jobs show pay", "body": "Of 4,269 active USD remote listings, just 939 (22%) disclose a salary. 78% stay silent. Most candidates negotiate without a baseline."},
++    {"title": "64% are open worldwide", "body": "2,725 of 4,269 listings accept applicants from any country. For Indonesian talent, that widens the real field beyond local postings."},
++    {"title": "Top disclosed pay", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The top end is explicit."},
++    {"title": "Skills that signal pay", "body": "AI appears in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days - the market moves fast."},
++    {"title": "Target the transparent 22%", "body": "Don't chase average USD pay. Filter for 'USD salary disclosed' and apply while fresh. Full data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"}
++  ]
++}
+Done. Saved to /out/runs/r5-s4-A4-hermes-m2-none-723022000/output.json
+
+Verified lengths:
+- LinkedIn: 794 chars (600-1800 ✓), opens with hook, ends with URL
+- X thread: 4 posts (3-6 ✓), all ≤270 chars, last one has URL
+- Carousel: 5 slides, titles ≤40, bodies ≤160, slide 1 hook, slide 5 CTA
+
+All figures come from the post (4,269, 22%/939, 78%/3,330, 64%/2,725, OpenAI/Equinix pay, AI 12%, communication 39%, 1,205 in 7 days).

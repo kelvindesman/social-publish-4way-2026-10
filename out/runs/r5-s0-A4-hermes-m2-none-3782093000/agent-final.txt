@@ -1,0 +1,7 @@
+All constraints pass. Saved.
+
+- linkedin: 1044 chars (600-1800 ✓), hook first line, ends with URL
+- x_thread: 5 posts, all ≤270 chars, last contains URL
+- carousel: exactly 5 slides, all titles ≤40, bodies ≤160, slide 1 hook, slide 5 CTA with URL
+
+Saved to /out/runs/r5-s0-A4-hermes-m2-none-3782093000/output.json

@@ -1,0 +1,20 @@
+{
+	"source": "PostHog $ai_generation events, tasks linkedin_draft + linkedin_critique, pulled 2026-10-16",
+	"window": "2026-10-02T00:00Z to 2026-10-16T00:00Z",
+	"tick_filter": "even UTC hours (social-generate runs 17 */2 * * *), excluding 04/10/22 UTC which overlap the content-pipeline cron that uses the same task names; ticks with >= 10 calls",
+	"caveat": "no per-run trace id exists, so one clock hour = one social-generate run (one A/B pair of drafts)",
+	"query": "WITH t AS (SELECT toStartOfHour(timestamp) AS tick, count() AS calls, countIf(properties.$ai_is_error = true) AS errors, sum(toFloat(properties.$ai_input_tokens)) AS in_tok, sum(toFloat(properties.$ai_output_tokens)) AS out_tok, sum(toFloat(properties.$ai_total_cost_usd)) AS usd, uniq(properties.$ai_model) AS models FROM events WHERE event='$ai_generation' AND properties.task IN ('linkedin_draft','linkedin_critique') AND timestamp >= toDateTime('2026-10-02 00:00:00') AND timestamp < toDateTime('2026-10-16 00:00:00') AND toHour(timestamp) % 2 = 0 AND toHour(timestamp) NOT IN (4, 10, 22) GROUP BY tick HAVING calls >= 10) SELECT count(), median(calls), avg(calls), median(errors), sum(errors)/sum(calls), median(in_tok), median(out_tok), median(in_tok+out_tok), median(usd), sum(usd), median(models) FROM t",
+	"result": {
+		"ticks": 76,
+		"median_llm_calls": 51,
+		"avg_llm_calls": 52.2,
+		"median_failed_calls": 12,
+		"failed_call_rate": 0.2428,
+		"median_input_tokens": 67156,
+		"median_output_tokens": 16024.5,
+		"median_total_tokens": 83342,
+		"median_usd": 0.00987,
+		"usd_total_76_ticks": 0.939,
+		"median_distinct_models": 9
+	}
+}

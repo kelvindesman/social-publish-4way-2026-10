@@ -1,0 +1,33 @@
+{
+	"linkedin": "Struggling to get replies to your remote job applications? It's not about your experience—it's about how you present it. Hiring managers skim applications between meetings, often in a second language. Make yours easy to scan and tailored to the role. Lead with the job title, show proof of async work, match their words, keep your CV to one page, and follow up once. Small changes, big impact. Read more: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers skim applications on screens, often in a second language. To get a reply, make yours easy to scan and clearly written for the role.",
+		"Lead with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save your life story for later.",
+		"Show proof of async work: a project with written updates, a shared doc you owned, or a time zone gap you handled well.",
+		"Match their words. If they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.",
+		"Keep your CV to one clean page. Put recent remote or freelance work first, with what you shipped, not just responsibilities.",
+		"Follow up once after a week with a short note. One polite follow-up reads professional; more reads as pressure. More tips: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Remote Job Apps That Get Read",
+			"body": "Hiring managers skim between meetings, often in a second language. Easy-to-scan, role-specific apps get replies."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then one sentence on why your recent work fits."
+		},
+		{
+			"title": "Prove Async Work",
+			"body": "Show you can work without supervision: a project with written updates, a shared doc you owned, or a time zone gap handled."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice. If they say 'customer support', don't write 'client care'. Use their exact language."
+		},
+		{
+			"title": "Follow Up Once",
+			"body": "After a week, send one short note restating your fit. One is professional; more is pressure. Apply smarter today."
+		}
+	]
+}

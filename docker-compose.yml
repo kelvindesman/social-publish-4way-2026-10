@@ -1,0 +1,46 @@
+# Every container, image, volume and network here is throwaway: `./cleanup.sh` removes them all.
+name: ld-poc-4way
+x-common: &common
+  networks: [poc]
+  volumes: ["./out:/out"]
+  environment:
+    PROXY_BASE: http://proxy:8080
+    OUT_DIR: /out
+  labels: { ld-poc: "1" }
+  mem_limit: 1g
+services:
+  proxy:
+    build: { context: ., dockerfile: Dockerfile.py }
+    image: ld-poc-py
+    command: ["python", "/app/proxy/proxy.py"]
+    env_file: ["${POC_ENV_FILE:?set POC_ENV_FILE}"]
+    networks: [poc]
+    volumes: ["./out:/out"]
+    labels: { ld-poc: "1" }
+    mem_limit: 256m
+  fixtures:
+    image: ld-poc-py
+    command: ["python", "-m", "http.server", "8000", "-d", "/fixtures"]
+    volumes: ["./fixtures:/fixtures:ro"]
+    networks: [poc]
+    labels: { ld-poc: "1" }
+    mem_limit: 128m
+  py:
+    <<: *common
+    image: ld-poc-py
+    depends_on: [proxy, fixtures]
+  langgraph:
+    <<: *common
+    build: { context: ., dockerfile: Dockerfile.langgraph }
+    image: ld-poc-langgraph
+    depends_on: [proxy, fixtures]
+  hermes:
+    <<: *common
+    build: { context: ., dockerfile: Dockerfile.hermes }
+    image: ld-poc-hermes
+    init: true
+    depends_on: [proxy, fixtures]
+    mem_limit: 1536m
+networks:
+  poc:
+    labels: { ld-poc: "1" }

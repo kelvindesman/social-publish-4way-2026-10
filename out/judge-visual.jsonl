@@ -1,0 +1,320 @@
+{"run_id": "r0-s0-A1-cron-none-none-5530940000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A2-cron-llm-m1-none-5531118000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A2-cron-llm-m2-none-6403560000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A3-langgraph-m1-none-6247860000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A3-langgraph-m2-none-7780781000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A4-hermes-m2-none-5804555000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A1-cron-none-none-6581934000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A2-cron-llm-m1-none-7599472000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A2-cron-llm-m2-none-1140856000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A3-langgraph-m1-none-9893050000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A3-langgraph-m2-none-9160895000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s1-A4-hermes-m2-none-9824275000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A1-cron-none-none-7537100000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A2-cron-llm-m1-none-8926010000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A2-cron-llm-m2-none-7722583000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A3-langgraph-m1-none-6382793000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A3-langgraph-m2-none-9047727000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s2-A4-hermes-m2-none-7991770000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A1-cron-none-none-8369122000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A2-cron-llm-m1-none-9462359000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A2-cron-llm-m2-none-5174204000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A3-langgraph-m1-none-2994222000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A3-langgraph-m2-none-1783327000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s3-A4-hermes-m2-none-4903825000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A1-cron-none-none-3750418000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A2-cron-llm-m1-none-4748559000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A2-cron-llm-m2-none-4585092000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A3-langgraph-m1-none-3918836000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A3-langgraph-m2-none-9257500000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s4-A4-hermes-m2-none-740897000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A1-cron-none-none-5487168000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A2-cron-llm-m1-none-4321156000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A2-cron-llm-m2-none-4225936000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A3-langgraph-m1-none-3492319000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A3-langgraph-m2-none-4644092000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s0-A4-hermes-m2-none-7496606000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A1-cron-none-none-3713670000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A2-cron-llm-m1-none-6317449000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A2-cron-llm-m2-none-9282680000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A3-langgraph-m1-none-1253899000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A3-langgraph-m2-none-3790718000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s1-A4-hermes-m2-none-4055596000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A1-cron-none-none-9140022000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A2-cron-llm-m1-none-4604338000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A2-cron-llm-m2-none-1891906000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A3-langgraph-m1-none-938310000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A3-langgraph-m2-none-5606375000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s2-A4-hermes-m2-none-6364243000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A1-cron-none-none-6377381000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A2-cron-llm-m1-none-43578000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A2-cron-llm-m2-none-6552744000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A3-langgraph-m1-none-5006040000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A3-langgraph-m2-none-2710305000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s3-A4-hermes-m2-none-4416358000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A1-cron-none-none-181190000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A2-cron-llm-m1-none-7458490000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A2-cron-llm-m2-none-4428165000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A3-langgraph-m1-none-4533198000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A3-langgraph-m2-none-7951893000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r1-s4-A4-hermes-m2-none-6099435000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s0-A2-cron-llm-m1-none-8326619000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s0-A2-cron-llm-m2-none-5206770000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s0-A3-langgraph-m1-none-1210970000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s0-A3-langgraph-m2-none-2212505000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s0-A4-hermes-m2-none-8144352000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s1-A2-cron-llm-m1-none-9763668000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s1-A2-cron-llm-m2-none-4443682000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s1-A3-langgraph-m1-none-5787616000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s1-A3-langgraph-m2-none-9963281000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s1-A4-hermes-m2-none-6548879000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s2-A2-cron-llm-m1-none-1104645000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s2-A2-cron-llm-m2-none-242105000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s2-A3-langgraph-m1-none-3204544000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s2-A3-langgraph-m2-none-8314660000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s2-A4-hermes-m2-none-5579903000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s3-A2-cron-llm-m1-none-6993157000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s3-A2-cron-llm-m2-none-9028278000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s3-A3-langgraph-m1-none-8923895000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s3-A3-langgraph-m2-none-6231737000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s3-A4-hermes-m2-none-9748708000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s4-A2-cron-llm-m1-none-1302728000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s4-A2-cron-llm-m2-none-6169083000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s4-A3-langgraph-m1-none-6583804000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s4-A3-langgraph-m2-none-5888489000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r2-s4-A4-hermes-m2-none-2176498000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s0-A2-cron-llm-m1-none-8243764000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s0-A2-cron-llm-m2-none-3273203000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s0-A3-langgraph-m1-none-2517908000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s0-A3-langgraph-m2-none-7590067000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s0-A4-hermes-m2-none-9265554000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s1-A2-cron-llm-m1-none-8279466000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s1-A2-cron-llm-m2-none-1988312000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s1-A3-langgraph-m1-none-2012948000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s1-A3-langgraph-m2-none-8594444000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s1-A4-hermes-m2-none-4952100000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s2-A2-cron-llm-m1-none-2800228000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s2-A2-cron-llm-m2-none-2545096000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s2-A3-langgraph-m1-none-4059223000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s2-A3-langgraph-m2-none-1630820000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s2-A4-hermes-m2-none-9774770000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s3-A2-cron-llm-m1-none-7992402000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s3-A2-cron-llm-m2-none-1518531000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s3-A3-langgraph-m1-none-9296181000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s3-A3-langgraph-m2-none-4943783000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s3-A4-hermes-m2-none-689671000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s4-A2-cron-llm-m1-none-9458468000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s4-A2-cron-llm-m2-none-5923661000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s4-A3-langgraph-m1-none-5091584000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s4-A3-langgraph-m2-none-5639566000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r3-s4-A4-hermes-m2-none-9750482000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s0-A2-cron-llm-m1-none-5303866000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s0-A2-cron-llm-m2-none-351174000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s0-A3-langgraph-m1-none-9058944000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s0-A3-langgraph-m2-none-4390951000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s0-A4-hermes-m2-none-1447834000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s1-A2-cron-llm-m1-none-9287447000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s1-A2-cron-llm-m2-none-1037725000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s1-A3-langgraph-m1-none-288315000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s1-A3-langgraph-m2-none-1770220000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s1-A4-hermes-m2-none-9426370000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s2-A2-cron-llm-m1-none-7028620000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s2-A2-cron-llm-m2-none-7505689000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s2-A3-langgraph-m1-none-8602974000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s2-A3-langgraph-m2-none-2954478000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s2-A4-hermes-m2-none-837308000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s3-A2-cron-llm-m1-none-9104327000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s3-A2-cron-llm-m2-none-3089651000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s3-A3-langgraph-m1-none-1154664000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s3-A3-langgraph-m2-none-4877953000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s3-A4-hermes-m2-none-8556270000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s4-A2-cron-llm-m1-none-5387129000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s4-A2-cron-llm-m2-none-4146347000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s4-A3-langgraph-m1-none-2573446000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s4-A3-langgraph-m2-none-4193109000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r4-s4-A4-hermes-m2-none-5221085000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s0-A2-cron-llm-m1-none-3340260000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s0-A2-cron-llm-m2-none-7696980000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s0-A3-langgraph-m1-none-7147428000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s0-A3-langgraph-m2-none-7830991000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s0-A4-hermes-m2-none-3782093000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s1-A2-cron-llm-m1-none-5095463000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s1-A2-cron-llm-m2-none-6746097000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s1-A3-langgraph-m1-none-8204560000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s1-A3-langgraph-m2-none-6094152000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s1-A4-hermes-m2-none-5091956000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s2-A2-cron-llm-m1-none-367415000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s2-A2-cron-llm-m2-none-672922000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s2-A3-langgraph-m1-none-941482000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s2-A3-langgraph-m2-none-6555056000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s2-A4-hermes-m2-none-4598347000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s3-A2-cron-llm-m1-none-5083862000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s3-A2-cron-llm-m2-none-1089772000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s3-A3-langgraph-m1-none-1193648000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s3-A3-langgraph-m2-none-1703367000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s3-A4-hermes-m2-none-6883644000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s4-A2-cron-llm-m1-none-3399245000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s4-A2-cron-llm-m2-none-6624693000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s4-A3-langgraph-m1-none-7944282000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s4-A3-langgraph-m2-none-3000774000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r5-s4-A4-hermes-m2-none-723022000", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"run_id": "r0-s0-A1-cron-none-none-5530940000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 7.0, "overall": 5.0}
+{"run_id": "r0-s0-A2-cron-llm-m1-none-5531118000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s0-A2-cron-llm-m2-none-6403560000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r0-s0-A3-langgraph-m1-none-6247860000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s0-A3-langgraph-m2-none-7780781000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s0-A4-hermes-m2-none-5804555000", "readability": 8.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s1-A1-cron-none-none-6581934000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 4.0, "overall": 4.0}
+{"run_id": "r0-s1-A2-cron-llm-m1-none-7599472000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s1-A2-cron-llm-m2-none-1140856000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s1-A3-langgraph-m1-none-9893050000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r0-s1-A3-langgraph-m2-none-9160895000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r0-s1-A4-hermes-m2-none-9824275000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s2-A1-cron-none-none-7537100000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 5.0, "overall": 5.0}
+{"run_id": "r0-s2-A2-cron-llm-m1-none-8926010000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s2-A2-cron-llm-m2-none-7722583000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r0-s2-A3-langgraph-m1-none-6382793000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s2-A3-langgraph-m2-none-9047727000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s2-A4-hermes-m2-none-7991770000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s3-A1-cron-none-none-8369122000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 4.0}
+{"run_id": "r0-s3-A2-cron-llm-m1-none-9462359000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s3-A2-cron-llm-m2-none-5174204000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 10.0}
+{"run_id": "r0-s3-A3-langgraph-m1-none-2994222000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s3-A3-langgraph-m2-none-1783327000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s3-A4-hermes-m2-none-4903825000", "readability": 8.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s4-A1-cron-none-none-3750418000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 9.0, "overall": 5.0}
+{"run_id": "r0-s4-A2-cron-llm-m1-none-4748559000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s4-A2-cron-llm-m2-none-4585092000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s4-A3-langgraph-m1-none-3918836000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s4-A3-langgraph-m2-none-9257500000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r0-s4-A4-hermes-m2-none-740897000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s0-A1-cron-none-none-5487168000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 5.0}
+{"run_id": "r1-s0-A2-cron-llm-m1-none-4321156000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s0-A2-cron-llm-m2-none-4225936000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s0-A3-langgraph-m1-none-3492319000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s0-A3-langgraph-m2-none-4644092000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s0-A4-hermes-m2-none-7496606000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s1-A1-cron-none-none-3713670000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 4.0, "overall": 4.0}
+{"run_id": "r1-s1-A2-cron-llm-m1-none-6317449000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s1-A2-cron-llm-m2-none-9282680000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.5}
+{"run_id": "r1-s1-A3-langgraph-m1-none-1253899000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s1-A3-langgraph-m2-none-3790718000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s1-A4-hermes-m2-none-4055596000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s2-A1-cron-none-none-9140022000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 5.0}
+{"run_id": "r1-s2-A2-cron-llm-m1-none-4604338000", "error": "HTTP Error 500: Internal Server Error"}
+{"run_id": "r1-s2-A2-cron-llm-m2-none-1891906000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s2-A3-langgraph-m1-none-938310000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r1-s2-A3-langgraph-m2-none-5606375000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r1-s2-A4-hermes-m2-none-6364243000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s3-A1-cron-none-none-6377381000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 6.0}
+{"run_id": "r1-s3-A2-cron-llm-m1-none-43578000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s3-A2-cron-llm-m2-none-6552744000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r1-s3-A3-langgraph-m1-none-5006040000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s3-A3-langgraph-m2-none-2710305000", "readability": 8.0, "hierarchy": 10.0, "oneIdeaPerSlide": 7.0, "overall": 8.0}
+{"run_id": "r1-s3-A4-hermes-m2-none-4416358000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r1-s4-A1-cron-none-none-181190000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 5.0, "overall": 3.0}
+{"run_id": "r1-s4-A2-cron-llm-m1-none-7458490000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s4-A2-cron-llm-m2-none-4428165000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s4-A3-langgraph-m1-none-4533198000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r1-s4-A3-langgraph-m2-none-7951893000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r1-s4-A4-hermes-m2-none-6099435000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s0-A2-cron-llm-m1-none-8326619000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s0-A2-cron-llm-m2-none-5206770000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s0-A3-langgraph-m1-none-1210970000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s0-A3-langgraph-m2-none-2212505000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s0-A4-hermes-m2-none-8144352000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s1-A2-cron-llm-m1-none-9763668000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s1-A2-cron-llm-m2-none-4443682000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s1-A3-langgraph-m1-none-5787616000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r2-s1-A3-langgraph-m2-none-9963281000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s1-A4-hermes-m2-none-6548879000", "readability": 8.0, "hierarchy": 9.0, "oneIdeaPerSlide": 7.0, "overall": 8.0}
+{"run_id": "r2-s2-A2-cron-llm-m1-none-1104645000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s2-A2-cron-llm-m2-none-242105000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r2-s2-A3-langgraph-m1-none-3204544000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s2-A3-langgraph-m2-none-8314660000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s2-A4-hermes-m2-none-5579903000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s3-A2-cron-llm-m1-none-6993157000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s3-A2-cron-llm-m2-none-9028278000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r2-s3-A3-langgraph-m1-none-8923895000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s3-A3-langgraph-m2-none-6231737000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r2-s3-A4-hermes-m2-none-9748708000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s4-A2-cron-llm-m1-none-1302728000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r2-s4-A2-cron-llm-m2-none-6169083000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s4-A3-langgraph-m1-none-6583804000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s4-A3-langgraph-m2-none-5888489000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r2-s4-A4-hermes-m2-none-2176498000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s0-A2-cron-llm-m1-none-8243764000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s0-A2-cron-llm-m2-none-3273203000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s0-A3-langgraph-m1-none-2517908000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s0-A3-langgraph-m2-none-7590067000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s0-A4-hermes-m2-none-9265554000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s1-A2-cron-llm-m1-none-8279466000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s1-A2-cron-llm-m2-none-1988312000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s1-A3-langgraph-m1-none-2012948000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s1-A3-langgraph-m2-none-8594444000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r3-s1-A4-hermes-m2-none-4952100000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s2-A2-cron-llm-m1-none-2800228000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s2-A2-cron-llm-m2-none-2545096000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s2-A3-langgraph-m1-none-4059223000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s2-A3-langgraph-m2-none-1630820000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r3-s2-A4-hermes-m2-none-9774770000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s3-A2-cron-llm-m1-none-7992402000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r3-s3-A2-cron-llm-m2-none-1518531000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r3-s3-A3-langgraph-m1-none-9296181000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s3-A3-langgraph-m2-none-4943783000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s3-A4-hermes-m2-none-689671000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s4-A2-cron-llm-m1-none-9458468000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s4-A2-cron-llm-m2-none-5923661000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s4-A3-langgraph-m1-none-5091584000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s4-A3-langgraph-m2-none-5639566000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r3-s4-A4-hermes-m2-none-9750482000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s0-A2-cron-llm-m1-none-5303866000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s0-A2-cron-llm-m2-none-351174000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s0-A3-langgraph-m1-none-9058944000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s0-A3-langgraph-m2-none-4390951000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s0-A4-hermes-m2-none-1447834000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r4-s1-A2-cron-llm-m1-none-9287447000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s1-A2-cron-llm-m2-none-1037725000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s1-A3-langgraph-m1-none-288315000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s1-A3-langgraph-m2-none-1770220000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s1-A4-hermes-m2-none-9426370000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s2-A2-cron-llm-m1-none-7028620000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s2-A2-cron-llm-m2-none-7505689000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r4-s2-A3-langgraph-m1-none-8602974000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s2-A3-langgraph-m2-none-2954478000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r4-s2-A4-hermes-m2-none-837308000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s3-A2-cron-llm-m1-none-9104327000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s3-A2-cron-llm-m2-none-3089651000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s3-A3-langgraph-m1-none-1154664000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s3-A3-langgraph-m2-none-4877953000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s3-A4-hermes-m2-none-8556270000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s4-A2-cron-llm-m1-none-5387129000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s4-A2-cron-llm-m2-none-4146347000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s4-A3-langgraph-m1-none-2573446000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r4-s4-A3-langgraph-m2-none-4193109000", "readability": 8.0, "hierarchy": 9.0, "oneIdeaPerSlide": 7.0, "overall": 8.0}
+{"run_id": "r4-s4-A4-hermes-m2-none-5221085000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s0-A2-cron-llm-m1-none-3340260000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s0-A2-cron-llm-m2-none-7696980000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s0-A3-langgraph-m1-none-7147428000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s0-A3-langgraph-m2-none-7830991000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r5-s0-A4-hermes-m2-none-3782093000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r5-s1-A2-cron-llm-m1-none-5095463000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s1-A2-cron-llm-m2-none-6746097000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s1-A3-langgraph-m1-none-8204560000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s1-A3-langgraph-m2-none-6094152000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r5-s1-A4-hermes-m2-none-5091956000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 9.0, "overall": 9.0}
+{"run_id": "r5-s2-A2-cron-llm-m1-none-367415000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r5-s2-A2-cron-llm-m2-none-672922000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s2-A3-langgraph-m1-none-941482000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r5-s2-A3-langgraph-m2-none-6555056000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s2-A4-hermes-m2-none-4598347000", "readability": 9.0, "hierarchy": 9.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}
+{"run_id": "r5-s3-A2-cron-llm-m1-none-5083862000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s3-A2-cron-llm-m2-none-1089772000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s3-A3-langgraph-m1-none-1193648000", "readability": 10.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 10.0}
+{"run_id": "r5-s3-A3-langgraph-m2-none-1703367000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s3-A4-hermes-m2-none-6883644000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s4-A2-cron-llm-m1-none-3399245000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s4-A2-cron-llm-m2-none-6624693000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s4-A3-langgraph-m1-none-7944282000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s4-A3-langgraph-m2-none-3000774000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 10.0, "overall": 9.0}
+{"run_id": "r5-s4-A4-hermes-m2-none-723022000", "readability": 9.0, "hierarchy": 10.0, "oneIdeaPerSlide": 8.0, "overall": 9.0}

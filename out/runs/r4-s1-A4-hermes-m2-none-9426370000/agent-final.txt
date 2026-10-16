@@ -1,0 +1,135 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -0,0 +1,69 @@
++import json
++
++URL = "https://lokerdollar.com/en/blog/what-is-doe-wage"
++
++# LinkedIn: 600-1800 chars
++linkedin = (
++    "Only 22% of remote listings show a pay figure. The other 78% just say \u201cDOE.\u201d\n\n"
++    "DOE means \u201cdetermined on experience.\u201d Of 4,280 active remote listings on Loker Dollar, "
++    "3,340 leave the salary blank. That leaves you guessing the USD rate your skills deserve.\n\n"
++    "But a hidden number is not always a red flag. Companies use DOE to stay flexible on budget and "
++    "tailor pay to seniority\u2014which can push top candidates above market average, especially in "
++    "fields like AI, senior leadership, and specialized healthcare.\n\n"
++    "How to handle a DOE role:\n"
++    "\u2022 Research global benchmarks for your role first.\n"
++    "\u2022 Quantify your impact with concrete metrics.\n"
++    "\u2022 Anchor with the high end of the range you found.\n"
++    "\u2022 Ask about benefits, equity, and bonuses too.\n\n"
++    "One real example: Online Consumer Panels America pays $25\u2013$45/hour for product assessments "
++    "with no experience required. Among 4,280 listings, 2,735 accept applicants from any country, and "
++    "1,213 were posted in the last 7 days.\n\n"
++    "Set your target range and start the conversation today."
++)
++
++# X thread: 3-6 posts, each <=270, last contains URL
++x_thread = [
++    "Only 22% of remote listings disclose a pay figure. The other 78%? They say \u201cDOE\u201d \u2014 determined on experience. You\u2019re left guessing the USD salary you could earn.",
++    "Of 4,280 active remote listings on Loker Dollar, 3,340 leave pay blank. But a hidden number isn\u2019t always a warning \u2014 it can be a negotiation lever.",
++    "Example: Online Consumer Panels America pays $25\u2013$45/hour for product assessments, no experience required. DOE can push top candidates above market average in AI and specialized fields.",
++    "4 tips: research global benchmarks, quantify your impact, anchor with the high end of the range, and ask about benefits and equity. 2,735 listings accept applicants from any country.",
++    "Set your target range and start the conversation today \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
++]
++
++# Carousel: exactly 5, title<=40, body<=160
++carousel = [
++    {
++        "title": "Only 22% of remote jobs show pay",
++        "body": "Of 4,280 active remote listings, just 940 state a concrete USD figure. The rest are marked DOE \u2014 determined on experience.",
++    },
++    {
++        "title": "What DOE actually means",
++        "body": "DOE means \u201cdetermined on experience.\u201d The employer sets your pay after reviewing your resume, skill depth, and market value \u2014 so 78% (3,340 listings) leave pay blank.",
++    },
++    {
++        "title": "A hidden number is not a red flag",
++        "body": "Companies use DOE to stay flexible on budget and tailor pay to seniority. In AI, senior leadership, and specialized healthcare, DOE can push salaries above market average.",
++    },
++    {
++        "title": "Real pay example",
++        "body": "Online Consumer Panels America offers $25\u2013$45/hour for product assessments with no experience required. 2,735 listings accept applicants from any country.",
++    },
++    {
++        "title": "Negotiate your USD rate",
++        "body": "Research benchmarks, quantify your impact, and anchor with the high end of the range. Browse DOE listings and start the conversation today \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
++    },
++]
++
++# Checks
++print("linkedin len:", len(linkedin))
++for i, t in enumerate(x_thread):
++    print(f"x_thread[{i}] len:", len(t), "<=270:", len(t) <= 270)
++for i, s in enumerate(carousel):
++    print(f"carousel[{i}] title({len(s['title'])}<=40) body({len(s['body'])}<=160)")
++print("carousel count:", len(carousel))
++print("x_thread count:", len(x_thread))
++
++out = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
++with open("/out/runs/r4-s1-A4-hermes-m2-none-9426370000/output.json", "w") as f:
++    json.dump(out, f, indent=2, ensure_ascii=False)
++print("saved")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -38,7 +38,7 @@
+     },
+     {
+         "title": "What DOE actually means",
+-        "body": "DOE means \u201cdetermined on experience.\u201d The employer sets your pay after reviewing your resume, skill depth, and market value \u2014 so 78% (3,340 listings) leave pay blank.",
++        "body": "DOE means \u201cdetermined on experience.\u201d The employer sets pay after reviewing your resume and skills \u2014 so 78% (3,340 listings) leave pay blank.",
+     },
+     {
+         "title": "A hidden number is not a red flag",
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -42,7 +42,7 @@
+     },
+     {
+         "title": "A hidden number is not a red flag",
+-        "body": "Companies use DOE to stay flexible on budget and tailor pay to seniority. In AI, senior leadership, and specialized healthcare, DOE can push salaries above market average.",
++        "body": "Companies use DOE to stay flexible on budget and tailor pay to seniority. In AI and specialized healthcare, DOE can push salaries above market average.",
+     },
+     {
+         "title": "Real pay example",
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -50,7 +50,7 @@
+     },
+     {
+         "title": "Negotiate your USD rate",
+-        "body": "Research benchmarks, quantify your impact, and anchor with the high end of the range. Browse DOE listings and start the conversation today \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
++        "body": "Research benchmarks, quantify your impact, and anchor with the high end of the range. Browse DOE listings and start the conversation \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
+     },
+ ]
+ 
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -50,7 +50,7 @@
+     },
+     {
+         "title": "Negotiate your USD rate",
+-        "body": "Research benchmarks, quantify your impact, and anchor with the high end of the range. Browse DOE listings and start the conversation \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
++        "body": "Research benchmarks, quantify your impact, anchor high. Browse DOE listings and start the conversation \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage",
+     },
+ ]
+ 
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -18,7 +18,7 @@
+     "One real example: Online Consumer Panels America pays $25\u2013$45/hour for product assessments "
+     "with no experience required. Among 4,280 listings, 2,735 accept applicants from any country, and "
+     "1,213 were posted in the last 7 days.\n\n"
+-    "Set your target range and start the conversation today."
++    "Set your target range and start the conversation today \u2192 https://lokerdollar.com/en/blog/what-is-doe-wage"
+ )
+ 
+ # X thread: 3-6 posts, each <=270, last contains URL
+All constraints verified and saved to /out/runs/r4-s1-A4-hermes-m2-none-9426370000/output.json.
+
+Checks confirmed:
+- linkedin: 1057 chars (600-1800), hook first line, ends with the post URL
+- x_thread: 5 posts, all ≤270, last contains URL
+- carousel: exactly 5, all titles ≤40, all bodies ≤160, slide 1 hook, slide 5 CTA with URL
+
+All facts drawn from the post (4,280 listings, 22%/940 disclosed, 78%/3,340 DOE, 64%/2,735 any country, 1,213 last 7 days, $25–$45/hour example, DOE meaning, negotiation tips). Plain English, no hype, no hashtags.

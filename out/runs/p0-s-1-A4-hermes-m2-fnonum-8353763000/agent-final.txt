@@ -1,0 +1,7 @@
+Done. Saved to /out/runs/p0-s-1-A4-hermes-m2-fnonum-8353763000/output.json
+
+Validation results (all passing):
+- linkedin: 1181 chars (600–1800), opens with a hook, ends with the post URL
+- x_thread: 5 items, each ≤270 (139–176), last ends with the post URL
+- carousel: exactly 5 objects; titles ≤40, bodies ≤160; slide 1 = hook, slide 5 = CTA ending with URL
+- Facts taken only from the post (the post contains no numeric figures — it's practical advice — so no numbers were invented). No hashtags, plain English.

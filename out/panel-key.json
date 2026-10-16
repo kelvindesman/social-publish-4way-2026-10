@@ -1,0 +1,506 @@
+{
+	"q00": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s3-A1-cron-none-none-8369122000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r0-s3-A2-cron-llm-m1-none-9462359000"
+		}
+	},
+	"q01": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r1-s4-A2-cron-llm-m2-none-4428165000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s4-A1-cron-none-none-3750418000"
+		}
+	},
+	"q02": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s0-A1-cron-none-none-5530940000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r5-s0-A2-cron-llm-m1-none-3340260000"
+		}
+	},
+	"q03": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r4-s2-A2-cron-llm-m2-none-7505689000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s2-A1-cron-none-none-7537100000"
+		}
+	},
+	"q04": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r0-s1-A2-cron-llm-m1-none-7599472000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s1-A1-cron-none-none-6581934000"
+		}
+	},
+	"q05": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r4-s3-A2-cron-llm-m1-none-9104327000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s3-A1-cron-none-none-8369122000"
+		}
+	},
+	"q06": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r1-s4-A2-cron-llm-m2-none-4428165000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s4-A1-cron-none-none-181190000"
+		}
+	},
+	"q07": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s3-A1-cron-none-none-6377381000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r0-s3-A3-langgraph-m1-none-2994222000"
+		}
+	},
+	"q08": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r5-s4-A3-langgraph-m1-none-7944282000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s4-A1-cron-none-none-3750418000"
+		}
+	},
+	"q09": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r1-s0-A3-langgraph-m1-none-3492319000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s0-A1-cron-none-none-5487168000"
+		}
+	},
+	"q10": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r0-s2-A3-langgraph-m1-none-6382793000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s2-A1-cron-none-none-9140022000"
+		}
+	},
+	"q11": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s1-A1-cron-none-none-6581934000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r2-s1-A3-langgraph-m1-none-5787616000"
+		}
+	},
+	"q12": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s3-A1-cron-none-none-6377381000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r0-s3-A3-langgraph-m1-none-2994222000"
+		}
+	},
+	"q13": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r3-s4-A3-langgraph-m1-none-5091584000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s4-A1-cron-none-none-3750418000"
+		}
+	},
+	"q14": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s3-A1-cron-none-none-6377381000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r5-s3-A4-hermes-m2-none-6883644000"
+		}
+	},
+	"q15": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r4-s4-A4-hermes-m2-none-5221085000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s4-A1-cron-none-none-181190000"
+		}
+	},
+	"q16": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s0-A1-cron-none-none-5530940000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r0-s0-A4-hermes-m2-none-5804555000"
+		}
+	},
+	"q17": {
+		"a": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s2-A1-cron-none-none-9140022000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r0-s2-A4-hermes-m2-none-7991770000"
+		}
+	},
+	"q18": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r3-s1-A4-hermes-m2-none-4952100000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s1-A1-cron-none-none-6581934000"
+		}
+	},
+	"q19": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r1-s3-A4-hermes-m2-none-4416358000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r1-s3-A1-cron-none-none-6377381000"
+		}
+	},
+	"q20": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r5-s4-A4-hermes-m2-none-723022000"
+		},
+		"b": {
+			"arm": "A1-cron",
+			"model": "none",
+			"run_id": "r0-s4-A1-cron-none-none-3750418000"
+		}
+	},
+	"q21": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r5-s3-A3-langgraph-m1-none-1193648000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r5-s3-A2-cron-llm-m1-none-5083862000"
+		}
+	},
+	"q22": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r5-s4-A2-cron-llm-m1-none-3399245000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m2",
+			"run_id": "r1-s4-A3-langgraph-m2-none-7951893000"
+		}
+	},
+	"q23": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r1-s0-A3-langgraph-m1-none-3492319000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r1-s0-A2-cron-llm-m2-none-4225936000"
+		}
+	},
+	"q24": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r2-s2-A2-cron-llm-m1-none-1104645000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r5-s2-A3-langgraph-m1-none-941482000"
+		}
+	},
+	"q25": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m2",
+			"run_id": "r5-s1-A3-langgraph-m2-none-6094152000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r1-s1-A2-cron-llm-m2-none-9282680000"
+		}
+	},
+	"q26": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r0-s3-A2-cron-llm-m1-none-9462359000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m2",
+			"run_id": "r1-s3-A3-langgraph-m2-none-2710305000"
+		}
+	},
+	"q27": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r3-s4-A3-langgraph-m1-none-5091584000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r2-s4-A2-cron-llm-m2-none-6169083000"
+		}
+	},
+	"q28": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r1-s3-A2-cron-llm-m2-none-6552744000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r4-s3-A4-hermes-m2-none-8556270000"
+		}
+	},
+	"q29": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r2-s4-A2-cron-llm-m2-none-6169083000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r1-s4-A4-hermes-m2-none-6099435000"
+		}
+	},
+	"q30": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r5-s0-A4-hermes-m2-none-3782093000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r3-s0-A2-cron-llm-m1-none-8243764000"
+		}
+	},
+	"q31": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r1-s2-A4-hermes-m2-none-6364243000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r2-s2-A2-cron-llm-m1-none-1104645000"
+		}
+	},
+	"q32": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r4-s1-A4-hermes-m2-none-9426370000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r4-s1-A2-cron-llm-m1-none-9287447000"
+		}
+	},
+	"q33": {
+		"a": {
+			"arm": "A2-cron-llm",
+			"model": "m2",
+			"run_id": "r4-s3-A2-cron-llm-m2-none-3089651000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r3-s3-A4-hermes-m2-none-689671000"
+		}
+	},
+	"q34": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r2-s4-A4-hermes-m2-none-2176498000"
+		},
+		"b": {
+			"arm": "A2-cron-llm",
+			"model": "m1",
+			"run_id": "r3-s4-A2-cron-llm-m1-none-9458468000"
+		}
+	},
+	"q35": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r4-s3-A4-hermes-m2-none-8556270000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r1-s3-A3-langgraph-m1-none-5006040000"
+		}
+	},
+	"q36": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r0-s4-A4-hermes-m2-none-740897000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m2",
+			"run_id": "r0-s4-A3-langgraph-m2-none-9257500000"
+		}
+	},
+	"q37": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r5-s0-A4-hermes-m2-none-3782093000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r1-s0-A3-langgraph-m1-none-3492319000"
+		}
+	},
+	"q38": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r3-s2-A4-hermes-m2-none-9774770000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r0-s2-A3-langgraph-m1-none-6382793000"
+		}
+	},
+	"q39": {
+		"a": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r4-s1-A4-hermes-m2-none-9426370000"
+		},
+		"b": {
+			"arm": "A3-langgraph",
+			"model": "m2",
+			"run_id": "r3-s1-A3-langgraph-m2-none-8594444000"
+		}
+	},
+	"q40": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r4-s3-A3-langgraph-m1-none-1154664000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r0-s3-A4-hermes-m2-none-4903825000"
+		}
+	},
+	"q41": {
+		"a": {
+			"arm": "A3-langgraph",
+			"model": "m1",
+			"run_id": "r0-s4-A3-langgraph-m1-none-3918836000"
+		},
+		"b": {
+			"arm": "A4-hermes",
+			"model": "m2",
+			"run_id": "r5-s4-A4-hermes-m2-none-723022000"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"linkedin": "12% of remote listings now explicitly require AI skills — 487 of 3,928 analyzed jobs.\n\nThe premium isn’t guaranteed, though. Only 22% of listings disclose pay, and 78% hide salary entirely. The highest disclosed range is USD 132,400–238,400 a year at Jabil. Communication (41%) still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).\n\nAI now shows up across engineering, people ops, sales, insurance, and even non-technical roles like a Live Ops Manager. For Indonesian job seekers targeting USD remote roles, it’s worth listing concrete AI work — frameworks, projects, public demos — but lead with domain expertise.\n\nFull breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026",
+	"x_thread": [
+		"12% of remote listings now explicitly require AI skills — 487 of 3,928 jobs analyzed by Loker Dollar.",
+		"That trails communication (41%), which still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).",
+		"Top disclosed pay: USD 132,400–238,400 a year at Jabil. But only 22% of listings disclose salary; 78% hide it.",
+		"AI shows up in engineering, people ops, sales, insurance, and non-technical roles like a Live Ops Manager. Premium isn’t guaranteed.",
+		"Lead with domain expertise, add a dedicated AI Skills section and a public repo or demo. Full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
+	],
+	"carousel": [
+		{
+			"title": "12% of remote jobs now list AI skills",
+			"body": "487 of 3,928 analyzed remote listings explicitly require AI — a growing share across engineering, people ops, sales, and insurance roles."
+		},
+		{
+			"title": "AI trails communication (41%)",
+			"body": "AI sits at 12%, behind communication (41%), and ahead of leadership (11%), sales (9%), project management (8%), and data analysis (7%)."
+		},
+		{
+			"title": "Top disclosed pay: USD 132,400–238,400",
+			"body": "The highest disclosed range is at Jabil. But only 22% of listings disclose salary — 78% hide it, so negotiate on market data."
+		},
+		{
+			"title": "The AI premium isn’t guaranteed",
+			"body": "Companies still prioritize communication and domain expertise. Show AI work with frameworks, projects, and public demos — not just the keyword."
+		},
+		{
+			"title": "Find AI remote jobs on Loker Dollar",
+			"body": "Search “AI” to filter USD remote roles that list AI skills. Read the full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -0,0 +1,56 @@
++import json
++
++url = "https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026"
++
++linkedin = (
++"Only 22% of remote job listings show their pay. Brand design is no exception.\n"
++"\n"
++"Looking at 3,940 active remote listings on Loker Dollar, just 853 (22%) disclose a salary or rate. The rest leave you negotiating in the dark.\n"
++"\n"
++"Two brand-identity roles that do publish rates:\n"
++"- Stevens: $3,000-$5,000 per fixed project (B2B SaaS logistics)\n"
++"- Sidekicks Creative Studio: $1,500-$3,000 per fixed project (street-food brand)\n"
++"\n"
++"Other design-adjacent gigs: WTP Global video edits $800-$1,200 per project; Love Isn't Blind social media editor $1,000-$2,000/month; South Digital operations lead $2,000-$4,000/month.\n"
++"\n"
++"One nuance: the higher fixed contract isn't always better for cash flow. A $1,500-$3,000 retainer may mean steadier income and room to upsell.\n"
++"\n"
++"Data: Loker Dollar remote-job listings, queried 2026-10-12.\n"
++"\n"
+++ url
++)
++
++x_thread = [
++"Remote brand design pay varies widely. On Loker Dollar, only 22% of 3,940 active remote listings disclose any salary or rate.",
++"Two brand-identity roles that publish pay: Stevens at $3,000-$5,000 per fixed project, and Sidekicks Creative Studio at $1,500-$3,000 per fixed project.",
++"Other live gigs: WTP Global video edits $800-$1,200 per project; Love Isn't Blind editor $1,000-$2,000/month; South Digital operations lead $2,000-$4,000/month.",
++"64% of listings are open to worldwide remote applicants. All five roles above are live as of 2026-10-12 and accept any country.",
++"Higher fixed price isn't always better: a $1,500-$3,000 retainer can mean steadier cash flow and room to upsell additional assets.",
++"Read the full breakdown of remote brand designer pay: " + url,
++]
++
++carousel = [
++{"title": "Remote brand design pay: only 22% discloses", "body": "Of 3,940 active remote listings on Loker Dollar, just 853 (22%) reveal a salary or rate. The rest stay silent."},
++{"title": "Stevens: $3,000-$5,000 fixed project", "body": "Brand Identity Designer for B2B SaaS logistics, fixed-price, worldwide remote. Live as of 2026-10-12."},
++{"title": "Sidekicks Creative Studio: $1,500-$3,000", "body": "Brand Identity Designer for a street-food brand, fixed-price project, open to applicants from any country."},
++{"title": "Other live design gigs on the board", "body": "WTP Global video edits $800-$1,200; Love Isn't Blind editor $1,000-$2,000/month; South Digital lead $2,000-$4,000/month."},
++{"title": "Bigger fixed price isn't always better", "body": "A modest retainer can mean steadier cash flow. See the data and apply: " + url},
++]
++
++def check_len(s, label, mx=None, mn=None):
++    n = len(s)
++    ok = (mn is None or n >= mn) and (mx is None or n <= mx)
++    print(f"{label}: {n} chars {'OK' if ok else 'FAIL'}")
++
++check_len(linkedin, "linkedin", 1800, 600)
++for i, t in enumerate(x_thread):
++    check_len(t, f"x_thread[{i}]", 270)
++check_len(x_thread, "x_thread_len_check_total")
++for i, s in enumerate(carousel):
++    check_len(s["title"], f"carousel[{i}].title", 40)
++    check_len(s["body"], f"carousel[{i}].body", 160)
++
++out = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
++with open("/out/runs/r5-s2-A4-hermes-m2-none-4598347000/output.json", "w") as f:
++    json.dump(out, f, ensure_ascii=False, indent=2)
++print("saved")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -30,7 +30,7 @@
+ ]
+ 
+ carousel = [
+-{"title": "Remote brand design pay: only 22% discloses", "body": "Of 3,940 active remote listings on Loker Dollar, just 853 (22%) reveal a salary or rate. The rest stay silent."},
++{"title": "Remote design pay: only 22% discloses", "body": "Of 3,940 active remote listings on Loker Dollar, just 853 (22%) reveal a salary or rate. The rest stay silent."},
+ {"title": "Stevens: $3,000-$5,000 fixed project", "body": "Brand Identity Designer for B2B SaaS logistics, fixed-price, worldwide remote. Live as of 2026-10-12."},
+ {"title": "Sidekicks Creative Studio: $1,500-$3,000", "body": "Brand Identity Designer for a street-food brand, fixed-price project, open to applicants from any country."},
+ {"title": "Other live design gigs on the board", "body": "WTP Global video edits $800-$1,200; Love Isn't Blind editor $1,000-$2,000/month; South Digital lead $2,000-$4,000/month."},
+Done. Saved to /out/runs/r5-s2-A4-hermes-m2-none-4598347000/output.json with exactly the three required keys.
+
+Verified against rules:
+- linkedin: 880 chars (600–1800), hook first line, ends with URL.
+- x_thread: 6 tweets, all 125–160 chars (≤270), last contains the URL.
+- carousel: exactly 5 slides; titles ≤40, bodies ≤160; slide 1 = hook, slide 5 = CTA with URL.
+- Only facts from the post (3,940 listings, 22%/853 disclosed, $3,000–$5,000 Stevens, $1,500–$3,000 Sidekicks, etc.). No hashtags, no hype words.

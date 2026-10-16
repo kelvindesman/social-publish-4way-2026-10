@@ -1,0 +1,32 @@
+{
+	"linkedin": "Only 23% of 4,441 remote job listings show a salary. Here's what the data actually reveals.\n\nLoker Dollar analyzed its live board of USD-paying remote jobs for Indonesians. Out of 4,441 active listings, just 1,000 (23%) disclose compensation. The other 3,441 (77%) keep pay private.\n\nKey numbers from the snapshot:\n- 2,753 listings (62%) accept applicants anywhere in the world\n- Communication is the top required skill (1,662 listings, 39%)\n- AI is now a requirement in 517 listings (12%) - the fastest-growing skill category\n- 1,560 companies currently post remote openings\n- Neo Financial's entry-level client services role is the only listing with a disclosed rate at $5/hour; TELUS Health, IDG, Hitachi, and Jobgether all hire remote but don't show pay\n\nThe counterintuitive take: missing pay figures don't mean low wages. Many firms leave compensation private and expect candidates to negotiate.\n\nFilter the board for \"worldwide remote\" to see the 2,753 location-agnostic listings.\n\nhttps://lokerdollar.com/en/blog/global-remote-jobs-2026",
+	"x_thread": [
+		"Only 23% of 4,441 remote job listings disclose pay. Here's what the data on USD remote roles for Indonesians actually shows.",
+		"Out of 4,441 active listings, just 1,000 show a salary. The other 3,441 (77%) keep compensation private. Neo Financial is the only one disclosing a rate: $5/hour.",
+		"2,753 listings (62%) accept applicants anywhere in the world. Communication tops required skills (39%), while AI is now a prerequisite in 12% of listings.",
+		"1,560 companies are hiring remote. Missing pay figures don't mean low wages - many firms expect candidates to negotiate.",
+		"Filter Loker Dollar for \"worldwide remote\" to see the 2,753 location-agnostic listings. https://lokerdollar.com/en/blog/global-remote-jobs-2026"
+	],
+	"carousel": [
+		{
+			"title": "23% of remote listings show pay",
+			"body": "Out of 4,441 active USD remote jobs, only 1,000 (23%) disclose compensation. The other 3,441 keep salaries private."
+		},
+		{
+			"title": "Most jobs accept applicants anywhere",
+			"body": "2,753 of 4,441 listings (62%) are open to worldwide remote applicants, supporting location-agnostic work."
+		},
+		{
+			"title": "Communication tops required skills",
+			"body": "Communication appears in 1,662 listings (39%). AI is now required in 517 listings (12%) - the fastest-growing skill."
+		},
+		{
+			"title": "1,560 companies, one disclosed rate",
+			"body": "Neo Financial lists entry-level client services at $5/hour. TELUS Health, IDG, Hitachi and Jobgether hire remote but don't show pay."
+		},
+		{
+			"title": "Filter for worldwide remote roles",
+			"body": "Missing pay doesn't mean low wages. Browse the live board and filter for worldwide remote to apply. https://lokerdollar.com/en/blog/global-remote-jobs-2026"
+		}
+	]
+}

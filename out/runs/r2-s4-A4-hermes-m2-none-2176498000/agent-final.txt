@@ -1,0 +1,80 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -0,0 +1,45 @@
++import json
++
++url = "https://lokerdollar.com/en/blog/best-remote-usd-jobs"
++
++linkedin = (
++"Only 22% of active remote listings disclose a salary figure. The other 78% keep pay silent.\n\n"
++"We looked at 4,269 active remote USD jobs on Loker Dollar as of Oct 13, 2026. The data:\n\n"
++"- 2,725 listings (64%) are open to applicants anywhere in the world.\n"
++"- Top disclosed pay: OpenAI Data Scientist at USD 293,000-325,000/yr; Equinix Chief of Staff at USD 195,000-319,000/yr.\n"
++"- AI is a required skill in 12% of listings; communication appears in 39%.\n"
++"- 1,205 listings were posted in the last 7 days.\n\n"
++"Most listings don't state pay, so the transparent 22% is where the explicit ranges are. Filter for 'USD salary disclosed' and apply fast.\n\n"
++"Full data breakdown: " + url
++)
++
++x_thread = [
++"Only 22% of active remote listings disclose a salary figure. The rest of the market is silent on pay. We broke down 4,269 active remote USD jobs on Loker Dollar.",
++"2,725 listings (64%) are open to applicants anywhere in the world. Top disclosed ranges: OpenAI Data Scientist at USD 293,000-325,000/yr, Equinix Chief of Staff at USD 195,000-319,000/yr.",
++"AI is a required skill in 12% of listings. Communication appears in 39% of them. OpenAI is hiring 200 new jobs in Dublin. 1,205 listings were posted in the last 7 days.",
++"Target the transparent 22% where the salary range is explicit, and apply before the 7-day freshness window closes. Full data: " + url
++]
++
++carousel = [
++{"title": "Only 22% disclose pay", "body": "Of 4,269 active remote USD listings on Loker Dollar, just 22% (939) state a salary figure. The other 78% (3,330) keep compensation silent."},
++{"title": "64% are worldwide-open", "body": "2,725 listings (64%) welcome applicants from any country. The market is global, though each posting still sets core working-hour expectations."},
++{"title": "Top disclosed pay ranges", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The high end of the USD scale."},
++{"title": "Skills in demand", "body": "AI is required in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days, so the market moves fast."},
++{"title": "Filter and apply fast", "body": "Use the 'USD salary disclosed' filter to isolate the transparent 22% and apply before the 7-day freshness window closes: " + url},
++]
++
++out = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
++
++print("linkedin len:", len(linkedin), "ok" if 600 <= len(linkedin) <= 1800 else "FAIL")
++for i, t in enumerate(x_thread):
++    print(f"x_thread[{i}] len:", len(t), "ok" if len(t) <= 270 else "FAIL")
++print("x_thread count:", len(x_thread))
++for c in carousel:
++    print("carousel title len:", len(c["title"]), "body len:", len(c["body"]),
++          "ok" if len(c["title"]) <= 40 and len(c["body"]) <= 160 else "FAIL")
++print("carousel count:", len(carousel))
++print("url in linkedin:", url in linkedin, "| url in last tweet:", url in x_thread[-1])
++
++with open("/out/runs/r2-s4-A4-hermes-m2-none-2176498000/output.json", "w") as f:
++    json.dump(out, f, indent=2, ensure_ascii=False)
++print("saved")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -25,7 +25,7 @@
+ {"title": "64% are worldwide-open", "body": "2,725 listings (64%) welcome applicants from any country. The market is global, though each posting still sets core working-hour expectations."},
+ {"title": "Top disclosed pay ranges", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The high end of the USD scale."},
+ {"title": "Skills in demand", "body": "AI is required in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days, so the market moves fast."},
+-{"title": "Filter and apply fast", "body": "Use the 'USD salary disclosed' filter to isolate the transparent 22% and apply before the 7-day freshness window closes: " + url},
++{"title": "Filter and apply fast", "body": "Use the 'USD salary disclosed' filter to target the transparent 22% and apply before the 7-day window closes: " + url},
+ ]
+ 
+ out = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -25,7 +25,7 @@
+ {"title": "64% are worldwide-open", "body": "2,725 listings (64%) welcome applicants from any country. The market is global, though each posting still sets core working-hour expectations."},
+ {"title": "Top disclosed pay ranges", "body": "OpenAI Data Scientist: USD 293,000-325,000/yr. Equinix Chief of Staff: USD 195,000-319,000/yr. The high end of the USD scale."},
+ {"title": "Skills in demand", "body": "AI is required in 12% of listings; communication in 39%. 1,205 listings were posted in the last 7 days, so the market moves fast."},
+-{"title": "Filter and apply fast", "body": "Use the 'USD salary disclosed' filter to target the transparent 22% and apply before the 7-day window closes: " + url},
++{"title": "Filter and apply fast", "body": "Filter 'USD salary disclosed' to target the transparent 22% and apply before the 7-day window closes: " + url},
+ ]
+ 
+ out = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
+Done. All constraints verified programmatically and the JSON validated on disk.
+
+Saved to /out/runs/r2-s4-A4-hermes-m2-none-2176498000/output.json
+
+Checks passed:
+- linkedin: 708 chars (600–1800), hook first line, ends with post URL
+- x_thread: 4 posts (3–6), each ≤270 (max 187), last contains URL
+- carousel: exactly 5 slides, all titles ≤40 and bodies ≤160 (max 154), slide 1 hook, slide 5 CTA with URL
+
+All figures (4,269, 22%/939, 78%, 64%/2,725, OpenAI 293–325k, Equinix 195–319k, AI 12%, communication 39%, 1,205 in 7 days) come directly from the post. No hashtags, plain English.

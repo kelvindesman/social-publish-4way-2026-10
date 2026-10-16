@@ -1,0 +1,84 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -0,0 +1,53 @@
++import json
++
++URL = "https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026"
++
++linkedin = ("Only 22% of remote job listings on Loker Dollar publish a pay figure. "
++"Brand designers are the exception that matters.\n\n"
++"Of 3,940 active remote listings, 853 (22%) disclose any rate. The two brand-design postings that do show fixed-price contracts of $1,500-$5,000. Among all listings, 64% (2,507) are open to worldwide remote applicants.\n\n"
++"The pay that's visible right now:\n"
++"- Stevens - Brand Identity Designer, $3,000-$5,000 fixed project\n"
++"- Sidekicks Creative Studio - Brand Identity Designer, $1,500-$3,000 fixed project\n"
++"- Love Isn't Blind - Social Media Video Editor, $1,000-$2,000/month\n"
++"- South Digital - Operations & Delivery Lead, $2,000-$4,000/month\n\n"
++"Which is better for a freelancer? A $3,000-$5,000 fixed contract can mean a short, high-pressure sprint. A $1,500-$3,000 retainer can mean steadier cash flow and room to upsell. Check scope and revision policy before you assume a higher lump sum equals higher net income.\n\n"
++"Full breakdown with the data: " + URL)
++
++x_thread = [
++"Only 22% of remote job listings on Loker Dollar disclose any pay figure. For brand designers, the ones that do are worth watching. Here's what's live right now.",
++"Stevens pays $3,000-$5,000 per fixed brand identity project. Sidekicks Creative Studio pays $1,500-$3,000 per fixed project. Both accept worldwide remote applicants.",
++"Also live: Love Isn't Blind, $1,000-$2,000/month for a video editor; South Digital, $2,000-$4,000/month for an operations lead. WTP Global pays $800-$1,200 for basic video edits.",
++"Of 3,940 active listings, only 853 (22%) show pay, while 64% (2,507) are open to worldwide remote applicants. 157 design roles are open, 36 posted this week.",
++"A higher fixed price isn't always better. A $3,000-$5,000 contract can mean a short, high-pressure sprint; a $1,500-$3,000 retainer can give steadier cash flow. Compare scope and timeline first.",
++"Full data and methodology: " + URL
++]
++
++carousel = [
++{"title":"Brand design pay, from 3,940 remote listings", "body":"Only 22% of remote listings on Loker Dollar disclose a rate. Here's what the visible brand-design pay looks like in 2026."},
++{"title":"Stevens: $3,000-$5,000 fixed project", "body":"Brand Identity Designer for B2B SaaS logistics, worldwide remote. Fixed-price contract, live as of 2026-10-12."},
++{"title":"Sidekicks: $1,500-$3,000 fixed project", "body":"Brand Identity Designer for a street-food brand, worldwide remote. Fixed-price project with a lower entry point."},
++{"title":"The pay-visibility picture", "body":"22% of 3,940 listings show pay (853). 64% (2,507) are open to worldwide remote applicants. Focus on listings that publish rates."},
++{"title":"Read the full breakdown", "body":"Scope, timeline and revision policy decide if a higher lump sum is worth it. Get the data: " + URL}
++]
++
++def check():
++    print("LINKEDIN", len(linkedin), "range", 600, "-", 1800)
++    print("X thread len:", [len(t) for t in x_thread], "must be <=270")
++    print("last x contains url:", URL in x_thread[-1])
++    print("x thread count:", len(x_thread), "3-6")
++    print("carousel count:", len(carousel), "must be 5")
++    for s in carousel:
++        print("  slide title", len(s["title"]), "<=40?", len(s["title"])<=40, "| body", len(s["body"]), "<=160?", len(s["body"])<=160)
++
++check()
++
++# count hashtags across all text
++all_text = linkedin + " " + " ".join(x_thread) + " " + " ".join(s["title"]+" "+s["body"] for s in carousel)
++import re
++hashtags = re.findall(r"#\w+", all_text)
++print("hashtags:", hashtags, "count", len(hashtags))
++
++data = {"linkedin": linkedin, "x_thread": x_thread, "carousel": carousel}
++with open("/out/runs/r2-s-1-A4-hermes-m2-f429-6379556000/output.json", "w") as f:
++    json.dump(data, f, indent=2, ensure_ascii=False)
++print("saved")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -23,7 +23,7 @@
+ ]
+ 
+ carousel = [
+-{"title":"Brand design pay, from 3,940 remote listings", "body":"Only 22% of remote listings on Loker Dollar disclose a rate. Here's what the visible brand-design pay looks like in 2026."},
++{"title":"Brand design pay from 3,940 listings", "body":"Only 22% of remote listings on Loker Dollar disclose a rate. Here's what the visible brand-design pay looks like in 2026."},
+ {"title":"Stevens: $3,000-$5,000 fixed project", "body":"Brand Identity Designer for B2B SaaS logistics, worldwide remote. Fixed-price contract, live as of 2026-10-12."},
+ {"title":"Sidekicks: $1,500-$3,000 fixed project", "body":"Brand Identity Designer for a street-food brand, worldwide remote. Fixed-price project with a lower entry point."},
+ {"title":"The pay-visibility picture", "body":"22% of 3,940 listings show pay (853). 64% (2,507) are open to worldwide remote applicants. Focus on listings that publish rates."},
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/gen.py → b//tmp/hermes-home/cache/scratch/gen.py
+@@ -27,7 +27,7 @@
+ {"title":"Stevens: $3,000-$5,000 fixed project", "body":"Brand Identity Designer for B2B SaaS logistics, worldwide remote. Fixed-price contract, live as of 2026-10-12."},
+ {"title":"Sidekicks: $1,500-$3,000 fixed project", "body":"Brand Identity Designer for a street-food brand, worldwide remote. Fixed-price project with a lower entry point."},
+ {"title":"The pay-visibility picture", "body":"22% of 3,940 listings show pay (853). 64% (2,507) are open to worldwide remote applicants. Focus on listings that publish rates."},
+-{"title":"Read the full breakdown", "body":"Scope, timeline and revision policy decide if a higher lump sum is worth it. Get the data: " + URL}
++{"title":"Read the full breakdown", "body":"Scope and timeline decide if a higher lump sum is worth it. Get the data: " + URL}
+ ]
+ 
+ def check():
+Done. Saved to /out/runs/r2-s-1-A4-hermes-m2-f429-6379556000/output.json.
+
+- linkedin: 1030 chars (600–1800), hook first line, ends with post URL.
+- x_thread: 6 posts, each 99–194 chars (≤270), last one contains the URL.
+- carousel: 5 slides, all titles ≤40 and bodies ≤160; slide 1 is the hook, slide 5 is the CTA with the URL.
+- All numbers come from the post (3,940 listings, 22%/853, 64%/2,507, the five pay figures, 157 design roles/36 this week). No hashtags. Plain English, no hype.

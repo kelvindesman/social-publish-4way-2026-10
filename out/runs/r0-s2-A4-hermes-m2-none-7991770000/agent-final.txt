@@ -1,0 +1,6 @@
+All constraints verified and written. Saved to /out/runs/r0-s2-A4-hermes-m2-none-7991770000/output.json.
+
+- linkedin: 863 chars (600-1800 ✓), opens with hook, ends with URL
+- x_thread: 6 tweets, max 163 chars (≤270 ✓), last contains URL
+- carousel: 5 slides, titles ≤38, bodies ≤158 (✓); slide 1 hook, slide 5 CTA
+- All facts from the post (3,940 listings, 22%/853, 78%, 64%/2,507, Stevens $3,000–$5,000, Sidekicks $1,500–$3,000); max 3 hashtags used; no hype words.

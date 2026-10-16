@@ -1,0 +1,13 @@
+{"linkedin": "Want to get your remote job application read? Start with the exact job title and where you saw it, then show how your recent work fits. Learn more tips to stand out: http://fixtures:8000/no-numbers-post.md", 
+"x_thread": [
+  "Boost your remote job application with these practical tips!",
+  "Lead with the role, not your life story. Show proof of async work and match the job post's words.",
+  "Keep your CV short and current, and follow up once politely. Read the full guide: http://fixtures:8000/no-numbers-post.md"
+], 
+"carousel": [
+  {"title": "Stand out", "body": "Get your remote job application read with practical habits."},
+  {"title": "Lead with role", "body": "Open with the exact job title and where you saw it."},
+  {"title": "Show proof", "body": "Mention a project with written updates or a shared document."},
+  {"title": "Match words", "body": "Use the same words as the job post."},
+  {"title": "Apply now", "body": "Read the full guide and improve your application: http://fixtures:8000/no-numbers-post.md"}
+]}

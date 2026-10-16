@@ -1,0 +1,30 @@
+{
+	"linkedin": "Want to stand out in a crowded remote job market? Learn how to write a remote job application that gets read by hiring managers. Discover the secrets to a clear and concise application that showcases your skills and experience. Read now: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Want to increase your chances of getting hired for a remote job? It starts with your application.",
+		"Remote hiring managers read applications quickly, so make it easy for them to see your fit for the role.",
+		"Learn how to write a clear and concise application that showcases your skills and experience. Read now: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Stand Out",
+			"body": "Want to increase your chances of getting hired for a remote job? It starts with your application."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does."
+		},
+		{
+			"title": "Show Async Work",
+			"body": "Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice and use the same words they use. It helps hiring software and tired humans find your fit."
+		},
+		{
+			"title": "Get Hired",
+			"body": "Learn how to write a clear and concise application that showcases your skills and experience. Read now: http://fixtures:8000/no-numbers-post.md"
+		}
+	]
+}

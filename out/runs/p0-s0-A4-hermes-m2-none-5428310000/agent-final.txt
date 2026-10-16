@@ -1,0 +1,54 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/social.json → b//tmp/hermes-home/cache/scratch/social.json
+@@ -0,0 +1,32 @@
++{
++  "linkedin": "Only 23% of remote job listings actually reveal their pay.\n\nOut of 4,441 active remote listings on Loker Dollar, only 1,000 include a salary or hourly figure. The remaining 3,441 (77%) keep compensation private, so applicants can't compare rates before applying.\n\nCommunication is the most required skill (39% of 4,282 listings analyzed). AI is now a prerequisite in 12% of roles — the fastest-growing requirement. Leadership follows at 10%.\n\n2,753 listings (about 62%) are open to applicants anywhere in the world, including Indonesia. 1,560 companies are posting remote roles. Active employers include Neo Financial, TELUS Health, IDG, Hitachi, and Jobgether — only Neo Financial disclosed its rate ($5 USD/hour).\n\nOur take: missing pay doesn't equal low wages. Many firms expect candidates to negotiate.\n\nBrowse the live board, filter for \"worldwide remote,\" and apply before listings close. Full data: https://lokerdollar.com/en/blog/global-remote-jobs-2026",
++  "x_thread": [
++    "Only 23% of 4,441 remote listings on Loker Dollar reveal their pay. Here's what the 2026 data shows.",
++    "1,000 listings show a salary or hourly figure; the other 3,441 keep compensation private. 2,753 roles (about 62%) are open to applicants anywhere in the world.",
++    "Communication is the top required skill (39% of 4,282 listings). AI is now a prerequisite in 12% — the fastest-growing requirement. Leadership follows at 10%.",
++    "Hiring now: Neo Financial, TELUS Health, IDG, Hitachi, Jobgether. Only Neo Financial disclosed its rate ($5 USD/hour). 1,560 companies are posting remote roles.",
++    "Browse 4,441 live listings and filter for worldwide remote: https://lokerdollar.com/en/blog/global-remote-jobs-2026"
++  ],
++  "carousel": [
++    {
++      "title": "Remote Pay Transparency",
++      "body": "Only 23% of 4,441 remote listings reveal their pay. Here's what the 2026 data shows."
++    },
++    {
++      "title": "Pay Transparency",
++      "body": "1,000 of 4,441 listings include a salary or hourly figure. The remaining 3,441 (77%) keep compensation private."
++    },
++    {
++      "title": "Skills Employers Want",
++      "body": "Communication leads (39% of 4,282 listings). AI is now required in 12% — the fastest-growing skill. Leadership follows at 10%."
++    },
++    {
++      "title": "Worldwide Openings",
++      "body": "2,753 listings (about 62%) accept applicants anywhere in the world. 1,560 companies are hiring, including Neo Financial, TELUS Health, IDG, Hitachi, and Jobgether."
++    },
++    {
++      "title": "Start Applying",
++      "body": "Browse the live board, filter for worldwide remote, and apply before listings close. Full data in the post."
++    }
++  ]
++}
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/social.json → b//tmp/hermes-home/cache/scratch/social.json
+@@ -22,7 +22,7 @@
+     },
+     {
+       "title": "Worldwide Openings",
+-      "body": "2,753 listings (about 62%) accept applicants anywhere in the world. 1,560 companies are hiring, including Neo Financial, TELUS Health, IDG, Hitachi, and Jobgether."
++      "body": "2,753 listings (about 62%) accept applicants anywhere in the world. 1,560 companies are hiring, incl. Neo Financial, TELUS Health, IDG, Hitachi, Jobgether."
+     },
+     {
+       "title": "Start Applying",
+Saved. All constraints verified:
+
+- LinkedIn: 961 chars (600–1800), hook first line, ends with the post URL.
+- X thread: 5 posts, each ≤270 (100–160), last contains the URL.
+- Carousel: exactly 5 slides, all titles ≤40 and bodies ≤160; slide 1 = hook, slide 5 = CTA.
+- Only facts from the post used; 0 hashtags; plain English.
+
+Output: /out/runs/p0-s0-A4-hermes-m2-none-5428310000/output.json

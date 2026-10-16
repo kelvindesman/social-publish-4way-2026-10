@@ -1,0 +1,34 @@
+---
+title: How to Write a Remote Job Application That Gets Read
+description: Practical habits that make a remote hiring manager keep reading your application, from the subject line to the follow-up.
+---
+
+Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are the ones that are easy to scan and clearly written for this role.
+
+## Lead with the role, not your life story
+
+Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does. Save the background for later.
+
+## Show proof of async work
+
+Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.
+
+## Match their words
+
+Read the job post twice. If they say "customer support", do not write "client care". Hiring software and tired humans both look for the same words they wrote.
+
+## Keep the CV short and current
+
+One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for.
+
+## Follow up once, politely
+
+If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure.
+
+## FAQ
+
+**Should I include a photo?** Only if the job post asks for one.
+
+**Is a cover letter still needed?** A short one helps when the post asks a direct question you can answer.
+
+**What if I lack remote experience?** Point to any work you did with written communication and little supervision, paid or volunteer.

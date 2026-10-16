@@ -1,0 +1,60 @@
+  ┊ review diff
+a//tmp/check.py → b//tmp/check.py
+@@ -0,0 +1,48 @@
++import json
++
++linkedin = """Only 22% of remote job listings state a pay figure. The other 78% say "DOE" — determined on experience — leaving you to guess what your skills are worth in USD.
++
++On Loker Dollar, that's 940 listings with a concrete salary vs 3,340 that leave pay blank. Of 4,280 active remote roles, 64% accept applicants from any country, and 1,213 were posted in the last 7 days.
++
++DOE doesn't have to be a red flag. Employers use it to stay flexible with budgets and tailor pay to seniority — in fields like AI, senior leadership, and specialized medical roles, top candidates can push salaries above market averages.
++
++How to handle a DOE listing:
++- Research global benchmarks for your role.
++- Quantify your impact with concrete metrics.
++- Anchor high with a range, then let the employer adjust.
++- Ask about total compensation — equity, bonuses, benefits.
++
++Real example: Online Consumer Panels America lists $25-$45/hour for product assessments.
++
++Full breakdown:
++https://lokerdollar.com/en/blog/what-is-doe-wage"""
++
++x_thread = [
++"Only 22% of remote job listings state a pay figure. The other 78% just say DOE — determined on experience — leaving you to guess your USD salary.",
++"On Loker Dollar's board: 940 of 4,280 listings disclose pay, 3,340 don't. 64% accept applicants worldwide. 1,213 posted in the last 7 days.",
++"DOE isn't always a red flag. Employers use it to stay flexible and match pay to seniority — top candidates can land above-market rates in AI and specialized roles.",
++"How to negotiate DOE: research global benchmarks, quantify your impact, anchor with a range, ask about total comp. Example: $25-$45/hr for product assessments.",
++"Full breakdown of what DOE wage means for remote workers: https://lokerdollar.com/en/blog/what-is-doe-wage",
++]
++
++carousel = [
++{"title":"Only 22% of remote jobs list pay","body":"78% of listings just say DOE — determined on experience — leaving you to guess your USD salary."},
++{"title":"The numbers behind DOE","body":"Of 4,280 active listings, 940 state pay and 3,340 don't. 64% accept applicants worldwide; 1,213 were posted in the last 7 days."},
++{"title":"DOE can work for you","body":"Employers use it to stay flexible and match pay to seniority. In AI and specialized roles, top candidates can push above-market rates."},
++{"title":"How to negotiate DOE","body":"Research global benchmarks, quantify your impact, anchor with a range, and ask about total comp. Example: $25-$45/hour for product assessments."},
++{"title":"Find your target range","body":"Browse DOE listings, set your range, and start the negotiation. Read the full guide: https://lokerdollar.com/en/blog/what-is-doe-wage"},
++]
++
++print("linkedin chars:", len(linkedin), "ok" if 600<=len(linkedin)<=1800 else "FAIL")
++for i,t in enumerate(x_thread):
++    print(f"x{i+1}: {len(t)} chars", "ok" if len(t)<=270 else "FAIL")
++print("x count:", len(x_thread), "ok" if 3<=len(x_thread)<=6 else "FAIL")
++print("last x has url:", "https://lokerdollar.com/en/blog/what-is-doe-wage" in x_thread[-1])
++for i,s in enumerate(carousel):
++    print(f"slide{i+1} title: {len(s['title'])} body: {len(s['body'])}", "ok" if len(s['title'])<=40 and len(s['body'])<=160 else "FAIL")
++print("carousel count:", len(carousel))
++
++obj = {"linkedin":linkedin,"x_thread":x_thread,"carousel":carousel}
++with open("/out/runs/r1-s1-A4-hermes-m2-none-4055596000/output.json","w") as f:
++    json.dump(obj,f)
++print("saved")
+All constraints verified. Saved the JSON.
+
+Output written to /out/runs/r1-s1-A4-hermes-m2-none-4055596000/output.json
+
+Verified:
+- LinkedIn: 996 chars (600-1800), hook first line, ends with URL
+- X thread: 5 posts (3-6), all ≤270 chars, last contains the URL
+- Carousel: 5 slides, slide 1 hook, slide 5 CTA with URL, all titles ≤40 and bodies ≤160
+- All figures traced to the post; no hashtags, no hype words

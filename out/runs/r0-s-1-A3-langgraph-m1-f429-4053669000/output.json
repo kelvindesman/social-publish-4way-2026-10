@@ -1,0 +1,30 @@
+{
+	"linkedin": "Did you know that only 23% of 4,441 remote job listings reveal their pay? Out of these listings, 1,000 include a salary or hourly figure. Meanwhile, 2,753 listings are open to worldwide applicants. Discover more insights on remote job trends and browse the live board to apply before listings close. Learn about in-demand skills like AI, required in 12% of listings, and explore 1,427 open engineering roles. Ready to find your next remote gig? Check out Loker Dollar for the latest opportunities: https://lokerdollar.com/en/blog/global-remote-jobs-2026",
+	"x_thread": [
+		"Only 23% of 4,441 remote job listings reveal their pay. What's behind this trend?",
+		"Explore the latest remote job market insights: 62% of listings are open to worldwide applicants, and AI skills are in high demand in 12% of listings.",
+		"Find your next remote gig with 1,427 open engineering roles. Browse the live board on Loker Dollar and filter for 'worldwide remote' to start applying today: https://lokerdollar.com/en/blog/global-remote-jobs-2026"
+	],
+	"carousel": [
+		{
+			"title": "Remote Job Market Insights",
+			"body": "Only 23% of 4,441 remote job listings reveal their pay."
+		},
+		{
+			"title": "In-Demand Skills",
+			"body": "AI skills are required in 12% of remote job listings."
+		},
+		{
+			"title": "Remote Job Opportunities",
+			"body": "Find your next remote gig with 1,427 open engineering roles."
+		},
+		{
+			"title": "Global Remote Jobs",
+			"body": "Explore 2,753 remote job listings open to worldwide applicants."
+		},
+		{
+			"title": "Get Started",
+			"body": "Browse the live board on Loker Dollar, filter for 'worldwide remote,' and start applying today."
+		}
+	]
+}

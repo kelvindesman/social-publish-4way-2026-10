@@ -1,0 +1,33 @@
+{
+	"linkedin": "77% of remote job listings hide pay. But that's not necessarily bad news.\n\nA new analysis from Loker Dollar reveals that out of 4,441 active remote listings, only 1,000 (23%) include a salary or hourly figure. The remaining 77% keep compensation private, challenging the common belief that remote jobs are always upfront about pay.\n\nKey findings:\n- 2,753 listings (62%) are open to worldwide applicants.\n- Communication is the top required skill (39% of listings), followed by AI (12%).\n- 1,427 engineering roles are open, with 276 posted this week.\n\nAmong five highlighted companies, only Neo Financial discloses pay ($5/hour). TELUS Health, IDG, Hitachi, and Jobgether do not.\n\nContrarian take: Lack of pay info doesn't mean low wages—many firms expect candidates to negotiate.\n\nBrowse the live board, filter for 'worldwide remote,' and apply before listings close.\n\nFull analysis: https://lokerdollar.com/en/blog/global-remote-jobs-2026",
+	"x_thread": [
+		"77% of remote job listings hide pay. But that's not necessarily bad news. New data from Loker Dollar challenges common beliefs. #remotework",
+		"Out of 4,441 remote jobs, only 1,000 (23%) show a salary. The rest keep compensation private. Contrarian take: many firms expect negotiation.",
+		"2,753 listings (62%) are open to worldwide applicants. That's two-thirds of the market supporting location-agnostic work.",
+		"Communication is the top skill (39% of listings), but AI is rising—12% of listings require it. Engineering roles: 1,427 open, 276 posted this week.",
+		"Neo Financial is the only one of 5 highlighted companies to disclose pay ($5/hour). TELUS Health, IDG, Hitachi, and Jobgether don't.",
+		"Browse the live board, filter for 'worldwide remote,' and apply before listings close. Full data: https://lokerdollar.com/en/blog/global-remote-jobs-2026"
+	],
+	"carousel": [
+		{
+			"title": "77% of Remote Jobs Hide Pay",
+			"body": "Out of 4,441 active remote listings, only 1,000 include a salary. This challenges the belief that remote jobs are upfront about pay."
+		},
+		{
+			"title": "62% Open to Worldwide Applicants",
+			"body": "2,753 listings accept candidates from anywhere. That's two-thirds of the market supporting global remote work."
+		},
+		{
+			"title": "Top Skills: Communication & AI",
+			"body": "Communication leads at 39% of listings. AI is required in 12%—a growing prerequisite."
+		},
+		{
+			"title": "Engineering Roles Abound",
+			"body": "1,427 engineering jobs are open, with 276 posted this week. Examples include roles at Cadence and Equinix."
+		},
+		{
+			"title": "Apply Before Listings Close",
+			"body": "Browse the live board, filter for 'worldwide remote,' and apply before listings close. Start now!"
+		}
+	]
+}

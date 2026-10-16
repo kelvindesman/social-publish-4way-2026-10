@@ -1,0 +1,3 @@
+[hermes] WARNING: this process is PID 1 with no init above it (entrypoint override?). Orphaned child processes will not be reaped and will accumulate as zombies. Use the image's default ENTRYPOINT (docker/entrypoint-dispatch.sh) instead of overriding it, or run with `docker run --init` / `init: true` in Compose.
+Error: Unsupported gateway CLI options: --run-budget. No local fallback or policy changes were made.
+  --run-budget: use `agent.run_budget_seconds` in config.yaml

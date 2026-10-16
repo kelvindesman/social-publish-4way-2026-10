@@ -1,0 +1,32 @@
+{
+	"linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. To stand out, make your application easy to scan and clearly written for the role. Open with the exact job title and where you saw it, then explain how your recent work fits the team's work in one sentence. Show proof of async work experience by mentioning a project with written updates or a time zone gap you handled well. Also, match the job post's words, keep your CV short and current, and follow up once politely if you hear nothing after a week. Learn how to increase your chances of getting hired: https://lokerdollar.com",
+	"x_thread": [
+		"Remote hiring managers read applications on a screen, between meetings, often in a second language.",
+		"Make your application easy to scan and clearly written for the role by opening with the exact job title and where you saw it.",
+		"Show proof of async work experience and match the job post's words.",
+		"Keep your CV short and current, and follow up once politely if you hear nothing after a week.",
+		"Read the full guide: https://lokerdollar.com"
+	],
+	"carousel": [
+		{
+			"title": "Stand out",
+			"body": "Remote hiring managers read applications on a screen, between meetings, often in a second language."
+		},
+		{
+			"title": "Lead with the role",
+			"body": "Open with the exact job title and where you saw it, then explain how your recent work fits the team's work."
+		},
+		{
+			"title": "Show async work proof",
+			"body": "Mention a project with written updates or a time zone gap you handled well."
+		},
+		{
+			"title": "Match the job post",
+			"body": "Use the same words as the job post to increase your chances of getting hired."
+		},
+		{
+			"title": "Get hired",
+			"body": "Learn more tips and start applying for remote jobs now: https://lokerdollar.com"
+		}
+	]
+}

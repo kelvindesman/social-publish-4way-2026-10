@@ -1,0 +1,11 @@
+{
+ "source": "PostHog $pageview, utm_source='social' (production convention: utm_medium = platform), 30 days to 2026-10-16",
+ "by_platform": [
+  {"utm_medium": "instagram", "campaigns": 72, "people": 73, "pageviews": 74},
+  {"utm_medium": "linkedin", "campaigns": 48, "people": 61, "pageviews": 177},
+  {"utm_medium": "youtube", "campaigns": 14, "people": 17, "pageviews": 17},
+  {"utm_medium": "threads", "campaigns": 14, "people": 17, "pageviews": 24},
+  {"utm_medium": "facebook", "campaigns": 1, "people": 1, "pageviews": 1}
+ ],
+ "note": "about 1.2 visitors per distinct campaign (post); used for the live-test power calculation"
+}

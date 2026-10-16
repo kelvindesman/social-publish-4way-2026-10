@@ -1,0 +1,33 @@
+{
+	"linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are the ones that are easy to scan and clearly written for this role.\n\nLead with the exact job title and where you saw it. Then say in one sentence why your recent work fits. Save the background for later.\n\nShow proof of async work: a project with written updates, a shared document you owned, or a time zone gap you handled well.\n\nMatch their words: if they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.\n\nKeep your CV short: one clean page, most recent remote or freelance work first, with what you shipped.\n\nFollow up once, politely, after a week. A single clear follow-up reads as professional; more reads as pressure.\n\nFull guide: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers read applications on a screen, between meetings, often in a second language. Get read by being easy to scan and clearly written for the role.",
+		"Lead with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save the background for later.",
+		"Show proof of async work: a project with written updates, a shared document you owned, or a time zone gap you handled well.",
+		"Match their words: if they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.",
+		"Keep your CV short: one clean page, most recent remote or freelance work first, with what you shipped, not just responsibilities.",
+		"Follow up once, politely, after a week. A single clear follow-up reads as professional; more reads as pressure. Full guide: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Get Your Remote Application Read",
+			"body": "Remote hiring managers read on screens, between meetings, often in a second language. Make it easy to scan and clearly written for the role."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save background for later."
+		},
+		{
+			"title": "Show Async Proof",
+			"body": "Mention a project with written updates, a shared document you owned, or a time zone gap you handled well. Show you can work unsupervised."
+		},
+		{
+			"title": "Match Their Words & Short CV",
+			"body": "Use their exact terms. Keep CV to one clean page, recent remote/freelance first, with what you shipped, not just responsibilities."
+		},
+		{
+			"title": "Follow Up Once, Politely",
+			"body": "After a week, send one short note restating your fit. One follow-up is professional; more is pressure. Read the full guide: http://fixtures:8000/no-numbers-post.md"
+		}
+	]
+}

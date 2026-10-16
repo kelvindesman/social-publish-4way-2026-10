@@ -1,0 +1,13 @@
+{"linkedin": "Want to boost your chances of getting hired for a remote job? Start by leading with the role and showing proof of async work experience! Learn more practical tips to make your application stand out: http://fixtures:8000/no-numbers-post.md", 
+"x_thread": [
+  "Want to boost your chances of getting hired for a remote job?",
+  "Learn how to write a remote job application that gets read with these practical tips!",
+  "Read the full guide here: http://fixtures:8000/no-numbers-post.md"
+], 
+"carousel": [
+  {"title": "Remote Job Application", "body": "Learn how to write a remote job application that gets read"},
+  {"title": "Lead with the Role", "body": "Open with the exact job title and where you saw it"},
+  {"title": "Show Async Work Proof", "body": "Mention a project you ran with written updates"},
+  {"title": "Match Their Words", "body": "Use the same words as the job post"},
+  {"title": "Get Hired", "body": "Read the full guide here: http://fixtures:8000/no-numbers-post.md"}
+]}

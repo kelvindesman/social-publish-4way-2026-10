@@ -1,0 +1,32 @@
+{
+	"linkedin": "Only 22% of active remote listings disclose a salary figure.\n\nOur analysis of 4,269 active remote USD jobs reveals that 2,725 listings (64%) are open to applicants anywhere in the world. High-pay examples include OpenAI Data Scientist at USD 293,000–325,000/yr and Equinix Chief of Staff at USD 195,000–319,000/yr.\n\nAI skills appear in 12% of listings, while communication is required in 39%. 1,205 listings were posted in the last 7 days, indicating a fast-moving market.\n\nDon't chase average pay—target the transparent 22% where the range is explicit. Filter for \"USD salary disclosed\" on the Loker Dollar board and apply before the 7-day freshness window closes.\n\nhttps://lokerdollar.com/en/blog/best-remote-usd-jobs",
+	"x_thread": [
+		"Only 22% of active remote listings disclose a salary figure. Our data from 4,269 active remote USD jobs shows the rest are silent on pay.",
+		"64% of listings (2,725) are open to applicants anywhere in the world. High-pay examples: OpenAI Data Scientist at USD 293,000–325,000/yr.",
+		"AI skills appear in 12% of listings, while communication is required in 39%. 1,205 listings were posted in the last 7 days.",
+		"Don't chase average pay—target the transparent 22% where the range is explicit. Filter for \"USD salary disclosed\" on Loker Dollar.",
+		"Apply before the 7-day freshness window closes. Full data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+	],
+	"carousel": [
+		{
+			"title": "Only 22% Disclose Pay",
+			"body": "Out of 4,269 active remote USD jobs, just 939 list a salary. 78% are silent on compensation."
+		},
+		{
+			"title": "64% Open Worldwide",
+			"body": "2,725 listings welcome applicants from any country. Global opportunities are the majority."
+		},
+		{
+			"title": "Top Pay Examples",
+			"body": "OpenAI Data Scientist: USD 293,000–325,000/yr. Equinix Chief of Staff: USD 195,000–319,000/yr."
+		},
+		{
+			"title": "Skills in Demand",
+			"body": "AI appears in 12% of listings. Communication is required in 39%. 1,205 jobs posted in last 7 days."
+		},
+		{
+			"title": "Target Transparent Pay",
+			"body": "Filter for \"USD salary disclosed\" on Loker Dollar. Apply before the 7-day freshness window closes."
+		}
+	]
+}

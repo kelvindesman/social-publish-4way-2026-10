@@ -1,0 +1,59 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/check.py → b//tmp/hermes-home/cache/scratch/check.py
+@@ -0,0 +1,29 @@
++import json
++
++data = {
++  "linkedin": "12% of remote listings now explicitly require AI skills \u2014 487 of 3,928 analyzed jobs.\n\nThe premium isn\u2019t guaranteed, though. Only 22% of listings disclose pay, and 78% hide salary entirely. The highest disclosed range is USD 132,400\u2013238,400 a year at Jabil. Communication (41%) still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).\n\nAI now shows up across engineering, people ops, sales, insurance, and even non-technical roles like a Live Ops Manager. For Indonesian job seekers targeting USD remote roles, it\u2019s worth listing concrete AI work \u2014 frameworks, projects, public demos \u2014 but lead with domain expertise.\n\nFull breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026",
++
++  "x_thread": [
++    "12% of remote listings now explicitly require AI skills \u2014 487 of 3,928 jobs analyzed by Loker Dollar.",
++    "That trails communication (41%), which still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).",
++    "Top disclosed pay: USD 132,400\u2013238,400 a year at Jabil. But only 22% of listings disclose salary; 78% hide it.",
++    "AI shows up in engineering, people ops, sales, insurance, and non-technical roles like a Live Ops Manager. Premium isn\u2019t guaranteed.",
++    "Lead with domain expertise, add a dedicated AI Skills section and a public repo or demo. Full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
++  ],
++
++  "carousel": [
++    {"title": "12% of remote jobs now list AI skills", "body": "487 of 3,928 analyzed remote listings explicitly require AI \u2014 a growing share across engineering, people ops, sales, and insurance roles."},
++    {"title": "AI trails communication (41%)", "body": "AI sits at 12%, behind communication (41%), and ahead of leadership (11%), sales (9%), project management (8%), and data analysis (7%)."},
++    {"title": "Top disclosed pay: USD 132,400\u2013238,400", "body": "The highest disclosed range is at Jabil. But only 22% of listings disclose salary \u2014 78% hide it, so negotiate on market data."},
++    {"title": "The AI premium isn\u2019t guaranteed", "body": "Companies still prioritize communication and domain expertise. Show AI work with frameworks, projects, and public demos \u2014 not just the keyword."},
++    {"title": "Find AI remote jobs on Loker Dollar", "body": "Search \u201cAI\u201d to filter USD remote roles that list AI skills. Read the full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"}
++  ]
++}
++
++print("linkedin len:", len(data["linkedin"]))
++for i, t in enumerate(data["x_thread"]):
++    print(f"x_thread[{i}] len:", len(t))
++for i, c in enumerate(data["carousel"]):
++    print(f"carousel[{i}] title:", len(c["title"]), "body:", len(c["body"]))
++print("x_thread count:", len(data["x_thread"]))
++print("carousel count:", len(data["carousel"]))
+  ┊ review diff
+a//out/runs/r3-s3-A4-hermes-m2-none-689671000/output.json → b//out/runs/r3-s3-A4-hermes-m2-none-689671000/output.json
+@@ -0,0 +1,17 @@
++{
++  "linkedin": "12% of remote listings now explicitly require AI skills — 487 of 3,928 analyzed jobs.\n\nThe premium isn’t guaranteed, though. Only 22% of listings disclose pay, and 78% hide salary entirely. The highest disclosed range is USD 132,400–238,400 a year at Jabil. Communication (41%) still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).\n\nAI now shows up across engineering, people ops, sales, insurance, and even non-technical roles like a Live Ops Manager. For Indonesian job seekers targeting USD remote roles, it’s worth listing concrete AI work — frameworks, projects, public demos — but lead with domain expertise.\n\nFull breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026",
++  "x_thread": [
++    "12% of remote listings now explicitly require AI skills — 487 of 3,928 jobs analyzed by Loker Dollar.",
++    "That trails communication (41%), which still outranks AI (12%), leadership (11%), sales (9%), project management (8%), and data analysis (7%).",
++    "Top disclosed pay: USD 132,400–238,400 a year at Jabil. But only 22% of listings disclose salary; 78% hide it.",
++    "AI shows up in engineering, people ops, sales, insurance, and non-technical roles like a Live Ops Manager. Premium isn’t guaranteed.",
++    "Lead with domain expertise, add a dedicated AI Skills section and a public repo or demo. Full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
++  ],
++  "carousel": [
++    {"title": "12% of remote jobs now list AI skills", "body": "487 of 3,928 analyzed remote listings explicitly require AI — a growing share across engineering, people ops, sales, and insurance roles."},
++    {"title": "AI trails communication (41%)", "body": "AI sits at 12%, behind communication (41%), and ahead of leadership (11%), sales (9%), project management (8%), and data analysis (7%)."},
++    {"title": "Top disclosed pay: USD 132,400–238,400", "body": "The highest disclosed range is at Jabil. But only 22% of listings disclose salary — 78% hide it, so negotiate on market data."},
++    {"title": "The AI premium isn’t guaranteed", "body": "Companies still prioritize communication and domain expertise. Show AI work with frameworks, projects, and public demos — not just the keyword."},
++    {"title": "Find AI remote jobs on Loker Dollar", "body": "Search “AI” to filter USD remote roles that list AI skills. Read the full breakdown: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"}
++  ]
++}
+Saved to /out/runs/r3-s3-A4-hermes-m2-none-689671000/output.json.
+
+All constraints verified:
+- linkedin: 754 chars (600–1800), opens with a hook ("12% of remote listings now explicitly require AI skills"), ends with the URL.
+- x_thread: 5 posts, each ≤270 chars, last contains the URL.
+- carousel: exactly 5 slides, slide 1 = hook, slide 5 = CTA with URL; all titles ≤40 and bodies ≤160.
+- Only facts from the post (487/3,928, 12%, 22%/78%, Jabil USD range, 41% communication and other skill shares); max 3 hashtags (none used); plain English, no hype.

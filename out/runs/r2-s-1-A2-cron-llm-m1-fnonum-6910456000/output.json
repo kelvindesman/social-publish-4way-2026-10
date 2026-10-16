@@ -1,0 +1,32 @@
+{
+	"linkedin": "Want to stand out in a remote job application? With hiring managers reading on screens between meetings, your application needs to be easy to scan and clearly written. Here are 6 tips to increase your chances of getting a reply: Lead with the role, show proof of async work, match their words, keep your CV short, follow up once, and tailor your application to the job post. Read the full guide: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers read apps on screens between meetings, often in a 2nd language.",
+		"To get a reply, make your app easy to scan & clearly written. Start with the job title & where you saw it.",
+		"Mention a project with written updates or a time zone gap you handled well to show async work skills.",
+		"Match the job post's words, keep your CV short & current, and follow up once politely.",
+		"Learn more: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Stand Out",
+			"body": "Want to increase your chances of getting a reply from a remote hiring manager?"
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does."
+		},
+		{
+			"title": "Show Async Work",
+			"body": "Mention a project you ran with written updates or a time zone gap you handled well."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice and use the same words they use."
+		},
+		{
+			"title": "Apply Now",
+			"body": "Ready to put these tips into practice? Browse remote USD jobs for Indonesians at lokerdollar.com and apply today!"
+		}
+	]
+}

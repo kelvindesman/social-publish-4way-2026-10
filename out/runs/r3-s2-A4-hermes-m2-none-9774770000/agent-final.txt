@@ -1,0 +1,8 @@
+All constraints verified and file saved.
+
+Saved to /out/runs/r3-s2-A4-hermes-m2-none-9774770000/output.json
+
+- LinkedIn: 848 chars (600-1800), hook first line, ends with URL
+- X thread: 6 posts, all ≤270 (113-126), last contains URL
+- Carousel: 5 slides, titles ≤40, bodies ≤160; slide 1 hook, slide 5 CTA
+- Only facts from the post; 3 hashtags max (used none); plain English, no hype.

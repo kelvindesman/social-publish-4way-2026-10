@@ -1,0 +1,42 @@
+  ┊ review diff
+a//out/runs/r5-s1-A4-hermes-m2-none-5091956000/output.json → b//out/runs/r5-s1-A4-hermes-m2-none-5091956000/output.json
+@@ -0,0 +1,32 @@
++{
++  "linkedin": "Only 22% of remote job listings state a pay figure. The other 78%? They're marked DOE (determined on experience) — meaning the salary is set only after the employer reviews your résumé.\n\nOut of 4,280 active remote listings on Loker Dollar, just 940 disclose a concrete USD figure, while 3,340 leave the pay blank. That doesn't have to be a red flag. In fields like AI development and specialized healthcare, a DOE label can push offers above market averages for the strongest candidates.\n\nThree ways to turn a hidden figure into leverage:\n1. Research global benchmarks for your role before you talk numbers.\n2. Quantify your impact — revenue uplift, cost savings — so you can justify the high end.\n3. Anchor with a range and ask about total compensation (equity, bonuses, benefits), not just base pay.\n\nOne real example: Online Consumer Panels America lists $25–$45/hour for product assessments. Rates like that exist — you just have to know where to look. 64% of listings (2,735) accept applicants from any country.\n\nFull breakdown and the negotiation playbook: https://lokerdollar.com/en/blog/what-is-doe-wage",
++  "x_thread": [
++    "Only 22% of remote job listings state a salary. The rest say DOE — \"determined on experience.\" You're left guessing the USD rate you could earn.\n\nHere's what the numbers show:",
++    "Of 4,280 active listings on Loker Dollar, 940 (22%) disclose a pay figure. The other 3,340 (78%) leave it blank. In many cases that's a negotiation lever, not a red flag.",
++    "DOE can work in your favor: rare AI or data-analysis skills command the top of the band, flexible budgets stay open, and roles often bring performance-based raises once you prove impact.",
++    "Real example: Online Consumer Panels America pays $25–$45/hour for product assessments. And 64% of listings (2,735) accept applicants from any country.",
++    "How to negotiate: research benchmarks, quantify your impact, anchor with a range, and ask about total compensation.\n\nFull playbook: https://lokerdollar.com/en/blog/what-is-doe-wage"
++  ],
++  "carousel": [
++    {
++      "title": "78% of remote jobs hide the salary",
++      "body": "Only 22% of active listings state a pay figure. The rest are marked DOE — determined on experience. Here's what that means for you."
++    },
++    {
++      "title": "DOE stands for determined on experience",
++      "body": "Employers set your pay after reviewing your résumé, skill depth, and market value. Not a red flag — a starting point for negotiation."
++    },
++    {
++      "title": "The numbers, from 4,280 listings",
++      "body": "940 (22%) disclose USD pay. 3,340 (78%) leave it blank. 64% (2,735) accept applicants from any country."
++    },
++    {
++      "title": "Real rates exist — $25–$45/hour",
++      "body": "Online Consumer Panels America lists $25–$45/hour for product assessments. Niche skills can command the high end of the band."
++    },
++    {
++      "title": "Browse DOE roles on Loker Dollar",
++      "body": "Set your target range and start the negotiation today. https://lokerdollar.com/en/blog/what-is-doe-wage"
++    }
++  ]
++}
+All checks pass. Saved to /out/runs/r5-s1-A4-hermes-m2-none-5091956000/output.json.
+
+Verified:
+- linkedin: 1111 chars (600–1800), hook first line, ends with the post URL
+- x_thread: 5 tweets, each 151–186 chars (≤270), last one contains the post URL
+- carousel: exactly 5 slides; titles 31–39 chars (≤40), bodies 103–133 chars (≤160); slide 1 hook, slide 5 CTA with URL
+- 0 hashtags (≤3); only facts from the post (22%/940/3,340/78%, 4,280, 64%/2,735, $25–$45/hr example); plain English, no hype.

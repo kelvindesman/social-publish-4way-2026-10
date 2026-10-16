@@ -1,0 +1,31 @@
+{
+	"linkedin": "Only 22% of active remote job listings disclose a salary figure. The other 78% leave you to negotiate without a baseline.\n\nWe analyzed 4,269 active remote listings that pay in USD. What the data shows:\n\n- 2,725 listings (64%) are open to applicants from anywhere in the world.\n- Top disclosed roles: OpenAI Data Scientist at USD 293,000-325,000/yr and Equinix Chief of Staff at USD 195,000-319,000/yr.\n- AI appears as a required skill in 12% of listings; communication appears in 39%.\n- 1,205 listings were posted in the last 7 days, so the market moves fast.\n\nPractical takeaway: don't chase average pay. Filter for the transparent 22% where the range is explicit, prioritize roles listing AI or communication skills, and apply before the 7-day freshness window closes.\n\nFull breakdown and methodology: https://lokerdollar.com/en/blog/best-remote-usd-jobs",
+	"x_thread": [
+		"Only 22% of active remote USD job listings disclose a salary figure. The rest keep you negotiating without a baseline. Data from 4,269 active listings:",
+		"2,725 listings (64%) are open to applicants from any country. Top disclosed pay: OpenAI Data Scientist at USD 293,000-325,000/yr, Equinix Chief of Staff at USD 195,000-319,000/yr.",
+		"Skill demand: AI appears in 12% of listings, communication in 39%. 1,205 listings were posted in the last 7 days. Target the transparent 22% that shows its range.",
+		"Full data and methodology here: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+	],
+	"carousel": [
+		{
+			"title": "Only 22% of remote USD jobs disclose pay",
+			"body": "We analyzed 4,269 active remote listings paying in USD. Just 939 state a salary figure; 3,330 (78%) stay silent on pay."
+		},
+		{
+			"title": "64% of roles are open worldwide",
+			"body": "2,725 listings accept applicants from any country. Top disclosed pay: OpenAI Data Scientist at USD 293,000-325,000/yr."
+		},
+		{
+			"title": "What skills the market wants",
+			"body": "AI appears as a required skill in 12% of listings (517). Communication is the most requested soft skill, in 39% (1,662 listings)."
+		},
+		{
+			"title": "Move fast, market is fresh",
+			"body": "1,205 listings were posted in the last 7 days. Filter for 'USD salary disclosed', prioritize AI or communication roles, and apply fast."
+		},
+		{
+			"title": "Target the transparent 22%",
+			"body": "Don't chase average pay. Filter for 'USD salary disclosed' on Loker Dollar and apply fast. Full breakdown: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+		}
+	]
+}

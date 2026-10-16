@@ -1,0 +1,7 @@
+Done. Saved to /out/runs/r1-s2-A4-hermes-m2-none-6364243000/output.json — validated JSON with all constraints verified programmatically:
+
+- linkedin: 919 chars (within 600–1800), opens with the 22% hook, ends with the post URL + 3 hashtags (#remotejobs #remotedesign #USDjobs)
+- x_thread: 5 posts, all ≤270 chars, last one contains the URL
+- carousel: exactly 5 slides — slide 1 is the hook ("Only 22% of listings disclose pay"), slide 5 is the CTA linking to the post; all titles ≤40 chars, all bodies ≤160 chars
+
+All figures ($3,000–$5,000, $1,500–$3,000, 3,940 listings, 22%/853, 64%/2,507, 78%/3,087) come straight from the post. No hype words, no hashtag spam.

@@ -1,0 +1,32 @@
+{
+	"linkedin": "Only 22% of active remote listings disclose a salary figure. That means 78% of the 4,269 remote USD jobs on our board are silent on pay — most candidates negotiate without any baseline.\n\nA few figures from the data: 2,725 listings (64%) are open to applicants anywhere in the world, 1,205 were posted in the last 7 days, and AI is required in 12% of listings while communication appears in 39%. Top disclosed ranges reach USD 293,000–325,000/yr (OpenAI Data Scientist) and USD 195,000–319,000/yr (Equinix Chief of Staff).\n\nThe practical take: don't chase the average. Target the transparent 22% where the range is explicit — filter for \"USD salary disclosed\" and apply while roles are fresh.\n\nhttps://lokerdollar.com/en/blog/best-remote-usd-jobs",
+	"x_thread": [
+		"Only 22% of active remote listings disclose a salary figure. The other 78% (3,330 of 4,269) are silent on pay. Most candidates negotiate without any baseline.",
+		"2,725 listings (64%) are open to applicants anywhere in the world. AI is required in 12% of listings, communication in 39%.",
+		"Top disclosed ranges: OpenAI Data Scientist at USD 293,000–325,000/yr, Equinix Chief of Staff at USD 195,000–319,000/yr.",
+		"1,205 listings were posted in the last 7 days — a fast-moving market. Don't chase the average; target the transparent 22% where the range is explicit.",
+		"Full breakdown and data behind it here: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+	],
+	"carousel": [
+		{
+			"title": "Only 22% of listings disclose pay",
+			"body": "Of 4,269 active remote USD jobs, just 939 (22%) state a salary figure. The other 3,330 (78%) are silent on pay."
+		},
+		{
+			"title": "64% are worldwide-open",
+			"body": "2,725 of 4,269 listings (64%) accept applicants from any country. Core working hours may still favor certain time zones."
+		},
+		{
+			"title": "What top pay looks like",
+			"body": "OpenAI Data Scientist: USD 293,000–325,000/yr. Equinix Chief of Staff: USD 195,000–319,000/yr. Both technically intensive roles."
+		},
+		{
+			"title": "Skills in demand",
+			"body": "AI is required in 12% of listings; communication in 39%. 1,205 roles were posted in the last 7 days."
+		},
+		{
+			"title": "Target the transparent 22%",
+			"body": "Filter for \"USD salary disclosed\" and apply before the 7-day freshness window closes. Data: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+		}
+	]
+}

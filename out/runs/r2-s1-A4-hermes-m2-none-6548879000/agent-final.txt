@@ -1,0 +1,84 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_social.py → b//tmp/hermes-home/cache/scratch/build_social.py
+@@ -0,0 +1,73 @@
++import json
++
++URL = "https://lokerdollar.com/en/blog/what-is-doe-wage"
++
++linkedin = (
++    "Only 22% of remote job listings show a pay figure—the other 78% are marked DOE, and you have to guess the USD salary. Here is how to handle it.\n\n"
++    "DOE (determined on experience) means the employer sets your pay after reviewing your resume, skills, and market value. It is not always a red flag. Companies use it to stay flexible and to tailor pay to seniority, especially in fields like AI and specialized healthcare where skills vary widely.\n\n"
++    "From Loker Dollar's analysis of 4,280 active remote listings:\n"
++    "- 940 (22%) state a concrete USD figure; 3,340 (78%) leave pay blank\n"
++    "- 2,735 (64%) accept applicants from any country\n"
++    "- 1,213 listings posted in the last 7 days\n\n"
++    "A hidden number can be a negotiation lever. Anchor with the high end of the market range you researched, quantify your impact with concrete metrics, and ask about total compensation—benefits, equity, and bonuses can close the gap.\n\n"
++    "Read the full breakdown: " + URL
++)
++
++x_thread = [
++    "Only 22% of remote job listings show a pay figure. The rest are marked DOE—determined on experience—so you guess the USD salary yourself.",
++    "DOE is not always a red flag. Companies stay flexible on budget and tailor pay to seniority, especially in AI and specialized healthcare roles.",
++    "Data from 4,280 active Loker Dollar listings: 940 (22%) disclose pay, 3,340 (78%) do not. 2,735 (64%) accept applicants from any country.",
++    "A hidden figure can work in your favor. Anchor high with researched market rates, quantify your impact, and ask about total compensation.",
++    "Full breakdown with negotiation tips: " + URL,
++]
++
++carousel = [
++    {"title": "DOE = Determined on Experience", "body": "Only 22% of 4,280 active remote listings show a pay figure. The other 78% leave it blank—DOE—and you have to guess the USD rate."},
++    {"title": "Hidden pay is common", "body": "940 listings (22%) disclose a concrete USD figure. 3,340 (78%) do not, effectively signaling DOE. Most remote listings hide pay."},
++    {"title": "Not always a red flag", "body": "Companies use DOE to stay flexible and match pay to seniority, especially in AI and specialized healthcare. It can push top candidates above market."},
++    {"title": "How to negotiate DOE", "body": "Research global benchmarks, quantify your impact, anchor high with a range, and ask about total compensation—benefits, equity, and bonuses."},
++    {"title": "Find USD remote roles", "body": "2,735 listings (64%) accept applicants from any country, and 1,213 were posted in the last 7 days. Browse them at the link below."},
++]
++
++def check():
++    errors = []
++    if not (600 <= len(linkedin) <= 1800):
++        errors.append(f"linkedin length {len(linkedin)}")
++    if not (3 <= len(x_thread) <= 6):
++        errors.append(f"x_thread count {len(x_thread)}")
++    for i, t in enumerate(x_thread):
++        if len(t) > 270:
++            errors.append(f"x_thread[{i}] {len(t)} > 270")
++    if not URL in x_thread[-1]:
++        errors.append("URL not in last x_thread")
++    if len(carousel) != 5:
++        errors.append(f"carousel count {len(carousel)}")
++    for i, c in enumerate(carousel):
++        if len(c["title"]) > 40:
++            errors.append(f"carousel[{i}] title {len(c['title'])}")
++        if len(c["body"]) > 160:
++            errors.append(f"carousel[{i}] body {len(c['body'])}")
++    # hashtag check
++    for t in x_thread + [linkedin]:
++        pass
++    print("linkedin len:", len(linkedin))
++    print("x_thread lens:", [len(t) for t in x_thread])
++    print("carousel titles:", [len(c["title"]) for c in carousel])
++    print("carousel bodies:", [len(c["body"]) for c in carousel])
++    if errors:
++        print("ERRORS:", errors)
++    else:
++        print("ALL OK")
++
++check()
++
++data = {
++    "linkedin": linkedin,
++    "x_thread": x_thread,
++    "carousel": carousel,
++}
++import os
++os.makedirs("/out/runs/r2-s1-A4-hermes-m2-none-6548879000", exist_ok=True)
++with open("/out/runs/r2-s1-A4-hermes-m2-none-6548879000/output.json", "w") as f:
++    json.dump(data, f, ensure_ascii=False, indent=2)
++print("saved")
+Done. Saved to /out/runs/r2-s1-A4-hermes-m2-none-6548879000/output.json — single JSON object with the three keys.
+
+Verified lengths:
+- linkedin: 971 chars (within 600–1800), hook first line, ends with post URL
+- x_thread: 5 posts, each ≤270 chars (137/143/137/137/86), URL in last one
+- carousel: 5 slides, titles ≤40 (30/20/21/20/21), bodies ≤160 (128/128/148/139/129), slide 1 hook, slide 5 CTA
+
+All figures used (22%/940, 78%/3,340, 4,280, 64%/2,735, 1,213, $25–$45/hr avoided in carousel but sourced from the post) trace to the article. No hashtags.

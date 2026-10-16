@@ -1,0 +1,5 @@
+Scope: src/lib/social/** and src/lib/cron/jobs/social-*.ts, commits since 2026-06-01 (git log on main @ 474d93a02)
+commits: 240
+commits whose subject starts with fix/revert/hotfix: 115
+lines added / deleted: 40813 / 3932
+current non-test TypeScript LOC under src/lib/social: 34151

@@ -1,0 +1,33 @@
+{
+	"linkedin": "Only 22% of active remote listings disclose a salary figure. Out of 4,269 active remote listings, 939 (22%) state pay; 2,725 (64%) are open worldwide. High-pay examples: OpenAI Data Scientist ($293k–325k/yr) and Equinix Chief of Staff ($195k–319k/yr). AI skills in 12% of listings, communication in 39%. 1,205 listings posted in last 7 days. Contrarian take: Don’t chase “average” USD pay—target the transparent 22% where the range is explicit. Visit the Loker Dollar board, filter for “USD salary disclosed,” and apply before the 7-day freshness window closes. Browse datasets: https://lokerdollar.com/en/blog/best-remote-usd-jobs",
+	"x_thread": [
+		"Only 22% of 4,269 active remote listings disclose salary. 601 open Marketing roles, 134 posted this week. Target the transparent 22%.",
+		"Marketing examples: Salesforce RVP Sales, Pendo Sr. PMM ($145.4k–175k/yr), Pendo Lead PMM ($196.3k–249k/yr).",
+		"64% of listings (2,725) are open worldwide. High-pay: OpenAI Data Scientist ($293k–325k/yr), Equinix Chief of Staff ($195k–319k/yr).",
+		"AI skills in 12% of listings, communication in 39%. 1,205 listings posted in last 7 days.",
+		"Don’t chase “average” USD pay—target the transparent 22% where the range is explicit. Filter for “USD salary disclosed” and apply before 7-day freshness window closes.",
+		"Browse datasets: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+	],
+	"carousel": [
+		{
+			"title": "Only 22% disclose pay",
+			"body": "Out of 4,269 active remote listings, just 939 (22%) state a salary. 601 open Marketing roles, 134 posted this week."
+		},
+		{
+			"title": "Marketing jobs with pay",
+			"body": "Salesforce RVP Sales, Pendo Sr. PMM ($145.4k–175k/yr), Pendo Lead PMM ($196.3k–249k/yr)."
+		},
+		{
+			"title": "64% open worldwide",
+			"body": "2,725 listings (64%) welcome any country. High-pay: OpenAI Data Scientist ($293k–325k/yr), Equinix Chief of Staff ($195k–319k/yr)."
+		},
+		{
+			"title": "Skills & freshness",
+			"body": "AI in 12% of listings, communication in 39%. 1,205 posted in last 7 days. Target the transparent 22%."
+		},
+		{
+			"title": "Apply now",
+			"body": "Visit Loker Dollar board, filter for “USD salary disclosed,” apply before 7-day freshness window. Browse datasets: https://lokerdollar.com/en/blog/best-remote-usd-jobs"
+		}
+	]
+}

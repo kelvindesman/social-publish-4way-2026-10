@@ -1,0 +1,32 @@
+{
+	"linkedin": "12% of remote listings now require AI skills.\n\nOur latest snapshot of 3,928 remote jobs shows 487 explicitly list AI as a requirement. That's a growing share, but it still trails communication (41%) and sits just ahead of leadership (11%).\n\nTop pay example: Jabil lists a Sr. Principal Product Engineer at USD 132,400–238,400 per year with AI-adjacent cloud expertise. But only 22% of listings disclose salary, so many high-paying roles hide pay.\n\nAI appears across roles—from engineering to people ops to sales. Even non-technical roles like Live Ops Manager list it as a nice-to-have.\n\nShould you double down on AI skills? It's a differentiator, but not a guaranteed premium. Companies still prioritize communication and domain expertise.\n\nSearch AI roles on Loker Dollar: https://lokerdollar.com/en/jobs",
+	"x_thread": [
+		"12% of remote listings now require AI skills.\n\n487 of 3,928 jobs analyzed explicitly list AI. Top pay: Jabil offers USD 132,400–238,400/yr for a Sr. Principal Product Engineer.",
+		"AI appears across roles: engineering, people ops, sales, even insurance. But only 22% of listings disclose salary—78% hide it.",
+		"Communication is still #1 (41% of listings). AI (12%) beats leadership (11%) and sales (9%).",
+		"Contrarian take: AI skills help, but the premium isn't guaranteed. Domain expertise still matters.",
+		"Search AI roles on Loker Dollar: https://lokerdollar.com/en/jobs"
+	],
+	"carousel": [
+		{
+			"title": "12% of remote jobs now require AI skills",
+			"body": "487 of 3,928 listings analyzed explicitly list AI. That's a growing share, but still behind communication (41%)."
+		},
+		{
+			"title": "Top pay example",
+			"body": "Jabil: Sr. Principal Product Engineer – USD 132,400–238,400/yr. AI-adjacent cloud expertise required."
+		},
+		{
+			"title": "AI across roles",
+			"body": "From engineering to people ops to sales. Even non-technical roles like Live Ops Manager list AI as nice-to-have."
+		},
+		{
+			"title": "Salary transparency is low",
+			"body": "Only 22% of listings disclose pay. 78% hide it. Negotiate with market data."
+		},
+		{
+			"title": "Search AI jobs now",
+			"body": "Filter remote roles that list AI skills on Loker Dollar. Start your search: https://lokerdollar.com/en/jobs"
+		}
+	]
+}

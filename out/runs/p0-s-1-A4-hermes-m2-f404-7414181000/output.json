@@ -1,0 +1,7 @@
+{
+	"status": "error",
+	"reason": "The URL https://lokerdollar.com/en/blog/this-post-does-not-exist-4way returns an HTTP 404 (Next.js NotFoundContent page, robots noindex, title '404 — Loker Dollar'). The payload contains only site boilerplate (nav, footer, schema markup, translation strings) and no blog article body, facts, or numbers. Per the task rules 'use only facts and numbers that appear in the post', there is no post content to convert, so no social posts were produced rather than fabricate content.",
+	"linkedin": "",
+	"x_thread": [],
+	"carousel": []
+}

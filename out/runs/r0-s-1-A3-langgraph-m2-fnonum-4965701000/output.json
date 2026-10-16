@@ -1,0 +1,32 @@
+{
+	"linkedin": "Your remote job application is being skimmed, not read. Here's how to make it impossible to ignore.\n\nRemote hiring managers read applications on screens between meetings, often in a second language. The ones that get replies are easy to scan and clearly written for this role.\n\nLead with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save your life story for later.\n\nShow proof of async work: a project with written updates, a shared document you owned, or a time zone gap you handled well.\n\nMatch their words. If they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.\n\nKeep your CV to one clean page. Put recent remote or freelance work first, with what you shipped, not just responsibilities.\n\nFollow up once after a week with a short note restating your fit. More reads as pressure.\n\nNo photo unless asked. Short cover letter only if they ask a direct question. No remote experience? Point to any written, unsupervised work, paid or volunteer.\n\nRead the full guide: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers skim applications between meetings. Make yours easy to scan.\n\nLead with the exact job title and where you saw it. Then one sentence on your fit.",
+		"Show proof of async work: a project with written updates, a shared doc you owned, or a time zone gap you handled well.",
+		"Match their words. If they say 'customer support', don't write 'client care'. Hiring software and tired humans look for the same words.",
+		"Keep your CV to one clean page. Put recent remote or freelance work first, with what you shipped, not just responsibilities.",
+		"Follow up once after a week. A single clear note reads professional; more reads as pressure.\n\nFull guide: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Remote Job Apps: Get Read",
+			"body": "Remote hiring managers skim between meetings. Make your application easy to scan and clearly written for this role."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then one sentence on why your recent work fits the team."
+		},
+		{
+			"title": "Prove Async Work",
+			"body": "Mention a project with written updates, a shared doc you owned, or a time zone gap you handled well."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice. Use their exact terms—'customer support' not 'client care'. Software and humans look for those words."
+		},
+		{
+			"title": "Follow Up Once",
+			"body": "Keep your CV to one page. After a week, send one polite note restating your fit. More reads as pressure. Read the guide: http://fixtures:8000/no-numbers-post.md"
+		}
+	]
+}

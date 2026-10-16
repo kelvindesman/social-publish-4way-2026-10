@@ -1,0 +1,33 @@
+{
+	"linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are the ones that are easy to scan and clearly written for this role.\n\nLead with the role, not your life story. Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does.\n\nShow proof of async work. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.\n\nMatch their words. Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the same words they wrote.\n\nKeep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for.\n\nFollow up once, politely. If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure.\n\nFor more tips, visit: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are the ones that are easy to scan and clearly written for this role.",
+		"Lead with the role, not your life story. Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does.",
+		"Show proof of async work. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.",
+		"Match their words. Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the same words they wrote.",
+		"Keep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for.",
+		"Follow up once, politely. If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure. Full post: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Remote Hiring Managers Are Busy",
+			"body": "They read applications on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for the role."
+		},
+		{
+			"title": "Lead with the Role",
+			"body": "Open with the exact job title and where you saw it. Then say in one sentence why your recent work fits what the team does. Save the background for later."
+		},
+		{
+			"title": "Show Proof of Async Work",
+			"body": "Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well. Remote teams want to know you can work without someone watching."
+		},
+		{
+			"title": "Match Their Words",
+			"body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the same words they wrote."
+		},
+		{
+			"title": "Follow Up Once, Politely",
+			"body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure."
+		}
+	]
+}

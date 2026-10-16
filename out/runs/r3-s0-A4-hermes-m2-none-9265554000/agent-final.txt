@@ -1,0 +1,47 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/draft.json → b//tmp/hermes-home/cache/scratch/draft.json
+@@ -0,0 +1,17 @@
++{
++  "linkedin": "Only 23% of remote job listings show a salary figure. Our snapshot of 4,441 active remote listings found just 1,000 (23%) disclose pay, while 3,441 (77%) keep compensation private. The data also shows 2,753 listings (about 62%) accept applicants from anywhere in the world, so location is rarely the barrier\u2014pay transparency is.\n\nCommunication is the most-requested skill (39% of 4,282 analysed listings), followed by AI at 12%, leadership at 10%, sales at 8%, project management at 7%, and data analysis at 7%. Among 1,560 companies currently hiring, only one, Neo Financial, reveals its rate (USD 5/hour).\n\nA lack of posted pay does not necessarily mean low wages; many employers expect candidates to negotiate. If you are job hunting, filter Loker Dollar for \u201cworldwide remote\u201d to see the 2,753 roles open to you before listings close.\n\nhttps://lokerdollar.com/en/blog/global-remote-jobs-2026",
++  "x_thread": [
++    "Only 23% of 4,441 remote listings disclose pay. 3,441 roles (77%) keep compensation private. So most remote jobs won't tell you the salary upfront. Full data below.",
++    "The good news: 2,753 listings (62%) accept applicants from anywhere in the world. Location is rarely the blocker. Pay transparency is the real issue.",
++    "Most in-demand skills across 4,282 analysed listings: communication 39%, AI 12%, leadership 10%, sales 8%, project management 7%, data analysis 7%.",
++    "Only 1 of 1,560 hiring companies discloses its rate: Neo Financial at USD 5/hour. TELUS Health, IDG, Hitachi, and Jobgether all keep pay private.",
++    "No posted pay is not the same as low pay\u2014many firms expect candidates to negotiate. Filter Loker Dollar for \u201cworldwide remote\u201d and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"
++  ],
++  "carousel": [
++    {"title": "Only 23% of remote jobs list pay", "body": "Of 4,441 active remote listings, just 1,000 (23%) disclose a salary or hourly rate. The other 3,441 keep compensation private."},
++    {"title": "62% accept worldwide applicants", "body": "2,753 listings are open to applicants anywhere. Around two-thirds of the remote market truly supports location-independent work."},
++    {"title": "Communication leads skill demand", "body": "Across 4,282 analysed listings: communication 39%, AI 12%, leadership 10%, sales 8%, project management 7%, data analysis 7%."},
++    {"title": "1,560 companies, one discloses pay", "body": "Only Neo Financial shows its rate (USD 5/hour). TELUS Health, IDG, Hitachi, and Jobgether post roles without a pay figure."},
++    {"title": "Filter \u201cworldwide remote\u201d and apply", "body": "No posted pay does not mean low pay\u2014many employers expect negotiation. Browse the board and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"}
++  ]
++}
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/draft.json → b//tmp/hermes-home/cache/scratch/draft.json
+@@ -12,6 +12,6 @@
+     {"title": "62% accept worldwide applicants", "body": "2,753 listings are open to applicants anywhere. Around two-thirds of the remote market truly supports location-independent work."},
+     {"title": "Communication leads skill demand", "body": "Across 4,282 analysed listings: communication 39%, AI 12%, leadership 10%, sales 8%, project management 7%, data analysis 7%."},
+     {"title": "1,560 companies, one discloses pay", "body": "Only Neo Financial shows its rate (USD 5/hour). TELUS Health, IDG, Hitachi, and Jobgether post roles without a pay figure."},
+-    {"title": "Filter \u201cworldwide remote\u201d and apply", "body": "No posted pay does not mean low pay\u2014many employers expect negotiation. Browse the board and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"}
++    {"title": "Filter \u201cworldwide remote\u201d and apply", "body": "No posted pay is not low pay\u2014many employers expect negotiation. Browse the board and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"}
+   ]
+ }
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/draft.json → b//tmp/hermes-home/cache/scratch/draft.json
+@@ -12,6 +12,6 @@
+     {"title": "62% accept worldwide applicants", "body": "2,753 listings are open to applicants anywhere. Around two-thirds of the remote market truly supports location-independent work."},
+     {"title": "Communication leads skill demand", "body": "Across 4,282 analysed listings: communication 39%, AI 12%, leadership 10%, sales 8%, project management 7%, data analysis 7%."},
+     {"title": "1,560 companies, one discloses pay", "body": "Only Neo Financial shows its rate (USD 5/hour). TELUS Health, IDG, Hitachi, and Jobgether post roles without a pay figure."},
+-    {"title": "Filter \u201cworldwide remote\u201d and apply", "body": "No posted pay is not low pay\u2014many employers expect negotiation. Browse the board and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"}
++    {"title": "Filter \u201cworldwide remote\u201d and apply", "body": "No posted pay is not low pay\u2014employers expect negotiation. Browse and apply before listings close. https://lokerdollar.com/en/blog/global-remote-jobs-2026"}
+   ]
+ }
+Done. Saved to /out/runs/r3-s0-A4-hermes-m2-none-9265554000/output.json with all constraints verified:
+
+- linkedin: 895 chars (600-1800), hook first line, ends with post URL
+- x_thread: 5 posts, each ≤270 chars, last contains the URL
+- carousel: 5 slides, titles ≤40 chars, bodies ≤160 chars, slide 1 hook, slide 5 CTA
+
+All numbers come from the post (4,441 listings, 23%/1,000 pay-disclosed, 62%/2,753 worldwide, skill shares, 1,560 companies, Neo Financial USD 5/hour). Plain English, no hype, no hashtags.

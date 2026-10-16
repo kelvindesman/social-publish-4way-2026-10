@@ -1,0 +1,110 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -0,0 +1,55 @@
++import json
++
++URL = "https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"
++
++linkedin = """AI now appears in 12% of active remote listings on our board — 487 of 3,928 jobs we analyzed on 2026-10-12 explicitly ask for AI skills.
++
++It's not only engineering. We found AI requirements across senior software roles, people operations, sales, and even an insurance agent position. Companies listed include Jabil, Sardine, Sycle LLC, Creator, HSS Careers, Censys, and Devoted Studios.
++
++The pay signal is mixed. The top disclosed range is USD 132,400–238,400 per year at Jabil. But only 22% of listings (844 of 3,919) disclose any salary, and 78% hide it entirely — so a big figure doesn't guarantee a premium.
++
++Context helps: communication is still required in 41% of listings, well ahead of AI's 12%. Domain expertise and soft skills still matter most.
++
++If you're building AI skills alongside a strong core discipline, here's what the data says about where they count, and how to show them in an application.
++
++{url}"""
++
++x_thread = [
++    "12% of remote listings now require AI skills — 487 of 3,928 jobs analyzed on 2026-10-12. Here's what the numbers say, including a USD 132,400–238,400 top pay range.",
++    "AI appears across more than engineering: software, people ops, sales, even an insurance agent role. Companies include Jabil, Sardine, Sycle LLC, Creator, HSS Careers, Censys, and Devoted Studios.",
++    "But only 22% of listings (844 of 3,919) disclose pay, and 78% hide salary. A high AI range doesn't guarantee a premium — negotiation matters.",
++    "Context: communication appears in 41% of listings, ahead of AI's 12%. Domain expertise and soft skills still carry weight.",
++    "Full data and how to showcase AI skills in an application: {url}".format(url=URL),
++]
++
++carousel = [
++    {"title": "12% of remote jobs now list AI skills", "body": "On 2026-10-12, 487 of 3,928 remote listings we analyzed (12%) explicitly require AI. It's a real, growing share of the market."},
++    {"title": "It's not only engineering", "body": "AI shows up in software, people ops, sales, and even an insurance agent role — at Jabil, Sardine, Sycle LLC, Creator, HSS Careers, Censys, and Devoted Studios."},
++    {"title": "The top pay range: USD 132,400–238,400", "body": "Jabil's Sr. Principal Product Engineer lists that bracket. But only 22% of listings disclose pay — 78% hide salary, so negotiate with market data."},
++    {"title": "AI vs other skills", "body": "AI (12%) trails communication (41%) in how often it's required. A strong core discipline and soft skills still matter alongside AI expertise."},
++    {"title": "Search AI roles on Loker Dollar", "body": "Filter remote, USD-paying roles that list AI skills and apply with evidence: repos, demos, and concrete outcomes. {url}".format(url=URL)},
++]
++
++# Checks
++print("=== LINKEDIN ===")
++print("len:", len(linkedin), "valid:", 600 <= len(linkedin) <= 1800)
++print(linkedin)
++print()
++print("=== X THREAD ===")
++for i, t in enumerate(x_thread, 1):
++    print(f"tweet {i}: len={len(t)} valid={len(t)<=270}")
++print("count valid:", 3 <= len(x_thread) <= 6)
++print()
++print("=== CAROUSEL ===")
++for i, s in enumerate(carousel, 1):
++    print(f"slide {i}: title={len(s['title'])}<=40 {len(s['title'])<=40}, body={len(s['body'])}<=160 {len(s['body'])<=160}")
++print("count valid:", len(carousel) == 5)
++
++data = {
++    "linkedin": linkedin,
++    "x_thread": x_thread,
++    "carousel": carousel,
++}
++with open("/out/runs/r1-s3-A4-hermes-m2-none-4416358000/output.json", "w") as f:
++    json.dump(data, f, indent=2, ensure_ascii=False)
++print("\nSaved.")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -12,7 +12,7 @@
+ 
+ If you're building AI skills alongside a strong core discipline, here's what the data says about where they count, and how to show them in an application.
+ 
+-{url}"""
++""" + URL + """
+ 
+ x_thread = [
+     "12% of remote listings now require AI skills — 487 of 3,928 jobs analyzed on 2026-10-12. Here's what the numbers say, including a USD 132,400–238,400 top pay range.",
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -12,7 +12,7 @@
+ 
+ If you're building AI skills alongside a strong core discipline, here's what the data says about where they count, and how to show them in an application.
+ 
+-""" + URL + """
++{url}""".format(url=URL)
+ 
+ x_thread = [
+     "12% of remote listings now require AI skills — 487 of 3,928 jobs analyzed on 2026-10-12. Here's what the numbers say, including a USD 132,400–238,400 top pay range.",
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -27,7 +27,7 @@
+     {"title": "It's not only engineering", "body": "AI shows up in software, people ops, sales, and even an insurance agent role — at Jabil, Sardine, Sycle LLC, Creator, HSS Careers, Censys, and Devoted Studios."},
+     {"title": "The top pay range: USD 132,400–238,400", "body": "Jabil's Sr. Principal Product Engineer lists that bracket. But only 22% of listings disclose pay — 78% hide salary, so negotiate with market data."},
+     {"title": "AI vs other skills", "body": "AI (12%) trails communication (41%) in how often it's required. A strong core discipline and soft skills still matter alongside AI expertise."},
+-    {"title": "Search AI roles on Loker Dollar", "body": "Filter remote, USD-paying roles that list AI skills and apply with evidence: repos, demos, and concrete outcomes. {url}".format(url=URL)},
++    {"title": "Search AI roles on Loker Dollar", "body": "Filter remote, USD-paying roles that list AI skills and apply with evidence: repos, demos, and outcomes. {url}".format(url=URL)},
+ ]
+ 
+ # Checks
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build_posts.py → b//tmp/hermes-home/cache/scratch/build_posts.py
+@@ -27,7 +27,7 @@
+     {"title": "It's not only engineering", "body": "AI shows up in software, people ops, sales, and even an insurance agent role — at Jabil, Sardine, Sycle LLC, Creator, HSS Careers, Censys, and Devoted Studios."},
+     {"title": "The top pay range: USD 132,400–238,400", "body": "Jabil's Sr. Principal Product Engineer lists that bracket. But only 22% of listings disclose pay — 78% hide salary, so negotiate with market data."},
+     {"title": "AI vs other skills", "body": "AI (12%) trails communication (41%) in how often it's required. A strong core discipline and soft skills still matter alongside AI expertise."},
+-    {"title": "Search AI roles on Loker Dollar", "body": "Filter remote, USD-paying roles that list AI skills and apply with evidence: repos, demos, and outcomes. {url}".format(url=URL)},
++    {"title": "Search AI roles on Loker Dollar", "body": "Filter USD-paying remote roles that list AI skills on Loker Dollar. {url}".format(url=URL)},
+ ]
+ 
+ # Checks
+All checks pass and the file is valid JSON. Done.
+
+Saved to /out/runs/r1-s3-A4-hermes-m2-none-4416358000/output.json
+
+What's in it (all facts/numbers from the post):
+- linkedin: 985 chars, hook first line, ends with the post URL.
+- x_thread: 5 tweets, each ≤270 (164/195/141/122/131), last one carries the URL.
+- carousel: 5 slides; slide 1 hook, slide 5 CTA with URL; titles ≤40, bodies ≤160.

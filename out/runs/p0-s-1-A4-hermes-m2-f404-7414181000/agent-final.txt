@@ -1,0 +1,15 @@
+  ┊ review diff
+a//out/runs/p0-s-1-A4-hermes-m2-f404-7414181000/output.json → b//out/runs/p0-s-1-A4-hermes-m2-f404-7414181000/output.json
+@@ -0,0 +1,7 @@
++{
++  "status": "error",
++  "reason": "The URL https://lokerdollar.com/en/blog/this-post-does-not-exist-4way returns an HTTP 404 (Next.js NotFoundContent page, robots noindex, title '404 — Loker Dollar'). The payload contains only site boilerplate (nav, footer, schema markup, translation strings) and no blog article body, facts, or numbers. Per the task rules 'use only facts and numbers that appear in the post', there is no post content to convert, so no social posts were produced rather than fabricate content.",
++  "linkedin": "",
++  "x_thread": [],
++  "carousel": []
++}
+The blog URL returns a 404 page — there is no post to convert.
+
+Verification: `curl` with `Accept: text/markdown` returned the Next.js not-found template (`NotFoundContent`, title "404 — Loker Dollar", `robots noindex`). The payload contains only site boilerplate (nav/footer links, JSON-LD schema, translation strings). No article body, facts, or numbers exist anywhere in the response. The slug itself is "this-post-does-not-exist."
+
+Since the rules require using only facts and numbers that appear in the post, and there are none, I did not fabricate posts. I wrote an error-status JSON to /out/runs/p0-s-1-A4-hermes-m2-f404-7414181000/output.json documenting the 404 so the pipeline sees why the output is empty rather than silently shipping invented content.
