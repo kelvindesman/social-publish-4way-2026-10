@@ -1,0 +1,30 @@
+r0-s0-A3-langgraph-m1-none | generic_hook,generic_padding,widget_content,wall_of_text,filler_tweet | stat_hook,concrete_examples,caveat | 0 | Single-paragraph LinkedIn padded with "Discover the latest trends"; thread and carousel cite the page's "1427 open Engineering roles" counter.
+r0-s1-A3-langgraph-m1-none | generic_hook,generic_padding,wall_of_text | stat_hook,actionable | 0 | 423-char "Did you know" paragraph LinkedIn with two filler sentences; thread fine.
+r0-s2-A3-langgraph-m1-none | generic_hook,generic_padding,widget_content,filler_tweet,wall_of_text | stat_hook | 0 | LinkedIn padded to length with "Learn more about market trends"; "157 open design roles" is the widget counter; tweet 4 says nothing.
+r0-s3-A3-langgraph-m1-none | generic_hook,wall_of_text,repetition | stat_hook,concrete_examples,caveat,actionable | 0 | Content is right, but the 700-char LinkedIn is one block that states the hidden-pay caveat twice.
+r0-s4-A3-langgraph-m1-none | widget_content,misattributed_fact,wall_of_text | stat_hook,concrete_examples | 0 | "Only 22% disclose... Out of these, 2,725 (64%) are open worldwide" makes the 64% a subset of the 22%; adds widget "601 Marketing roles".
+r1-s0-A3-langgraph-m1-none | generic_hook,widget_content,wall_of_text | stat_hook,concrete_examples,caveat | 0 | Presents the sidebar job ads (Cadence, Equinix, "1,427 Engineering roles") as article content.
+r1-s1-A3-langgraph-m1-none | widget_content,wall_of_text,hype | stat_hook,actionable | 0 | Carousel slide 4 is the page widget "449 open Operations roles"; LinkedIn one block.
+r1-s2-A3-langgraph-m1-none | generic_padding,widget_content,wall_of_text | stat_hook,concrete_examples | 0 | 404-char LinkedIn built on the widget counter "157 open design roles".
+r1-s3-A3-langgraph-m1-none | wall_of_text | stat_hook,concrete_examples,actionable | 0 | X thread links /en/jobs, not the article; LinkedIn is otherwise usable.
+r1-s4-A3-langgraph-m1-none | widget_content,generic_padding,wall_of_text,repetition | stat_hook,concrete_examples | 0 | Widget "601 open Marketing roles" in LinkedIn; the job-board sentence is repeated twice.
+r2-s0-A3-langgraph-m1-none | generic_hook,generic_padding,wall_of_text | stat_hook,caveat | 0 | Generic "Did you know"/"Explore the latest trends" paragraph; tweet 4 is "Ready to apply?" plus URL.
+r2-s1-A3-langgraph-m1-none | generic_hook,generic_padding,wall_of_text | stat_hook,actionable | 0 | LinkedIn is a list of "Learn/Understand how" sentences with no example from the post.
+r2-s2-A3-langgraph-m1-none | generic_hook,widget_content,hype,filler_tweet | stat_hook,concrete_examples | 0 | Widget counter, URL-only tweet, and "take your career to the next level" on the CTA slide.
+r2-s3-A3-langgraph-m1-none | hype | stat_hook,caveat | 0 | 334-char LinkedIn opening with "Want to future-proof your career?"; thread and carousel are fine but thin.
+r2-s4-A3-langgraph-m1-none | generic_padding,wall_of_text,muddled_stat | stat_hook,concrete_examples | 0 | "Only 22%... Out of these opportunities, 939 (22%)" reads as a garble, and three padding sentences.
+r3-s0-A3-langgraph-m1-none | generic_hook,generic_padding,widget_content,wall_of_text,hype | stat_hook,concrete_examples,caveat | 0 | Same generic paragraph as r0; carousel cites "1427 open Engineering roles".
+r3-s1-A3-langgraph-m1-none | generic_padding,wall_of_text | stat_hook,actionable | 0 | LinkedIn tells the reader to "read the full article" without giving one example or tip.
+r3-s2-A3-langgraph-m1-none | misattributed_fact,widget_content | stat_hook | 0 | Says brand-designer "monthly retainers from $1,000 to $4,000"; those are video-editor and ops roles. Widget "157 Design roles".
+r3-s3-A3-langgraph-m1-none | hype,wall_of_text | stat_hook,concrete_examples,caveat | 0 | Opens "Surprise!"; links only /en/jobs, never the article.
+r3-s4-A3-langgraph-m1-none | wall_of_text | stat_hook,concrete_examples,actionable | 1 | Accurate and specific; LinkedIn is one block with an awkward "Out of these, 939" but publishable.
+r4-s0-A3-langgraph-m1-none | generic_hook,generic_padding,widget_content,wall_of_text | stat_hook,caveat | 0 | Opens "Explore the latest remote job market trends"; widget counter on slide 3.
+r4-s1-A3-langgraph-m1-none | generic_padding,wall_of_text,misattributed_fact | stat_hook,actionable | 0 | "Browse 4,280 worldwide opportunities" calls every listing worldwide (only 64% are).
+r4-s2-A3-langgraph-m1-none | generic_hook,widget_content,filler_slides | stat_hook,concrete_examples | 0 | Slides 3 and 4 pose questions with no answer; widget "157 open design roles".
+r4-s3-A3-langgraph-m1-none | hype,url_only_tweet | stat_hook,concrete_examples,caveat | 0 | "take your career to the next level!" and "AI skills are in demand!"; otherwise sound.
+r4-s4-A3-langgraph-m1-none | widget_content,unsupported_claim,muddled_stat | stat_hook,concrete_examples | 0 | Promotes the sidebar ads (Salesforce RVP, Pendo $145.4k-175k) as "high-paying jobs" from the article.
+r5-s0-A3-langgraph-m1-none | generic_hook,generic_padding,widget_content,wall_of_text | stat_hook,caveat | 0 | Padded paragraph LinkedIn; carousel cites the widget's Engineering counter.
+r5-s1-A3-langgraph-m1-none | generic_hook,widget_content,wall_of_text,hype | stat_hook,actionable | 0 | "4,280 active remote listings, including 449 open Operations roles" welds the widget onto the article stat.
+r5-s2-A3-langgraph-m1-none | widget_content,hype,thin_x_thread | stat_hook,concrete_examples | 0 | Carousel opens on the widget counter and closes "take your career to the next level!"; 3-tweet thread is thin.
+r5-s3-A3-langgraph-m1-none | hype,unsupported_claim | stat_hook,concrete_examples,caveat | 0 | Slide 1 claims "a sharp rise from previous months", not in the post.
+r5-s4-A3-langgraph-m1-none | wall_of_text | stat_hook,concrete_examples,caveat | 1 | Accurate and specific; one-block LinkedIn with an awkward "Out of these", slide 5 a little long but renders.

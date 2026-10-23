@@ -1,0 +1,36 @@
+r0-s-1-A2-cron-llm-m1-fjson | widget_content,generic_padding,filler_slides | stat_hook | 0 | Recovered from the broken JSON, but the LinkedIn post is a 236-character stub with "Discover the latest remote job trends" and slide 4 is the page's "1427 open Engineering roles" counter.
+r1-s-1-A2-cron-llm-m1-fjson | generic_hook | stat_hook,actionable | 0 | Recovered, but the LinkedIn post is a 225-character "Did you know" stub.
+r2-s-1-A2-cron-llm-m1-fjson | widget_content,generic_hook,filler_slides | stat_hook | 0 | Recovered, but LinkedIn is a stub, slide 3 cites the "157 open design roles" counter, and the carousel links the design category.
+r0-s-1-A2-cron-llm-m1-fnonum | generic_hook | actionable,native_structure | 0 | Faithful tips, but every link points at the internal fixture host.
+r1-s-1-A2-cron-llm-m1-fnonum | | actionable,native_structure | 0 | Faithful tips, but every link points at the internal fixture host.
+r2-s-1-A2-cron-llm-m1-fnonum | filler_tweet | actionable,native_structure | 0 | Faithful tips, but every link points at the internal fixture host.
+r0-s-1-A2-cron-llm-m2-fjson | widget_content | stat_hook,concrete_examples | 0 | Recovered; LinkedIn is a 336-character stub and tweet 5 and slide 5 cite the "1,427 engineering roles" counter.
+r1-s-1-A2-cron-llm-m2-fjson | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Recovered cleanly; accurate and well adapted.
+r2-s-1-A2-cron-llm-m2-fjson | | stat_hook,concrete_examples | 0 | Recovered; content accurate but the LinkedIn post is a 285-character stub.
+r0-s-1-A2-cron-llm-m2-fnonum | verbatim_copy | actionable | 0 | Pastes the source paragraphs nearly word for word, and links the internal fixture host.
+r1-s-1-A2-cron-llm-m2-fnonum | | actionable,native_structure | 0 | Good adaptation, but links the internal fixture host.
+r2-s-1-A2-cron-llm-m2-fnonum | verbatim_copy | actionable | 0 | Pastes the source including its FAQ, and links the internal fixture host.
+r0-s-1-A3-langgraph-m1-f429 | generic_hook,generic_padding,widget_content | stat_hook | 0 | Recovered after the 429; "Did you know" opener, "Discover more insights" padding, and the "1,427 open engineering roles" counter.
+r0-s-1-A3-langgraph-m1-fjson | generic_padding,hype | stat_hook,caveat | 0 | Links only https://lokerdollar.com/en, never the post; "But that doesn't mean low wages!"
+r0-s-1-A3-langgraph-m1-fnonum | hype | actionable | 0 | Replaced the fixture link with the bare homepage; "Boost your remote job application success rate!"
+r1-s-1-A3-langgraph-m1-f429 | generic_hook,widget_content | stat_hook,actionable | 0 | "Did you know" opener; slide 4 is the "449 open Operations roles" counter.
+r1-s-1-A3-langgraph-m1-fjson | generic_hook | stat_hook,caveat,actionable | 0 | Links only the homepage and calls it "our latest blog post".
+r1-s-1-A3-langgraph-m1-fnonum | | actionable | 0 | Faithful tips, but links only the homepage.
+r2-s-1-A3-langgraph-m1-f429 | generic_hook,widget_content | stat_hook | 0 | 349-character LinkedIn stub built around the "157 open design roles, 36 posted this week" counter.
+r2-s-1-A3-langgraph-m1-fjson | widget_content,misattributed_fact | stat_hook | 0 | Links the design category, leads with the sidebar counter, says all five companies want brand designers and that retainers pay "$1,000-$4,000".
+r2-s-1-A3-langgraph-m1-fnonum | filler_tweet | actionable | 0 | Links only the homepage; tweet 3 is generic advice not in the post.
+r0-s-1-A3-langgraph-m2-f429 | widget_content | stat_hook,concrete_examples,caveat | 0 | Recovered after the 429, but "1,427 engineering roles are open, with 276 posted this week. Examples include roles at Cadence and Equinix" is page chrome.
+r0-s-1-A3-langgraph-m2-fjson | widget_content | stat_hook,concrete_examples,caveat | 0 | Links only https://lokerdollar.com/en and cites the "1,427 engineering roles" counter.
+r0-s-1-A3-langgraph-m2-fnonum | | stat_hook,actionable,native_structure | 0 | Good adaptation, but links the internal fixture host.
+r1-s-1-A3-langgraph-m2-f429 | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Recovered after the 429; accurate and well adapted.
+r1-s-1-A3-langgraph-m2-fjson | | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Accurate, but links /en/remote-jobs/operations instead of the post.
+r1-s-1-A3-langgraph-m2-fnonum | verbatim_copy | actionable | 0 | Pastes the source nearly verbatim and carries no URL at all ("Read the full guide at lokerdollar.com").
+r2-s-1-A3-langgraph-m2-f429 | | stat_hook,concrete_examples | 0 | Recovered; accurate but the LinkedIn post is a 386-character stub and the CTA slide has no link.
+r2-s-1-A3-langgraph-m2-fjson | widget_content | stat_hook,concrete_examples | 0 | Links the design category and builds on the "157 open design roles, 36 posted this week" counter.
+r2-s-1-A3-langgraph-m2-fnonum | verbatim_copy | actionable,native_structure | 0 | Close paraphrase of the source, and links the internal fixture host.
+r0-s-1-A4-hermes-m2-f429 | source_error_copied,muddled_stat | stat_hook,concrete_examples,caveat,native_structure | 0 | Waited out the 429 and produced strong copy, but "One listing disclosed a rate" contradicts its own 1,000-listing figure.
+r2-s-1-A4-hermes-m2-f429 | widget_content,source_error_copied | stat_hook,concrete_examples,caveat,native_structure | 0 | Strong copy, but tweet 4 adds the sidebar "157 design roles are open, 36 posted this week" counter.
+r0-s-1-A4-hermes-m2-fnonum | | actionable,native_structure | 0 | Late re-run (deviation 9): faithful, well-adapted tips, but every link points at the internal fixture host.
+r1-s-1-A4-hermes-m2-fnonum | | actionable,native_structure | 0 | Late re-run (deviation 9): faithful tips, but every link points at the internal fixture host.
+r2-s-1-A4-hermes-m2-fnonum | | actionable,native_structure | 0 | Late re-run (deviation 9): faithful tips, but every link points at the internal fixture host.
+r1-s-1-A4-hermes-m2-f429 | | stat_hook,concrete_examples,caveat,native_structure | 1 | Late re-run (deviation 9): waited out the 429; every figure matches the post, including "1 of 7 sampled listings", and the link is right.

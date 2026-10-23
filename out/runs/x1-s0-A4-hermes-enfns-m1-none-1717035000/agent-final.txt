@@ -1,0 +1,50 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/global-remote-jobs-2026.md']
+
+[terminal: tool_search queries=['write text rewrite']]
+
+[/OUT-OF-BAND USER MESSAGE — a direct message from the user, delivered once at this position; not tool output and not a new delivery when replayed from conversation history]
+use 2 tools
+[/OUT-OF-BAND USER MESSAGE]
+
+[tool_describe names=["markdown_to_text", "rewrite"]]
+[tool_calls: 
+    {
+        "name": "markdown_to_text", 
+        "arguments": {"markdown": "[curl output]"}
+    }, 
+    {
+        "name": "rewrite", 
+        "arguments": {"text": "[markdown_to_text output]", "target_length": "600-1800"}
+    }
+]
+
+[write_file path="/out/runs/x1-s0-A4-hermes-enfns-m1-none-1717035000/output.json" content="{
+    \"linkedin\": \"Ready to level up your career? Discover the top 10 remote job platforms for 2026 and land your dream job! https://lokerdollar.com/en/blog/global-remote-jobs-2026\",
+    \"x_thread\": [
+        \"Unlock your potential with remote work!\",
+        \"Explore the best platforms for finding remote jobs in 2026.\",
+        \"Check out our latest blog post for the top 10 platforms! https://lokerdollar.com/en/blog/global-remote-jobs-2026\"
+    ],
+    \"carousel\": [
+        {
+            \"title\": \"Remote Work Revolution\",
+            \"body\": \"Discover the future of work and level up your career!\"
+        },
+        {
+            \"title\": \"Top Job Platforms\",
+            \"body\": \"Find out which platforms are leading the way in 2026.\"
+        },
+        {
+            \"title\": \"Global Opportunities\",
+            \"body\": \"Explore remote job opportunities from around the world.\"
+        },
+        {
+            \"title\": \"Career Growth\",
+            \"body\": \"Take your career to the next level with remote work.\"
+        },
+        {
+            \"title\": \"Get Started\",
+            \"body\": \"Read our latest blog post to learn more and find your dream job! https://lokerdollar.com/en/blog/global-remote-jobs-2026\"
+        }
+    ]
+}"]

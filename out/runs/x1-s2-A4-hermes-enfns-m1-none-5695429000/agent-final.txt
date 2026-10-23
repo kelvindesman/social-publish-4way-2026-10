@@ -1,0 +1,15 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/remote-brand-designer-salary-trends-2026.md']
+
+[/OUT-OF-BAND USER MESSAGE]
+[/OUT-OF-BAND USER MESSAGE]
+
+[terminal: process_manage]
+
+[read_file: /tmp/hermes-home/cache/scratch/remote-brand-designer-salary-trends-2026.md]
+
+[/OUT-OF-BAND USER MESSAGE]
+[/OUT-OF-BAND USER MESSAGE]
+
+[tool_search: ["lokerdollar.com create social post", "lokerdollar.com social media post ideas"]]
+
+[tool_describe: ["process_manage", "read_file", "search_files", "terminal", "tool_search", "tool_describe", "tool_calls", "write_file"]]

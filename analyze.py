@@ -106,11 +106,22 @@ def dist(rows: list[dict], field: str) -> dict:
 	}
 
 
+EXPLORATORY_SWITCHES = ("HERMES_ENFORCE", "HERMES_EXEC_GUIDANCE", '"${HERMES_STREAM:-true}" = "false"')
+
+
 def loc(*files: str) -> int:
+	"""Non-comment lines the counted runs executed. The `if ... fi` blocks behind the
+	exploratory A4-enf switches (deviation 15) were added later and are not counted."""
 	n = 0
 	for f in files:
+		skip = False
 		for line in (HERE / f).read_text().splitlines():
 			s = line.strip()
+			if s.startswith("if ") and any(k in s for k in EXPLORATORY_SWITCHES):
+				skip = True
+			if skip:
+				skip = s != "fi"
+				continue
 			if s and not s.startswith("#") and not s.startswith('"""'):
 				n += 1
 	return n
@@ -145,12 +156,18 @@ def build_rows() -> list[dict]:
 		r["out"] += pout
 		ip, op = PRICES.get(u.get("model") or "", (0.0, 0.0))
 		r["usd"] += pin * ip / 1e6 + pout * op / 1e6
-	gates = {g["run_id"]: g for g in jl("gates.jsonl")}
+	gates = {g["run_id"]: g for g in jl("gates.jsonl") + jl("rerun-infra-gates.jsonl")}
+	# Counted runs that never reached the model are swapped for their one re-run (rerun_infra.py).
+	reruns = {r["replaces"]: r for r in jl("rerun-infra-runs.jsonl")}
+	# Exploratory reference judgments (error-analysis.md, panel_votes.py); blank until they exist.
+	editor = {e["run_id"]: e for e in jl("error-codes.jsonl")}
+	asis_path = OUT / "panel-asis.json"
+	asis = json.loads(asis_path.read_text()) if asis_path.exists() else {}
 	text = {j["run_id"]: j for j in jl("judge-text.jsonl") if "mean" in j}
 	vis = {j["run_id"]: j for j in jl("judge-visual.jsonl") if "overall" in j}
 	vchk = {v["run_id"]: v for v in jl("visual-checks.jsonl")}
 	rows = []
-	for r in jl("runs.jsonl"):
+	for r in (reruns.get(x["run_id"], x) for x in jl("runs.jsonl")):
 		u = usage[r["run_id"]]
 		g = gates.get(r["run_id"], {})
 		rows.append(
@@ -178,6 +195,11 @@ def build_rows() -> list[dict]:
 				"text_quality": text.get(r["run_id"], {}).get("mean"),
 				"carousel_fits": int(bool(vchk.get(r["run_id"], {}).get("fits"))),
 				"visual_quality": vis.get(r["run_id"], {}).get("overall"),
+				"rerun_of": r.get("replaces", ""),
+				"editor_would_publish": "" if r["run_id"] not in editor else int(bool(editor[r["run_id"]].get("would_publish"))),
+				"editor_failure_modes": ";".join(editor.get(r["run_id"], {}).get("codes") or []),
+				"panel_fine_as_is_yes": asis.get(r["run_id"], {}).get("yes", ""),
+				"panel_fine_as_is_of": asis.get(r["run_id"], {}).get("of", ""),
 			}
 		)
 	return rows

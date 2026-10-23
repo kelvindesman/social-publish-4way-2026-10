@@ -1,0 +1,43 @@
+# key | open codes | quality | would_publish | reason
+r0-s0-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Title and description pasted as-is; slides are cut-off question headings with "Read the full breakdown" filler.
+r1-s0-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Same template output as rep 0: pasted title/description, truncated headings, filler slides.
+r0-s1-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread,boilerplate_heading | stat_hook | 0 | Template copy; a slide is titled "TL;DR – Quick takeaways" with filler body.
+r1-s1-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread,boilerplate_heading | stat_hook | 0 | Same as rep 0: "TL;DR" heading bullet and slide, filler bodies.
+r0-s2-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Pasted SEO title and description; slides carry no content.
+r1-s2-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Same template output as rep 0.
+r0-s3-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Pasted title and description; three of five slides say only "Read the full breakdown".
+r1-s3-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread | stat_hook | 0 | Same template output as rep 0.
+r0-s4-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread,misleading_claim_copied | | 0 | Repeats the source's wrong framing ("4,269 Remote Jobs Paying USD", "2,725 ... list USD compensation") when only 22% disclose pay.
+r1-s4-A1-cron-none-none | li_stub,copies_title_desc,headings_as_slides,slide_title_truncated,filler_slides,thin_x_thread,misleading_claim_copied | | 0 | Same misleading copied title/description as rep 0.
+r0-s-1-A1-cron-none-fnonum | li_stub,copies_title_desc,headings_as_slides,filler_slides,thin_x_thread,internal_url | | 0 | Template copy, and the links point at the internal fixture host (harness artifact).
+r0-s-1-A1-cron-none-f404 | no_output_crash | | 0 | Crashed on HTTP 404 with an unhandled traceback; nothing published (correct outcome, untidy exit).
+r0-s0-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,url_in_slide,slide_body_over,filler_tweet | stat_hook,concrete_examples | 0 | LinkedIn is a 278-char "Did you know" stub; slide 4 cites the page's live "1,427 Engineering roles" counter; slide 5 over 160.
+r0-s1-A2-cron-llm-m1-none | li_stub,generic_hook,hype | stat_hook,actionable | 0 | LinkedIn is a 204-char stub; thread and carousel are serviceable.
+r0-s2-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,filler_tweet,url_in_slide | | 0 | Stub LinkedIn; "157 open design roles" is the page's live counter; tweets 1, 3, 4 say nothing.
+r0-s3-A2-cron-llm-m1-none | li_stub,hype,url_in_slide | stat_hook,concrete_examples,caveat,actionable | 0 | Good thread and carousel, but LinkedIn is a 286-char stub opening with "AI skills are in high demand!".
+r0-s4-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide | stat_hook,concrete_examples | 0 | Thread and carousel are specific; LinkedIn is a 283-char "Did you know" stub.
+r1-s0-A2-cron-llm-m1-none | li_stub,generic_hook,filler_tweet,url_in_slide | stat_hook,concrete_examples | 0 | 213-char LinkedIn; tweet 2 is filler; "Browse live board" links to the blog post, not the board.
+r1-s1-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide | stat_hook,actionable | 0 | 227-char LinkedIn stub; otherwise clean.
+r1-s2-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,url_in_slide | stat_hook,concrete_examples | 0 | Stub LinkedIn; "157 open design roles, with 36 new postings this week" comes from the page widget, not the article.
+r1-s3-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide | stat_hook,concrete_examples,caveat | 0 | Thread is good and carries the caveat; LinkedIn is a 304-char stub.
+r1-s4-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,misattributed_fact,filler_tweet,url_in_slide | stat_hook,concrete_examples | 0 | "2,725 listings ... including 601 open Marketing roles" welds a page-widget counter onto an article stat.
+r2-s0-A2-cron-llm-m1-none | li_stub,generic_hook,hype | stat_hook | 0 | 220-char LinkedIn stub; thread is fine.
+r2-s1-A2-cron-llm-m1-none | li_stub,generic_hook | stat_hook,actionable | 0 | 224-char LinkedIn stub; thread and carousel fine.
+r2-s2-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,filler_tweet,url_in_slide,slide_body_over | stat_hook | 0 | Stub LinkedIn, widget counter "157 open design roles", filler tweets, slide 5 over 160.
+r2-s3-A2-cron-llm-m1-none | li_stub,hype,url_in_slide | stat_hook,concrete_examples,caveat,actionable | 0 | Same as r0: strong carousel, 286-char hype-opening LinkedIn.
+r2-s4-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide | stat_hook | 0 | 223-char LinkedIn stub; thread compact and correct.
+r3-s0-A2-cron-llm-m1-none | li_stub,generic_hook,repetitive_cta | stat_hook | 0 | 224-char stub; slides 4 and 5 are both CTAs, so the carousel has three content slides.
+r3-s1-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,url_only_tweet | stat_hook,actionable | 0 | 204-char stub; final tweet is a bare URL; slide cites widget "449 open Operations roles".
+r3-s2-A2-cron-llm-m1-none | li_stub,widget_number,unsupported_claim,misattributed_fact | stat_hook | 0 | Stub LinkedIn; "verified job listings" is unsupported; 64% worldwide is market-wide, framed as design market.
+r3-s3-A2-cron-llm-m1-none | li_stub,hype,unsupported_claim | stat_hook,concrete_examples | 0 | Slide 1 claims "a sharp rise from previous months", which the post never says.
+r3-s4-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide,slide_body_over | stat_hook,concrete_examples,caveat | 0 | Thread is the best of this cell, but LinkedIn is a 228-char stub and slide 5 runs to 169 chars.
+r4-s0-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide | stat_hook,concrete_examples | 0 | 232-char stub; carousel and thread fine.
+r4-s1-A2-cron-llm-m1-none | li_stub,generic_hook | stat_hook,actionable | 0 | 227-char stub; carousel clean.
+r4-s2-A2-cron-llm-m1-none | li_stub,misattributed_fact,widget_number,hype,url_in_slide,slide_body_over | stat_hook | 0 | Tweet 1 says brand designers earn "$1,000-$4,000 monthly", but those retainers are video-editor and ops roles.
+r4-s3-A2-cron-llm-m1-none | li_stub,hype,url_in_slide | stat_hook,concrete_examples,actionable | 0 | 261-char hype LinkedIn; thread and carousel good.
+r4-s4-A2-cron-llm-m1-none | li_stub,generic_hook,url_in_slide,slide_body_over | stat_hook,concrete_examples,caveat | 0 | Content is accurate and specific; LinkedIn 234-char stub and slide 5 over 160.
+r5-s0-A2-cron-llm-m1-none | li_stub,generic_hook | stat_hook | 0 | 274-char stub; otherwise accurate.
+r5-s1-A2-cron-llm-m1-none | li_stub,generic_hook,url_only_tweet | stat_hook,actionable | 0 | 212-char stub; tweet 5 is only a URL.
+r5-s2-A2-cron-llm-m1-none | li_stub,widget_number | stat_hook | 0 | Stub LinkedIn; "157 open design roles, 36 new postings" from the page widget.
+r5-s3-A2-cron-llm-m1-none | li_stub,generic_hook | stat_hook,concrete_examples,caveat,actionable | 0 | Closest to publishable in the cell, but LinkedIn is still 321 chars against a 600 floor.
+r5-s4-A2-cron-llm-m1-none | li_stub,generic_hook,widget_number,hype,url_in_slide,slide_body_over | stat_hook,concrete_examples | 0 | Stub LinkedIn pushing "601 open Marketing roles" (widget counter); slide 5 over 160.

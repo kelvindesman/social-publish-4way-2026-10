@@ -1,0 +1,1 @@
+This conversation has grown too long for @cf/meta/llama-4-scout-17b-16e-instruct to read, and Hermes couldn't shrink it enough automatically. Start a new session with /new (your history is kept), or try /compress once more. Switching to a model with a bigger context window also works.

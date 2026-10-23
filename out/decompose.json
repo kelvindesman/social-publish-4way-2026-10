@@ -1,0 +1,133 @@
+{
+	"design": "LLM arms (A2, A3, A4) x 2 models x 5 sources x 6 reps, clean counted runs",
+	"outcomes": {
+		"publishable": {
+			"n": 180,
+			"share": {
+				"source": 0.1282,
+				"arm": 0.0515,
+				"model": 0.0257,
+				"arm x model": 0.3225,
+				"residual": 0.4722
+			},
+			"share_ci": {
+				"source": [0.019, 0.2029],
+				"arm": [0.0047, 0.2172],
+				"model": [0.0005, 0.1279],
+				"arm x model": [0.2705, 0.3951],
+				"residual": [0.2769, 0.5815]
+			},
+			"cell_means": {
+				"A2-cron-llm|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.6
+				},
+				"A2-cron-llm|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.8
+				},
+				"A3-langgraph|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.5667
+				},
+				"A3-langgraph|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.8333
+				},
+				"A4-hermes|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.9333
+				},
+				"A4-hermes|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.0
+				}
+			}
+		},
+		"text_quality": {
+			"n": 148,
+			"share": {
+				"source": 0.1604,
+				"arm": 0.0567,
+				"model": 0.3573,
+				"arm x model": 0.0,
+				"residual": 0.4667
+			},
+			"share_ci": {
+				"source": [0.008, 0.2949],
+				"arm": [0.0353, 0.0976],
+				"model": [0.1852, 0.5925],
+				"arm x model": [0.0, 0.0173],
+				"residual": [0.3801, 0.5794]
+			},
+			"cell_means": {
+				"A2-cron-llm|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 8.498
+				},
+				"A2-cron-llm|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 8.0097
+				},
+				"A3-langgraph|deepseek-v4-flash-0731": {
+					"n": 29,
+					"mean": 8.3669
+				},
+				"A3-langgraph|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 8.021
+				},
+				"A4-hermes|deepseek-v4-flash-0731": {
+					"n": 29,
+					"mean": 8.4124
+				}
+			}
+		},
+		"would_publish": {
+			"n": 180,
+			"share": {
+				"source": 0.0365,
+				"arm": 0.0395,
+				"model": 0.3567,
+				"arm x model": 0.0645,
+				"residual": 0.5027
+			},
+			"share_ci": {
+				"source": [0.0027, 0.0574],
+				"arm": [0.0026, 0.1808],
+				"model": [0.2862, 0.4476],
+				"arm x model": [0.0277, 0.1808],
+				"residual": [0.3008, 0.5963]
+			},
+			"cell_means": {
+				"A2-cron-llm|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.5333
+				},
+				"A2-cron-llm|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.0
+				},
+				"A3-langgraph|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.3333
+				},
+				"A3-langgraph|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.0667
+				},
+				"A4-hermes|deepseek-v4-flash-0731": {
+					"n": 30,
+					"mean": 0.8333
+				},
+				"A4-hermes|llama-4-scout-17b-16e-instruct": {
+					"n": 30,
+					"mean": 0.0
+				}
+			}
+		},
+		"human_as_is": {
+			"status": "no data yet"
+		}
+	}
+}

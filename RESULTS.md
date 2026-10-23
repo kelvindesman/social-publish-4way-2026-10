@@ -59,7 +59,7 @@ By model:
 | A1 | crashed 1 | not applicable | not applicable | recovered 1 |
 | A2 | crashed 6 | crashed 6 | recovered 6 | recovered 3, published_bad 3 |
 | A3 | crashed 6 | recovered 6 | published_bad 6 | recovered 1, published_bad 5 |
-| A4 | stopped_clean 6 | recovered 2, stopped_clean 4 | stopped_clean 6 | stopped_clean 6 |
+| A4 | stopped_clean 6 | recovered 3, stopped_clean 3 | infra_error 2, stopped_clean 4 | infra_error 1, recovered 3, stopped_clean 2 |
 
 - No arm invented a number on FNONUM. Every `published_bad` there failed the length or link
   gate, not the facts gate.
@@ -67,6 +67,12 @@ By model:
 - A3 survived F429 because `ChatOpenAI` retries by default; A2's single `urllib` call does not.
 - A4's `stopped_clean` includes the llama-4-scout runs, which produce nothing with or without
   a fault. On FNONUM, stopping is safe but does not do the job.
+- A4 row corrected 2026-10-23 (PREREGISTRATION.md deviation 9). 8 A4 fault runs had never
+  reached the model: Hermes's own gateway timed out at start-up. The design re-runs infra
+  errors once, so they were re-run. 4 recovered (all deepseek-v4-flash), 1 stopped cleanly,
+  and 3 failed the same way again; those 3 are `infra_error` and count as neither outcome.
+  Before the fix, the table showed A4 F429 recovered 2 / stopped_clean 4, and stopped_clean 6
+  for both FJSON and FNONUM.
 
 ## Quality (LLM judge, provisional)
 
@@ -103,7 +109,9 @@ $2.18; judging used 538 calls and 1.23M tokens, logged apart from the arms.
   publishability; for A4 it cost some.
 - **H2** (A4 >= 10x A2 tokens at median, >= 20x at p95): median 6.95x, not met; p95 35.2x, met.
 - **H3** (A4 fails silently more often under FNONUM and F404): rejected. A4 had no
-  `published_bad` run; A2 had 3 and A3 had 5 on FNONUM.
+  `published_bad` run; A2 had 3 and A3 had 5 on FNONUM. The verdict holds after the re-runs (A4 still has no
+  `published_bad` run). But A4's "safety" is mostly that llama-4-scout never produces anything
+  under Hermes (see the 2026-10-23 update below), so H3 says little about Hermes itself.
 - **H4** (humans prefer LLM arms over A1): pending the panel.
 - **H5** (model explains more quality variance than architecture): supported by the judge
   (0.357 vs 0.057), pending the judge's check against the panel.
@@ -121,3 +129,94 @@ points with the CI above 0, AND wins >= 60% of human pairs, AND costs <= 3x per 
 Caveat the rule does not capture: A1 passes every gate because it copies the source, and it
 never follows the brief (0%). The gates measure "safe to publish", not "worth publishing".
 That is what the human panel is for, and why H4 is reported separately when it lands.
+
+## Update 2026-10-23: human panel, error analysis, and what the gates missed
+
+Everything below is exploratory or single-rater unless it says otherwise (PREREGISTRATION.md
+deviations 7-16). The pre-registered tables above stand, apart from the A4 fault row correction.
+
+### Human panel: one rater
+
+The owner rated all 42 pairs. No second rater was available, so alpha cannot be computed and
+the pre-registration marks the human result not usable for H4 or the decision rule. Reported
+as one person's judgement (`out/panel-summary.json`):
+
+| Pairing | Wins | Neither |
+|---|---|---|
+| A1 vs A2 | A1 5, A2 2 | 0 |
+| A1 vs A3 | A1 4, A3 0 | 3 |
+| A1 vs A4 | A1 3, A4 1 | 3 |
+| A2 vs A3 | A2 4, A3 1 | 2 |
+| A2 vs A4 | A2 4, A4 3 | 0 |
+| A3 vs A4 | A4 5, A3 1 | 1 |
+
+Bradley-Terry log strength: A1 +0.85, A2 -0.17, A4 -0.38, A3 -1.94. The rater marked **none of
+the 84 outputs fine to post as-is**. Reasons the rater gave: LLM versions distorted or padded
+facts, read as generic, and missed the platform's format or length; and the hook often states a
+figure that the next paragraph states again. The rater wrote the source posts, so a preference
+for their own wording cannot be ruled out. The LLM judge does not track this rater (Spearman
+-0.085 over 52 outputs), so judge scores are not cited as quality.
+
+### Error analysis (one coder: Claude)
+
+Every clean output and failure was read and coded (`error-analysis.md`, `out/error-codes.jsonl`).
+The coder's "would publish" call, by arm: A1 0/10, A2 16/60 (llama 0, deepseek 16/30), A3 12/60
+(2, 10), A4 25/60 (0, 25/30). **The human rater disagreed with it**: in the 20 pairs where the
+coder would publish exactly one side, the rater picked that side 5 times, the other side 13, and
+neither 2. So the coder's numbers are reported as one reading of the outputs, not as a quality
+measure, and the article does not lead with them.
+
+What the coding did establish, as counts anyone can recheck in the outputs:
+
+- The gates pass a lot the coder would not publish: gate precision 34% (41 of 122 gate-passing
+  clean runs). 54 outputs use the blog page's own counters or sidebar ads as content ("1427
+  open Engineering roles"); the gates passed 41 of them.
+- All 16 facts-gate failures are false positives on k-abbreviations ("$293k" vs "293,000").
+- The source posts contain errors the arms copy: "4,269 Remote Jobs Paying USD" (most listings
+  show no pay), "the only listing with a disclosed rate" in a post that also says 23% of its 4,441
+  listings show pay.
+- A3's revise loop added page-chrome leaks rather than removing them (29 of 60 clean runs).
+- The repeated-figure pattern the rater named (`repeat_hook.py`, years ignored): the LinkedIn hook and
+  next paragraph, or tweet 1 and tweet 2, repeat a figure in A1 8/10, A2 20/60, A3 21/60, A4 17/30
+  outputs. 4 of the 5 numbered source posts repeat a title figure in their description.
+
+### Model vs architecture (decompose.py, CIs resample source posts)
+
+| Outcome | Model | Arm | Arm x model | Source post | Residual |
+|---|---|---|---|---|---|
+| Gate publishable | 3% [0, 13] | 5% [0, 22] | 32% [27, 40] | 13% [2, 20] | 47% |
+| Judge text quality | 36% [19, 59] | 6% [4, 10] | 0% [0, 2] | 16% [1, 29] | 47% |
+| Coder would publish | 36% [29, 45] | 4% [0, 18] | 7% [3, 18] | 4% [0, 6] | 50% |
+
+On the gates, the arm x model interaction dominates (A4 is 0% on llama and 93% on deepseek).
+On both quality readings, the model explains several times more than the arm. Neither quality
+reading is validated by a human (see above), so this is suggestive, not established.
+
+### Sensitivity of the verdict (sensitivity.py, 80 settings per row)
+
+Varying the gap threshold (5-25 points), cost ratio (2-5x) and prices (0.5-2x) never changes the
+pick under the gate outcome: A1 for all arms, A2 among LLM arms, pooled and per model. With the
+panel not usable, the rule's human condition cannot be met, so no setting moves off the
+cheapest arm under any outcome.
+
+### Hermes on llama-4-scout
+
+The 30/30 empty llama runs come from the system prompt Hermes builds for llama-family model
+names, not from the model being unable to call tools: replaying Hermes's first request with a
+neutral prompt, or with the prompt Hermes builds for deepseek, gets proper tool calls (10-call
+probe, `hermes-llama-confound.md`). Turning on Hermes's documented settings inside Hermes
+(30 exploratory runs) gets llama to make real tool calls once both `tool_use_enforcement` and
+`execution_guidance` are on, but no run saved output: posts written into the chat instead of
+the file, malformed JSON, context overflow, gateway drops. So A4's llama result reflects both
+Hermes's defaults and the model.
+
+### Spend
+
+Model calls in the 264 counted runs: $2.29 (`experiment_usd_total`). Not included: pilot runs
+($0.38), the 30 exploratory A4-enf runs ($0.16), the 10-call probe (about $0.01), and the LLM judge.
+
+### Corrections to the 2026-10-16 text
+
+- Deviation 4's "failed in both streaming and non-streaming mode" is withdrawn: the pilot's
+  config key (`model.stream`) is not one Hermes reads (`model.streaming`), so it always streamed.
+- A4 fault row corrected for 8 runs that never reached the model (see Faults).

@@ -1,0 +1,30 @@
+r0-s0-A4-hermes-m2-none | source_error_copied,muddled_stat | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Says 1,000 listings disclose pay, then "Only one listing disclosed a rate: Neo Financial", repeating the source TL;DR's self-contradiction.
+r0-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure,audience_fit | 1 | Accurate DOE explainer with usable negotiation steps.
+r0-s2-A4-hermes-m2-none | source_error_copied | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; the "$1,500-3,000 retainer" slip is the source's own contrarian line and does not change the takeaway.
+r0-s3-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and balanced; the facts failure is the "132K" abbreviation of a figure in the source.
+r0-s4-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; every figure and the AI-pay inference are in the source.
+r1-s0-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; scopes the Neo Financial claim to the named companies.
+r1-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and well structured.
+r1-s2-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure,audience_fit | 1 | Accurate, with a caveat about who discloses pay.
+r1-s3-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Accurate, specific, names the companies; CTA is soft but present.
+r1-s4-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; the facts failure is the "293k" abbreviation.
+r2-s0-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and careful: "of the five highlighted, only Neo Financial discloses pay".
+r2-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and clear.
+r2-s2-A4-hermes-m2-none | source_error_copied | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate list of all five rates; the retainer slip is copied from the source.
+r2-s3-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, with concrete non-engineering examples.
+r2-s4-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; the Dublin aside is in the source body.
+r3-s0-A4-hermes-m2-none | muddled_stat | stat_hook,concrete_examples,caveat,native_structure | 0 | "Only 1 of 1,560 hiring companies discloses its rate" contradicts the 1,000 pay-disclosing listings in the same post.
+r3-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, numbered negotiation steps.
+r3-s2-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and readable.
+r3-s3-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure,audience_fit | 1 | Accurate and balanced.
+r3-s4-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, adds the time-zone caveat from the source.
+r4-s0-A4-hermes-m2-none | muddled_stat | stat_hook,concrete_examples,caveat,native_structure | 0 | "1,560 distinct companies are hiring, but only Neo Financial reveals its pay" overstates a five-company spotlight into the whole board.
+r4-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and well structured.
+r4-s2-A4-hermes-m2-none | source_error_copied | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; the retainer slip is the source's own.
+r4-s3-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, includes the CAD caveat.
+r4-s4-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and tight.
+r5-s0-A4-hermes-m2-none | source_error_copied,muddled_stat | stat_hook,concrete_examples,caveat,native_structure | 0 | Calls Neo Financial "the only listing with a disclosed rate" right after saying 1,000 listings disclose pay.
+r5-s1-A4-hermes-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and actionable.
+r5-s2-A4-hermes-m2-none | source_error_copied | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate list of all five rates; the retainer slip is the source's own.
+r5-s3-A4-hermes-m2-none | wall_of_text | stat_hook,concrete_examples,caveat,actionable | 1 | Accurate; LinkedIn post is one dense paragraph but publishable.
+r5-s4-A4-hermes-m2-none | unsupported_claim | stat_hook,concrete_examples,caveat,actionable,native_structure,audience_fit | 0 | Tweet 3 says AI and communication "both correlate with the highest pay brackets"; the source makes that claim for AI only.

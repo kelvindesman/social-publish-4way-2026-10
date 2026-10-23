@@ -1,0 +1,370 @@
+{
+	"research_dir": "scripts/research/social-publish-4way-2026-10",
+	"dataset_file": "../../../public/data/social-publish-4way-2026-10.csv",
+	"claims": [
+		{
+			"claim_id": "A1-cron-gate-publishable",
+			"value": "100.0%",
+			"description": "A1-cron: share of clean runs that pass every automated gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 10,
+				"n": 10,
+				"pool": "A1-cron"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A1-cron-editor-publishable",
+			"value": "0.0%",
+			"description": "A1-cron: share of clean runs an editor would publish as-is (one coder)",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 0,
+				"n": 10,
+				"pool": "A1-cron"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-gate-publishable",
+			"value": "70.0%",
+			"description": "A2-cron-llm: share of clean runs that pass every automated gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 42,
+				"n": 60,
+				"pool": "A2-cron-llm"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-editor-publishable",
+			"value": "26.7%",
+			"description": "A2-cron-llm: share of clean runs an editor would publish as-is (one coder)",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 16,
+				"n": 60,
+				"pool": "A2-cron-llm"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-gate-publishable",
+			"value": "70.0%",
+			"description": "A3-langgraph: share of clean runs that pass every automated gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 42,
+				"n": 60,
+				"pool": "A3-langgraph"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-editor-publishable",
+			"value": "20.0%",
+			"description": "A3-langgraph: share of clean runs an editor would publish as-is (one coder)",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 12,
+				"n": 60,
+				"pool": "A3-langgraph"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-gate-publishable",
+			"value": "46.7%",
+			"description": "A4-hermes: share of clean runs that pass every automated gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 28,
+				"n": 60,
+				"pool": "A4-hermes"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-editor-publishable",
+			"value": "41.7%",
+			"description": "A4-hermes: share of clean runs an editor would publish as-is (one coder)",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 25,
+				"n": 60,
+				"pool": "A4-hermes"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-llama-4-scout-editor-publishable",
+			"value": "0.0%",
+			"description": "A2-cron-llm on llama-4-scout: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 0,
+				"n": 30,
+				"pool": "A2-cron-llm|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-llama-4-scout-gate-publishable",
+			"value": "80.0%",
+			"description": "A2-cron-llm on llama-4-scout: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 24,
+				"n": 30,
+				"pool": "A2-cron-llm|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-deepseek-v4-flash-editor-publishable",
+			"value": "53.3%",
+			"description": "A2-cron-llm on deepseek-v4-flash: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 16,
+				"n": 30,
+				"pool": "A2-cron-llm|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-deepseek-v4-flash-gate-publishable",
+			"value": "60.0%",
+			"description": "A2-cron-llm on deepseek-v4-flash: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 18,
+				"n": 30,
+				"pool": "A2-cron-llm|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-llama-4-scout-editor-publishable",
+			"value": "6.7%",
+			"description": "A3-langgraph on llama-4-scout: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 2,
+				"n": 30,
+				"pool": "A3-langgraph|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-llama-4-scout-gate-publishable",
+			"value": "83.3%",
+			"description": "A3-langgraph on llama-4-scout: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 25,
+				"n": 30,
+				"pool": "A3-langgraph|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-deepseek-v4-flash-editor-publishable",
+			"value": "33.3%",
+			"description": "A3-langgraph on deepseek-v4-flash: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 10,
+				"n": 30,
+				"pool": "A3-langgraph|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-deepseek-v4-flash-gate-publishable",
+			"value": "56.7%",
+			"description": "A3-langgraph on deepseek-v4-flash: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 17,
+				"n": 30,
+				"pool": "A3-langgraph|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-llama-4-scout-editor-publishable",
+			"value": "0.0%",
+			"description": "A4-hermes on llama-4-scout: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 0,
+				"n": 30,
+				"pool": "A4-hermes|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-llama-4-scout-gate-publishable",
+			"value": "0.0%",
+			"description": "A4-hermes on llama-4-scout: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 0,
+				"n": 30,
+				"pool": "A4-hermes|llama-4-scout"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-deepseek-v4-flash-editor-publishable",
+			"value": "83.3%",
+			"description": "A4-hermes on deepseek-v4-flash: editor would publish",
+			"numerator": {
+				"metric": "editor_would_publish",
+				"count": 25,
+				"n": 30,
+				"pool": "A4-hermes|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-deepseek-v4-flash-gate-publishable",
+			"value": "93.3%",
+			"description": "A4-hermes on deepseek-v4-flash: passes every gate",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 28,
+				"n": 30,
+				"pool": "A4-hermes|deepseek-v4-flash"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "gate-precision",
+			"value": "33.6%",
+			"description": "Of clean runs that pass every gate, share an editor would publish",
+			"numerator": {
+				"metric": "editor_yes_among_gate_yes",
+				"count": 41,
+				"n": 122,
+				"pool": "clean runs"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "chrome-leak-gate-passed",
+			"value": "75.9%",
+			"description": "Of outputs that use page counters or sidebar ads as content, share the gates passed",
+			"numerator": {
+				"metric": "gate_publishable",
+				"count": 41,
+				"n": 54,
+				"pool": "runs leaking page counters or ads"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A1-cron-repeat-figure",
+			"value": "80.0%",
+			"description": "A1-cron: clean outputs whose hook and next paragraph, or tweet 1 and 2, repeat a figure",
+			"numerator": {
+				"metric": "repeat_hook_any",
+				"count": 8,
+				"n": 10,
+				"pool": "A1-cron"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-repeat-figure",
+			"value": "33.3%",
+			"description": "A2-cron-llm: clean outputs whose hook and next paragraph, or tweet 1 and 2, repeat a figure",
+			"numerator": {
+				"metric": "repeat_hook_any",
+				"count": 20,
+				"n": 60,
+				"pool": "A2-cron-llm"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A3-langgraph-repeat-figure",
+			"value": "35.0%",
+			"description": "A3-langgraph: clean outputs whose hook and next paragraph, or tweet 1 and 2, repeat a figure",
+			"numerator": {
+				"metric": "repeat_hook_any",
+				"count": 21,
+				"n": 60,
+				"pool": "A3-langgraph"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-repeat-figure",
+			"value": "56.7%",
+			"description": "A4-hermes: clean outputs whose hook and next paragraph, or tweet 1 and 2, repeat a figure",
+			"numerator": {
+				"metric": "repeat_hook_any",
+				"count": 17,
+				"n": 30,
+				"pool": "A4-hermes"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		}
+	]
+}

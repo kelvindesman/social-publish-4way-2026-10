@@ -1,0 +1,7 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/ai-skills-in-demand-for-remote-jobs-2026.md']
+
+[tool_describe: ["read_file"]]
+
+[read_file: {"path": "/tmp/hermes-home/cache/scratch/remote-markdown.md"}]
+
+[terminal: jq -c '.linkedin = "In 2026, AI skills will be in high demand for remote jobs. Learn more about the top skills required for remote jobs in 2026 and how to get hired. https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"; .x_thread = ["AI skills are in high demand for remote jobs in 2026.", "Learn more about the top skills required for remote jobs in 2026.", "Get hired with the right skills. https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"]; .carousel = [{"title": "AI Skills in Demand", "body": "In 2026, AI skills will be in high demand for remote jobs."}, {"title": "Top Skills Required", "body": "Learn more about the top skills required for remote jobs in 2026."}, {"title": "Get Hired", "body": "Get hired with the right skills."}, {"title": "Remote Jobs", "body": "Remote jobs available at lokerdollar.com."}, {"title": "Apply Now", "body": "Apply now and start your remote career."}] | tee /out/runs/x0-s3-A4-hermes-enfns-m1-none-6471110000/output.json']

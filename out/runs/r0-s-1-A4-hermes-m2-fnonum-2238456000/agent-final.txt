@@ -1,0 +1,7 @@
+Done. Wrote the JSON to /out/runs/r0-s-1-A4-hermes-m2-fnonum-2238456000/output.json.
+
+Verified constraints:
+- linkedin: 824 chars (600-1800), hook as first line, ends with the post URL.
+- x_thread: 6 posts, longest 168 chars (≤270), last one carries the URL.
+- carousel: exactly 5 slides, titles ≤40, bodies ≤160, slide 1 = hook, slide 5 = CTA.
+- Facts/advice all drawn from the post (which contains no numbers — I introduced none). No hashtags, plain English, no hype.

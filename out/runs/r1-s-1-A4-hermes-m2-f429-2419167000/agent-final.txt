@@ -1,0 +1,6 @@
+Saved to /out/runs/r1-s-1-A4-hermes-m2-f429-2419167000/output.json (valid JSON).
+
+- linkedin: 964 chars, hook first line, ends with URL
+- x_thread: 6 posts, all 80–170 chars (≤270), last contains URL
+- carousel: 5 slides, titles ≤31, bodies ≤160; slide 1 hook, slide 5 CTA
+- All numbers drawn from the post; no hashtags, no hype.

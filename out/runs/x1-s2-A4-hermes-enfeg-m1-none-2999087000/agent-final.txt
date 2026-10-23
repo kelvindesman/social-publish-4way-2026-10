@@ -1,0 +1,7 @@
+{"linkedin:Remote brand designers, see the pay ranges: $3,000-$5,000 per project. Only 22% of 3,940 active listings disclose pay. Check out the full breakdown and current job openings here: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026",
+"x_thread:[Remote brand designers, what do you earn? $3,000-$5,000 per project or $1,500-$3,000?,Only 22% of listings disclose pay.","Stevens, Sidekicks Creative Studio, and more are hiring.","Check current openings: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026"],
+"carousel:[{title:Remote brand designer pay ranges,body:$3,000-$5,000 per project or $1,500-$3,000. Only 22% of listings disclose pay."},
+{"title:Current job openings,body:Stevens, Sidekicks Creative Studio, WTP Global, Love Isn’t Blind, and South Digital are hiring."},
+{"title:Market insights,body:64% of listings are open to worldwide remote applicants. 3,940 active listings, 1,453 distinct companies."},
+{"title:Tips for landing a gig,body:Polish a logistics-oriented case study, join the Loker Dollar Slack community, and apply now."},
+{"title:Call to action,body:Check out current design jobs and the full salary trends here: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026"}]}

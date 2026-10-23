@@ -1,0 +1,30 @@
+r0-s0-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and specific; each format is shaped for its platform.
+r0-s1-A3-langgraph-m2-none | widget_content | stat_hook,concrete_examples,actionable,native_structure | 0 | Last tweet adds the sidebar counter "449 open Operations roles", which is not part of the DOE article.
+r0-s2-A3-langgraph-m2-none | thin_linkedin | stat_hook,concrete_examples | 0 | LinkedIn post is a 236-character stub; the revise loop shrank it instead of growing it.
+r0-s3-A3-langgraph-m2-none | thin_linkedin | stat_hook,concrete_examples,caveat | 0 | Content is accurate (the facts failure is the "132k" abbreviation), but the 409-character LinkedIn post is too thin to stand alone.
+r0-s4-A3-langgraph-m2-none | | stat_hook,concrete_examples,actionable,native_structure | 1 | Accurate; the facts failure is the "293k" abbreviation of figures that are in the source.
+r1-s0-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Accurate, specific, readable in all three formats.
+r1-s1-A3-langgraph-m2-none | widget_content | stat_hook,actionable | 0 | Uses the sidebar "449 open Operations roles" counter as if it were article data.
+r1-s2-A3-langgraph-m2-none | widget_content,source_error_copied | stat_hook,concrete_examples | 0 | Builds on the sidebar "157 open Design roles" counter and links a category page instead of the post; repeats the source's own "$1,500-3,000 retainer" slip.
+r1-s3-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Excellent copy, including the method note, but it links only /en/jobs and never the article it promotes.
+r1-s4-A3-langgraph-m2-none | wall_of_text | stat_hook,concrete_examples,actionable | 1 | Accurate; dense single-block LinkedIn post and long tweets are editable style issues, not blockers.
+r2-s0-A3-langgraph-m2-none | widget_content | stat_hook,concrete_examples,caveat | 0 | Tweet 4 cites the page counter "1,427 engineering roles" as a finding.
+r2-s1-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and well adapted.
+r2-s2-A3-langgraph-m2-none | thin_linkedin,widget_content | stat_hook,concrete_examples | 0 | 243-character LinkedIn stub plus the sidebar "157 design roles" counter.
+r2-s3-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 0 | Good copy that links only /en/jobs, so the article gets no traffic.
+r2-s4-A3-langgraph-m2-none | widget_content,wall_of_text | stat_hook,concrete_examples,actionable | 0 | Links /en/remote-jobs/marketing instead of the post and pulls in the sidebar "601 open Marketing roles" counter.
+r3-s0-A3-langgraph-m2-none | widget_content,source_error_copied,muddled_stat | stat_hook,concrete_examples,caveat,native_structure | 0 | "Engineering leads with 1,427 roles" is the page counter; "Neo Financial is the only company with a disclosed rate" repeats the source TL;DR, which contradicts its own 1,000-listing figure.
+r3-s1-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, explains DOE clearly, good structure.
+r3-s2-A3-langgraph-m2-none | widget_content,wall_of_text | stat_hook,concrete_examples,audience_fit | 0 | "157 design roles are open now, 36 posted this week" is the sidebar counter presented as article data.
+r3-s3-A3-langgraph-m2-none | thin_linkedin | stat_hook,concrete_examples,caveat | 0 | 378-character LinkedIn stub; carousel CTA links /en/jobs; facts failure is the CAD "120k" abbreviation.
+r3-s4-A3-langgraph-m2-none | | stat_hook,concrete_examples,actionable,native_structure | 1 | Accurate; the facts failure is the "293k" abbreviation.
+r4-s0-A3-langgraph-m2-none | widget_content,wall_of_text,source_error_copied,muddled_stat | stat_hook,concrete_examples,caveat | 0 | Single-block LinkedIn post that ends on the page counter "Engineering leads with 1427 open roles".
+r4-s1-A3-langgraph-m2-none | widget_content | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Strong DOE explainer spoiled by the sidebar "Browse 449 open Operations roles" line.
+r4-s2-A3-langgraph-m2-none | source_error_copied | stat_hook,concrete_examples,actionable | 0 | Links the design category page instead of the post; the "retainer" framing and EY aside are copied from the source.
+r4-s3-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,audience_fit,native_structure | 1 | Accurate and balanced; the facts failure is the "132K" abbreviation.
+r4-s4-A3-langgraph-m2-none | widget_content,wall_of_text | stat_hook,concrete_examples | 0 | Presents sidebar job ads (Salesforce, Pendo) and the "601 Marketing roles" counter as article examples.
+r5-s0-A3-langgraph-m2-none | widget_content,muddled_stat | stat_hook,caveat | 0 | "1,427 engineering roles are open now. 276 posted this week" is the page counter, and "Only 1 listing out of 5 shows pay" garbles the source.
+r5-s1-A3-langgraph-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, clear, well formatted.
+r5-s2-A3-langgraph-m2-none | widget_content,source_error_copied | stat_hook,concrete_examples | 0 | Slide 5 cites "all 157 open design roles" from the sidebar counter; the "$1,500-3,000 retainer" slip is the source's own.
+r5-s3-A3-langgraph-m2-none | thin_linkedin | stat_hook,concrete_examples,caveat | 0 | LinkedIn post is a 300-character stub.
+r5-s4-A3-langgraph-m2-none | | stat_hook,concrete_examples,actionable,native_structure | 1 | Accurate and clean in all formats.

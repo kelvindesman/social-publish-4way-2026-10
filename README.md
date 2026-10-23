@@ -74,9 +74,15 @@ python3 -I analyze.py              # -> out/summary.json and social-publish-4way
 | `out/panel-pairs.json` / `out/panel-key.json` | the 42 blind pairs shown to raters / which arm wrote which side |
 | `out/pilot-runs*.jsonl` | harness-debug pilot runs, excluded from all results |
 | `raw/` | 30-day social traffic by platform, social pipeline git churn |
+| `error-analysis.md`, `error-coding/`, `out/error-codes.jsonl` | hand-coded failure modes per run (2026-10-23) |
+| `panel-raw/`, `out/panel-votes.json`, `out/panel-summary.json` | one-rater human panel: raw export, votes, Bradley-Terry summary |
+| `decompose.py`, `out/decompose.json` | model vs architecture variance split |
+| `sensitivity.py`, `validity.py` | where the decision rule flips |
+| `hermes-llama-confound.md`, `out/enforced-*.jsonl` | why Hermes failed on llama, with the exploratory settings runs |
+| `repeat_hook.py`, `out/repeat-hook.json` | same figure repeated in the hook and the next paragraph |
 | `fairness-review/` | requests to LangGraph and Hermes users to review our setup |
 | `social-publish-4way-2026-10.csv` | public per-run CSV (also at https://lokerdollar.com/data/social-publish-4way-2026-10.csv) |
 
 ## Results
 
-See [`RESULTS.md`](RESULTS.md), generated from `out/summary.json`.
+See [`RESULTS.md`](RESULTS.md), generated from `out/summary.json`; its "Update 2026-10-23" section adds the panel, error analysis, decomposition and Hermes follow-up. Article: https://lokerdollar.com/en/research/cron-vs-llm-vs-langgraph-vs-agent-2026

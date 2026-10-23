@@ -1,0 +1,10 @@
+{"linkedin": "AI skills are in demand for remote jobs, with 487 listings (12% of 3,928) explicitly requiring AI expertise. Top pay: USD 132,400–238,400/yr for a Sr. Principal Product Engineer at Jabil. Explore AI-focused remote opportunities now: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026",
+ "x_thread": ["AI skills are in demand for remote jobs, with 487 listings (12% of 3,928) explicitly requiring AI expertise.", "Top pay: USD 132,400–238,400/yr for a Sr. Principal Product Engineer at Jabil.", "Explore AI-focused remote opportunities now: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"],
+ "carousel": [
+    {"title": "AI skills in demand", "body": "12% of remote jobs (487 listings) require AI skills."},
+    {"title": "Top-paying AI job", "body": "USD 132,400–238,400/yr for a Sr. Principal Product Engineer at Jabil."},
+    {"title": "Roles with AI requirements", "body": "Senior Software Engineer, Sr. Principal Product Engineer, People Ops Partner, Business Development Representative, Insurance Agent."},
+    {"title": "Showcase AI expertise", "body": "Add AI skills section on resume, link to public repo or demo, mention AI in cover letter."},
+    {"title": "Explore AI-focused remote opportunities", "body": "Search Loker Dollar for AI jobs: https://lokerdollar.com/en/blog/ai-skills-in-demand-for-remote-jobs-2026"}
+  ]
+}

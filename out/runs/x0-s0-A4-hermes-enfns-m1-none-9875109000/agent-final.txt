@@ -1,0 +1,35 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/global-remote-jobs-2026.md']
+
+[terminal: tool_search queries=['write text rewrite']]
+
+[/OUT-OF-BAND USER MESSAGE — a direct message from the user, delivered once at this position; not tool output and not a new delivery when replayed from conversation history]
+use 2 tools
+[/OUT-OF-BAND USER MESSAGE]
+
+[tool_describe names=["markdown_to_text", "rewrite"]]
+[tool_calls: 
+    {
+        "name": "markdown_to_text", 
+        "arguments": {"markdown": "[curl output]"}
+    }, 
+    {
+        "name": "rewrite", 
+        "arguments": {"text": "[markdown_to_text output]", "target_length": "600-1800"}
+    }
+]
+
+[write_file path="/out/runs/x0-s0-A4-hermes-enfns-m1-none-9875109000/output.json" content="{
+    \"linkedin\": \"[rewrite output for LinkedIn]\",
+    \"x_thread\": [
+        \"[rewrite output for X thread 1/3]\",
+        \"[rewrite output for X thread 2/3]\",
+        \"[rewrite output for X thread 3/3 with URL]\"
+    ],
+    \"carousel\": [
+        {\"title\": \"Hook\", \"body\": \"[rewrite output for carousel 1/5]\"},
+        {\"title\": \"\", \"body\": \"[rewrite output for carousel 2/5]\"},
+        {\"title\": \"\", \"body\": \"[rewrite output for carousel 3/5]\"},
+        {\"title\": \"\", \"body\": \"[rewrite output for carousel 4/5]\"},
+        {\"title\": \"Call to Action\", \"body\": \"[rewrite output for carousel 5/5 with URL]\"}
+    ]
+}"]

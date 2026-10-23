@@ -1,0 +1,12 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/best-remote-usd-jobs.md']
+
+[terminal: tool_describe names=["markdown_to_json"]]
+
+[tool_calls: 
+    {
+        "name": "tool_describe", 
+        "arguments": {
+            "names": ["markdown_to_json"]
+        }
+    }
+]

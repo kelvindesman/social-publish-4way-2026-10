@@ -38,7 +38,9 @@ Hi all. We ran Hermes Agent (commit 60f56a6) as the "autonomous agent" arm in a 
 Setup: Docker on Python 3.14, running as a non-root user, with a fresh `HERMES_HOME` per run. Command: `hermes chat -Q -q <goal> --provider custom --base-url <metering proxy> -m <model> --max-turns 15 --run-budget 600 --yolo --ignore-rules -t terminal,file`, plus a per-run `config.yaml` with the same caps. Models are llama-4-scout-17b and deepseek-v4-flash on Cloudflare Workers AI.
 
 What we saw:
-- With llama-4-scout, Hermes gets empty replies or tool calls written as plain text, in both streaming and non-streaming mode. It produced no output in any of the 30 counted runs. The same endpoint returns proper `tool_calls` for a one-tool test.
+- With llama-4-scout, Hermes produced no output in any of the 30 counted runs. Every streamed turn came back empty (finish_reason `stop`, no content, no tool_calls).
+- We replayed Hermes's exact first request outside Hermes. Unchanged, llama writes the tool call as text (`[terminal: curl ...]`) or returns an empty stream. With a one-line neutral system prompt, or with the system prompt Hermes builds for deepseek (the one that includes the "Tool-use enforcement" block), llama returns proper `tool_calls`. Dropping `reasoning_effort` or cutting the tools to two did not help. So the difference seems to be the system prompt Hermes picks for this model.
+- We then reran llama inside Hermes with the documented settings, 10 runs each. With `agent.tool_use_enforcement: true` alone, streamed turns were still empty, and with streaming off llama wrote the tool call as text and the run ended. With `execution_guidance: true` as well, llama made real tool calls (23 across the runs), but none of the 10 runs saved output. 4 put the posts in the chat reply instead of the file, 1 had its JSON refused by `write_file`, 2 ran out of context, and 3 lost the gateway. Probe and results: https://github.com/kelvindesman/social-publish-4way-2026-10/blob/main/hermes-llama-confound.md
 - With deepseek-v4-flash, Hermes was the best arm we tested: 28 of 30 runs passed every gate.
 - Workers AI caps replies at 256 tokens when `max_tokens` is not sent, so our proxy sets 8,000 for every arm.
 
@@ -48,6 +50,7 @@ What we saw:
 
 Questions:
 1. Is this how you'd run Hermes for a one-shot task like this? Are there flags, toolsets or config we're missing?
-2. Is the llama-4-scout behaviour a known limitation, or is there a setting that fixes it?
+2. Llama-family names get neither the enforcement nor the execution-guidance block under "auto". Is that deliberate? Would you add llama to the execution-guidance list, as was done for GLM's plain-text tool-call stall (#53847)?
+3. For a small model like this, is there a setting we missed that would make it save the file and finish, or is "use a bigger model" the honest answer?
 
 We'll quote or link your reply in the article. Thanks.

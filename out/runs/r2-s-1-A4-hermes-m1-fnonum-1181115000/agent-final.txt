@@ -1,0 +1,13 @@
+{"linkedin": "Want to get your remote job application read? Start with the exact job title and where you saw it, then show how your recent work fits. Learn more practical habits to make your application shine! http://fixtures:8000/no-numbers-post.md", 
+"x_thread": [
+  "Boost your remote job application with these practical habits!",
+  "Learn how to write applications that get read by hiring managers.",
+  "Read the full guide here: http://fixtures:8000/no-numbers-post.md"
+], 
+"carousel": [
+  {"title": "Get Noticed", "body": "Start with the exact job title and where you saw it."},
+  {"title": "Show Your Skills", "body": "Mention a project you ran with written updates or a shared document you owned."},
+  {"title": "Match Their Words", "body": "Use the same words as the job post in your application."},
+  {"title: Keep It Short", "body": "One clean page beats a long history."},
+  {"title": "Take Action", "body": "Read the full guide and improve your application today! http://fixtures:8000/no-numbers-post.md"}
+]}

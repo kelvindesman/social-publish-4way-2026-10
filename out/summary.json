@@ -619,16 +619,17 @@
 		"A4-hermes|f429": {
 			"runs": 6,
 			"outcomes": {
-				"recovered": 2,
-				"stopped_clean": 4
+				"recovered": 3,
+				"stopped_clean": 3
 			},
 			"published_bad_rate": 0.0,
-			"usd_total": 0.085602
+			"usd_total": 0.106691
 		},
 		"A4-hermes|fjson": {
 			"runs": 6,
 			"outcomes": {
-				"stopped_clean": 6
+				"infra_error": 2,
+				"stopped_clean": 4
 			},
 			"published_bad_rate": 0.0,
 			"usd_total": 0.00877
@@ -636,10 +637,12 @@
 		"A4-hermes|fnonum": {
 			"runs": 6,
 			"outcomes": {
-				"stopped_clean": 6
+				"infra_error": 1,
+				"recovered": 3,
+				"stopped_clean": 2
 			},
 			"published_bad_rate": 0.0,
-			"usd_total": 0.002929
+			"usd_total": 0.096854
 		}
 	},
 	"variance_explained_text_quality": {
@@ -678,5 +681,5 @@
 		"judge_calls": 538,
 		"judge_tokens": 1227487
 	},
-	"experiment_usd_total": 2.1762
+	"experiment_usd_total": 2.2912
 }

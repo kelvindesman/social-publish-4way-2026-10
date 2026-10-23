@@ -1,0 +1,120 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build.py → b//tmp/hermes-home/cache/scratch/build.py
+@@ -0,0 +1,37 @@
++linkedin = """Your remote application is competing for a few seconds of a hiring manager's attention, read between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for the role. Here are the habits that work.
++
++Lead with the role, not your life story. Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later.
++
++Show proof of async work. Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.
++
++Match their words. Read the job post twice. If they say "customer support", do not write "client care". Hiring software and tired humans both look for the words they wrote.
++
++Keep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for.
++
++Follow up once, politely. If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure.
++
++Full guide for Indonesian professionals applying to remote USD roles: http://fixtures:8000/no-numbers-post.md"""
++
++x_thread = [
++"Your remote application is read on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and written for the role. Start with the habits that make a manager keep reading.",
++"Lead with the role, not your life story. Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later.",
++"Show proof of async work. Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.",
++"Match their words. Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote.",
++"Keep the CV short and current. One clean page beats a long history. Put your most recent remote work first, with what you shipped, not just what you were responsible for. Follow up once after a week, politely.",
++"Remote USD jobs for Indonesians, and how to apply so your application gets read: http://fixtures:8000/no-numbers-post.md",
++]
++
++carousel = [
++ {"title": "Your remote application is scanned in seconds", "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan and clearly written for the role. Lead with the role, not your life story."},
++ {"title": "Prove you can work async", "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well."},
++ {"title": "Match their words", "body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote."},
++ {"title": "Keep the CV short and current", "body": "One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for."},
++ {"title": "Follow up once, then apply", "body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. Full guide for remote USD jobs: http://fixtures:8000/no-numbers-post.md"},
++]
++
++print("LINKEDIN", len(linkedin))
++for i,t in enumerate(x_thread):
++    print(f"TWEET{i} {len(t)}")
++print("THREAD", len(x_thread))
++for i,c in enumerate(carousel):
++    print(f"SLIDE{i} title={len(c['title'])} body={len(c['body'])}")
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build.py → b//tmp/hermes-home/cache/scratch/build.py
+@@ -22,8 +22,8 @@
+ ]
+ 
+ carousel = [
+- {"title": "Your remote application is scanned in seconds", "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan and clearly written for the role. Lead with the role, not your life story."},
+- {"title": "Prove you can work async", "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well."},
++ {"title": "Remote applications get read when scannable", "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan. Lead with the role, not your life story."},
++ {"title": "Prove you can work async", "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, or a time zone gap you handled well."},
+  {"title": "Match their words", "body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote."},
+  {"title": "Keep the CV short and current", "body": "One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for."},
+  {"title": "Follow up once, then apply", "body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. Full guide for remote USD jobs: http://fixtures:8000/no-numbers-post.md"},
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build.py → b//tmp/hermes-home/cache/scratch/build.py
+@@ -26,7 +26,7 @@
+  {"title": "Prove you can work async", "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, or a time zone gap you handled well."},
+  {"title": "Match their words", "body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote."},
+  {"title": "Keep the CV short and current", "body": "One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for."},
+- {"title": "Follow up once, then apply", "body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. Full guide for remote USD jobs: http://fixtures:8000/no-numbers-post.md"},
++ {"title": "Follow up once, then apply", "body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. Full guide: http://fixtures:8000/no-numbers-post.md"},
+ ]
+ 
+ print("LINKEDIN", len(linkedin))
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/build.py → b//tmp/hermes-home/cache/scratch/build.py
+@@ -22,7 +22,7 @@
+ ]
+ 
+ carousel = [
+- {"title": "Remote applications get read when scannable", "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan. Lead with the role, not your life story."},
++ {"title": "Scannable applications get read", "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan. Lead with the role, not your life story."},
+  {"title": "Prove you can work async", "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, or a time zone gap you handled well."},
+  {"title": "Match their words", "body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote."},
+  {"title": "Keep the CV short and current", "body": "One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for."},
+  ┊ review diff
+a//out/runs/r1-s-1-A4-hermes-m2-fnonum-6766893000/output.json → b//out/runs/r1-s-1-A4-hermes-m2-fnonum-6766893000/output.json
+@@ -0,0 +1,33 @@
++{
++  "linkedin": "Your remote application is competing for a few seconds of a hiring manager's attention, read between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for the role. Here are the habits that work.\n\nLead with the role, not your life story. Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later.\n\nShow proof of async work. Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.\n\nMatch their words. Read the job post twice. If they say \"customer support\", do not write \"client care\". Hiring software and tired humans both look for the words they wrote.\n\nKeep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for.\n\nFollow up once, politely. If you hear nothing after a week, send one short note that restates your fit. Do not send several. A single clear follow-up reads as professional; more reads as pressure.\n\nFull guide for Indonesian professionals applying to remote USD roles: http://fixtures:8000/no-numbers-post.md",
++  "x_thread": [
++    "Your remote application is read on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and written for the role. Start with the habits that make a manager keep reading.",
++    "Lead with the role, not your life story. Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later.",
++    "Show proof of async work. Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, a shared document you owned, or a time zone gap you handled well.",
++    "Match their words. Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote.",
++    "Keep the CV short and current. One clean page beats a long history. Put your most recent remote work first, with what you shipped, not just what you were responsible for. Follow up once after a week, politely.",
++    "Remote USD jobs for Indonesians, and how to apply so your application gets read: http://fixtures:8000/no-numbers-post.md"
++  ],
++  "carousel": [
++    {
++      "title": "Scannable applications get read",
++      "body": "Read on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan. Lead with the role, not your life story."
++    },
++    {
++      "title": "Prove you can work async",
++      "body": "Remote teams want to know you can work without someone watching. Mention a project you ran with written updates, or a time zone gap you handled well."
++    },
++    {
++      "title": "Match their words",
++      "body": "Read the job post twice. If they say 'customer support', do not write 'client care'. Hiring software and tired humans both look for the words they wrote."
++    },
++    {
++      "title": "Keep the CV short and current",
++      "body": "One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped, not just what you were responsible for."
++    },
++    {
++      "title": "Follow up once, then apply",
++      "body": "If you hear nothing after a week, send one short note that restates your fit. Do not send several. Full guide: http://fixtures:8000/no-numbers-post.md"
++    }
++  ]
++}
+All constraints verified against the saved file. Done.
+
+Saved to /out/runs/r1-s-1-A4-hermes-m2-fnonum-6766893000/output.json
+
+- linkedin: 1293 chars (600-1800), hook first, ends with URL
+- x_thread: 6 tweets, max 215 (all ≤270), last one has the URL
+- carousel: 5 slides, titles max 31 (≤40), bodies max 156 (≤160), slide 1 = hook, slide 5 = CTA
+
+All facts drawn from the post (role-first opening, async proof, word matching, one-page CV, follow up once after a week). No hashtags, no hype words.

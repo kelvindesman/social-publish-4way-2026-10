@@ -1,0 +1,238 @@
+{
+	"r0-s0-A1-cron-none-none-5530940000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r0-s0-A4-hermes-m2-none-5804555000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s3-A1-cron-none-none-8369122000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r0-s3-A2-cron-llm-m1-none-9462359000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r1-s4-A2-cron-llm-m2-none-4428165000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r0-s4-A1-cron-none-none-3750418000": {
+		"yes": 0,
+		"of": 4
+	},
+	"r5-s0-A2-cron-llm-m1-none-3340260000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s2-A2-cron-llm-m2-none-7505689000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s2-A1-cron-none-none-7537100000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s1-A2-cron-llm-m1-none-7599472000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s1-A1-cron-none-none-6581934000": {
+		"yes": 0,
+		"of": 3
+	},
+	"r4-s3-A2-cron-llm-m1-none-9104327000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s4-A1-cron-none-none-181190000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r1-s3-A1-cron-none-none-6377381000": {
+		"yes": 0,
+		"of": 4
+	},
+	"r0-s3-A3-langgraph-m1-none-2994222000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r5-s4-A3-langgraph-m1-none-7944282000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s0-A3-langgraph-m1-none-3492319000": {
+		"yes": 0,
+		"of": 3
+	},
+	"r1-s0-A1-cron-none-none-5487168000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s2-A3-langgraph-m1-none-6382793000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r1-s2-A1-cron-none-none-9140022000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r2-s1-A3-langgraph-m1-none-5787616000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s4-A3-langgraph-m1-none-5091584000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r5-s3-A4-hermes-m2-none-6883644000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s4-A4-hermes-m2-none-5221085000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s2-A4-hermes-m2-none-7991770000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s1-A4-hermes-m2-none-4952100000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s3-A4-hermes-m2-none-4416358000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r5-s4-A4-hermes-m2-none-723022000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r5-s3-A3-langgraph-m1-none-1193648000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r5-s3-A2-cron-llm-m1-none-5083862000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r5-s4-A2-cron-llm-m1-none-3399245000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s4-A3-langgraph-m2-none-7951893000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s0-A2-cron-llm-m2-none-4225936000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r2-s2-A2-cron-llm-m1-none-1104645000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r5-s2-A3-langgraph-m1-none-941482000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r5-s1-A3-langgraph-m2-none-6094152000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s1-A2-cron-llm-m2-none-9282680000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s3-A3-langgraph-m2-none-2710305000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r2-s4-A2-cron-llm-m2-none-6169083000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r1-s3-A2-cron-llm-m2-none-6552744000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s3-A4-hermes-m2-none-8556270000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r1-s4-A4-hermes-m2-none-6099435000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r5-s0-A4-hermes-m2-none-3782093000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r3-s0-A2-cron-llm-m1-none-8243764000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s2-A4-hermes-m2-none-6364243000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s1-A4-hermes-m2-none-9426370000": {
+		"yes": 0,
+		"of": 2
+	},
+	"r4-s1-A2-cron-llm-m1-none-9287447000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s3-A2-cron-llm-m2-none-3089651000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s3-A4-hermes-m2-none-689671000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r2-s4-A4-hermes-m2-none-2176498000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s4-A2-cron-llm-m1-none-9458468000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r1-s3-A3-langgraph-m1-none-5006040000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s4-A4-hermes-m2-none-740897000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s4-A3-langgraph-m2-none-9257500000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s2-A4-hermes-m2-none-9774770000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r3-s1-A3-langgraph-m2-none-8594444000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r4-s3-A3-langgraph-m1-none-1154664000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s3-A4-hermes-m2-none-4903825000": {
+		"yes": 0,
+		"of": 1
+	},
+	"r0-s4-A3-langgraph-m1-none-3918836000": {
+		"yes": 0,
+		"of": 1
+	}
+}

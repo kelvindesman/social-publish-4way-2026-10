@@ -1,0 +1,30 @@
+r0-s0-A2-cron-llm-m2-none | widget_content,misattributed_fact | stat_hook,concrete_examples,caveat,audience_fit,native_structure | 0 | Solid package, but "Engineering leads with 1,427 open roles" turns the page's live category counter into a ranking the post never makes.
+r0-s1-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate, specific, well structured across all three formats.
+r0-s2-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Specific pay figures, the post's contrarian point, clean thread and carousel.
+r0-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 0 | Good copy, but every link goes to /en/jobs; the article being promoted is never linked.
+r0-s4-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate and specific; repeats the source's odd "7-day freshness window" line but nothing an editor must fix.
+r1-s0-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,audience_fit,native_structure | 1 | Full skills table, caveat on hidden pay, Indonesia angle; publishable.
+r1-s1-A2-cron-llm-m2-none | widget_content,misattributed_fact | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Pulls the page's job widget (449 Operations roles, 6sense $73.6k-103.9k) into a post about DOE pay.
+r1-s2-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,audience_fit | 0 | Strong thread and carousel, but LinkedIn is a 372-char single paragraph.
+r1-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 0 | Good copy that never links the article (all links to /en/jobs).
+r1-s4-A2-cron-llm-m2-none | wall_of_text | stat_hook,concrete_examples,caveat | 1 | Accurate; facts gate failed only because "$293k" was read as a new number. LinkedIn is one block but usable.
+r2-s0-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Accurate, complete, clean structure.
+r2-s1-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable | 1 | Accurate and specific; fine as is.
+r2-s2-A2-cron-llm-m2-none | wrong_platform_cta | stat_hook,concrete_examples,caveat | 0 | LinkedIn is a 235-char teaser and the last slide says "Link in bio", which is not how a LinkedIn carousel works.
+r2-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat | 0 | Content is accurate but LinkedIn is a 323-char single paragraph.
+r2-s4-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; facts gate tripped on "293k" abbreviations only.
+r3-s0-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Accurate and well structured.
+r3-s1-A2-cron-llm-m2-none | widget_content | stat_hook,concrete_examples,caveat,actionable,native_structure | 0 | Good post, but closes on "Browse 449 open Operations roles", a page-widget counter unrelated to DOE.
+r3-s2-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Specific rates and the post's trade-off point; ready.
+r3-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat | 0 | Good copy that never links the article (all links to /en/jobs).
+r3-s4-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; facts gate tripped on "293k" abbreviations only.
+r4-s0-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,audience_fit,native_structure | 1 | Accurate and tight.
+r4-s1-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable | 1 | Accurate and specific.
+r4-s2-A2-cron-llm-m2-none | misattributed_fact | stat_hook,concrete_examples,caveat | 0 | "Only 64% of all listings accept worldwide remote talent, so competition is global" inverts the post's point (64% is the majority).
+r4-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat | 0 | Thread and carousel good; LinkedIn is a 360-char single paragraph.
+r4-s4-A2-cron-llm-m2-none | unsupported_claim | stat_hook,concrete_examples | 0 | Claims "Both active now" (the post lists them as active until May and August) and "No location barrier for Indonesians".
+r5-s0-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 1 | Accurate and complete.
+r5-s1-A2-cron-llm-m2-none | widget_content,misattributed_fact | stat_hook,concrete_examples,caveat,actionable | 0 | Cites the widget's "IT Support Specialist at 6sense ($73.6k-103.9k/yr)" as a DOE example; it is a sidebar job ad.
+r5-s2-A2-cron-llm-m2-none | | stat_hook,concrete_examples,native_structure | 1 | Accurate; slide 1 body is 175 chars but the render check says it fits.
+r5-s3-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,native_structure | 0 | Good copy that never links the article (all links to /en/jobs).
+r5-s4-A2-cron-llm-m2-none | | stat_hook,concrete_examples,caveat,actionable,native_structure | 1 | Accurate; facts gate tripped on "293k" abbreviations only.

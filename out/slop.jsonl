@@ -41,6 +41,7 @@
 {"run_id":"r0-s-1-A3-langgraph-m2-fjson-4786755000","slop_all":95,"slop_linkedin":95}
 {"run_id":"r0-s-1-A3-langgraph-m2-fnonum-4965701000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r0-s-1-A4-hermes-m2-f429-6540843000","slop_all":95,"slop_linkedin":95}
+{"run_id":"r0-s-1-A4-hermes-m2-fnonum-2238456000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r0-s0-A1-cron-none-none-5530940000","slop_all":95,"slop_linkedin":95}
 {"run_id":"r0-s0-A2-cron-llm-m1-none-5531118000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r0-s0-A2-cron-llm-m2-none-6403560000","slop_all":95,"slop_linkedin":95}
@@ -81,6 +82,8 @@
 {"run_id":"r1-s-1-A3-langgraph-m2-f429-4257223000","slop_all":95,"slop_linkedin":95}
 {"run_id":"r1-s-1-A3-langgraph-m2-fjson-3032217000","slop_all":100,"slop_linkedin":95}
 {"run_id":"r1-s-1-A3-langgraph-m2-fnonum-2423012000","slop_all":100,"slop_linkedin":100}
+{"run_id":"r1-s-1-A4-hermes-m2-f429-2419167000","slop_all":95,"slop_linkedin":95}
+{"run_id":"r1-s-1-A4-hermes-m2-fnonum-6766893000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r1-s0-A1-cron-none-none-5487168000","slop_all":95,"slop_linkedin":95}
 {"run_id":"r1-s0-A2-cron-llm-m1-none-4321156000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r1-s0-A2-cron-llm-m2-none-4225936000","slop_all":93,"slop_linkedin":93}
@@ -122,6 +125,7 @@
 {"run_id":"r2-s-1-A3-langgraph-m2-fjson-6286381000","slop_all":93,"slop_linkedin":95}
 {"run_id":"r2-s-1-A3-langgraph-m2-fnonum-8911002000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r2-s-1-A4-hermes-m2-f429-6379556000","slop_all":100,"slop_linkedin":100}
+{"run_id":"r2-s-1-A4-hermes-m2-fnonum-1341390000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r2-s0-A2-cron-llm-m1-none-8326619000","slop_all":100,"slop_linkedin":100}
 {"run_id":"r2-s0-A2-cron-llm-m2-none-5206770000","slop_all":95,"slop_linkedin":95}
 {"run_id":"r2-s0-A3-langgraph-m1-none-1210970000","slop_all":100,"slop_linkedin":100}

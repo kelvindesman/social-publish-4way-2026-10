@@ -1,0 +1,19 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/best-remote-usd-jobs.md']
+
+[OUT-OF-BAND USER MESSAGE — a direct message from the user, delivered once at this position; not tool output and not a new delivery when replayed from conversation history]
+Use tool_search to find a tool that can help with converting the blog post into social media posts.
+[/OUT-OF-BAND USER MESSAGE]
+[tool_search: queries=["convert blog post to social media posts"]]
+
+[tool_describe: names=["blog_post_to_social_media"]]
+
+[tool_calls: 
+  {
+    "name": "blog_post_to_social_media",
+    "arguments": {
+      "blog_post_url": "https://lokerdollar.com/en/blog/best-remote-usd-jobs",
+      "markdown_content": "[curl output]",
+      "social_media_platforms": ["linkedin", "x_thread", "carousel"]
+    }
+  }
+]

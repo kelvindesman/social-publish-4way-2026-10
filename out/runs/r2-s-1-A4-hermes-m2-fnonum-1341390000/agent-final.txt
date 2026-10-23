@@ -1,0 +1,51 @@
+  ┊ review diff
+a//tmp/hermes-home/cache/scratch/posts.json → b//tmp/hermes-home/cache/scratch/posts.json
+@@ -0,0 +1,18 @@
++{
++  "linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan and clearly written for this role. Here is what the post actually advises.\n\nOpen with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background. Show proof you can work without someone watching: a project run on written updates, a shared document you owned, a time zone gap you handled.\n\nMatch their words. Read the job post twice. If they write customer support, do not write client care, because hiring software and tired humans look for the same words they wrote.\n\nKeep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped.\n\nIf you hear nothing after a week, follow up once, politely, restating your fit. One clear note reads as professional; several read as pressure. No photo unless the post asks. A short cover letter helps when the post asks a question you can answer. Lacking remote experience? Point to any work done with written communication and little supervision, paid or volunteer.\n\nFor Indonesians applying to remote USD jobs, this is the difference between a read and a skip.\n\nhttp://fixtures:8000/no-numbers-post.md",
++  "x_thread": [
++    "Remote hiring managers read applications on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for this role.",
++    "Lead with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background. Show proof of async work: written updates, a document you owned, a time zone gap you handled.",
++    "Match their words. Read the job post twice. If they write customer support, do not write client care. Hiring software and tired humans look for the same words they wrote.",
++    "Keep the CV short and current. One clean page beats a long history. Put recent remote or freelance work first, with what you shipped.",
++    "If you hear nothing after a week, follow up once, politely, restating your fit. One note reads as professional; several read as pressure.",
++    "Full guide, built for Indonesians chasing remote USD jobs: http://fixtures:8000/no-numbers-post.md"
++  ],
++  "carousel": [
++    {"title": "Remote hiring managers skim", "body": "Applications are read on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for this role."},
++    {"title": "Lead with the role", "body": "Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later."},
++    {"title": "Show proof of async work", "body": "Mention a project run on written updates, a shared document you owned, or a time zone gap you handled well."},
++    {"title": "Match their words", "body": "Read the job post twice. If they write customer support, do not write client care. Hiring software and tired humans look for the same words."},
++    {"title": "Follow up once, politely", "body": "If you hear nothing after a week, send one short note restating your fit. One reads as professional; more reads as pressure. Read the full guide."}
++  ]
++}
+  ┊ review diff
+a//out/runs/r2-s-1-A4-hermes-m2-fnonum-1341390000/output.json → b//out/runs/r2-s-1-A4-hermes-m2-fnonum-1341390000/output.json
+@@ -0,0 +1,18 @@
++{
++  "linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. The applications that get a reply are easy to scan and clearly written for this role. Here is what the post actually advises.\n\nOpen with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background. Show proof you can work without someone watching: a project run on written updates, a shared document you owned, a time zone gap you handled.\n\nMatch their words. Read the job post twice. If they write customer support, do not write client care, because hiring software and tired humans look for the same words they wrote.\n\nKeep the CV short and current. One clean page beats a long history. Put your most recent remote or freelance work first, with what you shipped.\n\nIf you hear nothing after a week, follow up once, politely, restating your fit. One clear note reads as professional; several read as pressure. No photo unless the post asks. A short cover letter helps when the post asks a question you can answer. Lacking remote experience? Point to any work done with written communication and little supervision, paid or volunteer.\n\nFor Indonesians applying to remote USD jobs, this is the difference between a read and a skip.\n\nhttp://fixtures:8000/no-numbers-post.md",
++  "x_thread": [
++    "Remote hiring managers read applications on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for this role.",
++    "Lead with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background. Show proof of async work: written updates, a document you owned, a time zone gap you handled.",
++    "Match their words. Read the job post twice. If they write customer support, do not write client care. Hiring software and tired humans look for the same words they wrote.",
++    "Keep the CV short and current. One clean page beats a long history. Put recent remote or freelance work first, with what you shipped.",
++    "If you hear nothing after a week, follow up once, politely, restating your fit. One note reads as professional; several read as pressure.",
++    "Full guide, built for Indonesians chasing remote USD jobs: http://fixtures:8000/no-numbers-post.md"
++  ],
++  "carousel": [
++    {"title": "Remote hiring managers skim", "body": "Applications are read on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and clearly written for this role."},
++    {"title": "Lead with the role", "body": "Open with the exact job title and where you saw it, then one sentence on why your recent work fits. Save the background for later."},
++    {"title": "Show proof of async work", "body": "Mention a project run on written updates, a shared document you owned, or a time zone gap you handled well."},
++    {"title": "Match their words", "body": "Read the job post twice. If they write customer support, do not write client care. Hiring software and tired humans look for the same words."},
++    {"title": "Follow up once, politely", "body": "If you hear nothing after a week, send one short note restating your fit. One reads as professional; more reads as pressure. Read the full guide."}
++  ]
++}
+Saved to /out/runs/r2-s-1-A4-hermes-m2-fnonum-1341390000/output.json
+
+All constraints verified programmatically:
+- LinkedIn: 1320 chars (600-1800), hook first line, ends with URL.
+- X thread: 6 posts, all ≤270 chars, last contains the URL.
+- Carousel: 5 objects, titles ≤40, bodies ≤160, slide 1 hook, slide 5 CTA.
+- Only facts from the post (the post has no numbers), 0 hashtags, no hype words.
+
+The post contains no figures at all (as the filename implies), so all content is purely the practical advice it gives — which fits the "no-numbers" rule.

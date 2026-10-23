@@ -1,0 +1,60 @@
+{
+	"raters": {
+		"rater1": "technical"
+	},
+	"answers": 42,
+	"bradley_terry_log_strength": {
+		"A1-cron": 0.8457,
+		"A2-cron-llm": -0.1704,
+		"A3-langgraph": -1.9416,
+		"A4-hermes": -0.3805
+	},
+	"head_to_head": {
+		"A1-cron vs A2-cron-llm": {
+			"wins": {
+				"A1-cron": 5,
+				"A2-cron-llm": 2
+			},
+			"neither": 0
+		},
+		"A1-cron vs A3-langgraph": {
+			"wins": {
+				"A1-cron": 4
+			},
+			"neither": 3
+		},
+		"A1-cron vs A4-hermes": {
+			"wins": {
+				"A1-cron": 3,
+				"A4-hermes": 1
+			},
+			"neither": 3
+		},
+		"A2-cron-llm vs A3-langgraph": {
+			"wins": {
+				"A2-cron-llm": 4,
+				"A3-langgraph": 1
+			},
+			"neither": 2
+		},
+		"A2-cron-llm vs A4-hermes": {
+			"wins": {
+				"A2-cron-llm": 4,
+				"A4-hermes": 3
+			},
+			"neither": 0
+		},
+		"A3-langgraph vs A4-hermes": {
+			"wins": {
+				"A4-hermes": 5,
+				"A3-langgraph": 1
+			},
+			"neither": 1
+		}
+	},
+	"krippendorff_alpha_nominal": null,
+	"human_result_usable": false,
+	"llm_judge_spearman_vs_human": -0.085,
+	"llm_judge_reportable": false,
+	"llm_judge_n_outputs": 52
+}

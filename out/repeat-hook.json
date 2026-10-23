@@ -1,0 +1,68 @@
+{
+	"by_arm": {
+		"A1-cron": {
+			"outputs": 10,
+			"linkedin_hook_has_number": 10,
+			"linkedin_repeat": 8,
+			"x_repeat": 8,
+			"carousel_repeat": 0,
+			"any_repeat": 8
+		},
+		"A2-cron-llm": {
+			"outputs": 60,
+			"linkedin_hook_has_number": 60,
+			"linkedin_repeat": 17,
+			"x_repeat": 14,
+			"carousel_repeat": 5,
+			"any_repeat": 20
+		},
+		"A3-langgraph": {
+			"outputs": 60,
+			"linkedin_hook_has_number": 60,
+			"linkedin_repeat": 10,
+			"x_repeat": 15,
+			"carousel_repeat": 6,
+			"any_repeat": 21
+		},
+		"A4-hermes": {
+			"outputs": 30,
+			"linkedin_hook_has_number": 30,
+			"linkedin_repeat": 13,
+			"x_repeat": 13,
+			"carousel_repeat": 13,
+			"any_repeat": 17
+		}
+	},
+	"sources": [
+		{
+			"slug": "ai-skills-in-demand-for-remote-jobs-2026",
+			"title_numbers": ["12"],
+			"repeated_in_description": ["12"]
+		},
+		{
+			"slug": "best-remote-usd-jobs",
+			"title_numbers": ["4269"],
+			"repeated_in_description": []
+		},
+		{
+			"slug": "no-numbers-post.md",
+			"title_numbers": [],
+			"repeated_in_description": []
+		},
+		{
+			"slug": "global-remote-jobs-2026",
+			"title_numbers": ["23", "4441"],
+			"repeated_in_description": ["23", "4441"]
+		},
+		{
+			"slug": "remote-brand-designer-salary-trends-2026",
+			"title_numbers": ["1500", "3000", "5000"],
+			"repeated_in_description": ["3000", "5000"]
+		},
+		{
+			"slug": "what-is-doe-wage",
+			"title_numbers": ["22"],
+			"repeated_in_description": ["22"]
+		}
+	]
+}

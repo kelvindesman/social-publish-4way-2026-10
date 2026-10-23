@@ -1,0 +1,3 @@
+Error: session_replay_gap: Gateway disconnected; turn outcome is unknown. Resume the printed session ID to check whether it completed or was interrupted; do not resend the work.
+
+session_id: local-4da6c6b711d6ebe0012ad27f365e1313329374faeab251fdb227231c8fb0e2c6

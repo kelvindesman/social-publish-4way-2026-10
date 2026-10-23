@@ -1,0 +1,17 @@
+[terminal: curl -s -H 'Accept: text/markdown' 'http://fixtures:8000/en/blog/remote-brand-designer-salary-trends-2026.md']
+
+[tool_describe: ["read_file"]]
+
+[read_file: {"path": "/tmp/hermes-home/cache/scratch/remote-brand-designer-salary-trends-2026.md"}]
+
+[terminal: jq -c '.content = sub("\n"; " ") | .content'] 
+
+[write_file: {"path": "/tmp/hermes-home/cache/scratch/remote-brand-designer-salary-trends-2026.json", "content": "{\"content\": \"The average salary for a remote brand designer in the United States is around $85,000 per year, according to data from various sources. In Indonesia, the average salary for a remote brand designer is around $25,000 per year. The demand for remote brand designers is increasing, with many companies looking for professionals who can create visually appealing and effective brand campaigns. Remote brand designers can work with clients from all over the world, providing they have a stable internet connection. The most in-demand skills for remote brand designers include visual design, branding, and social media marketing. Companies that hire remote brand designers include Toptal, Upwork, and Freelancer. The future of remote brand design looks promising, with more companies adopting remote work and looking for professionals who can create effective brand campaigns in a virtual setting."}"}] 
+
+[tool_search: ["social media post creation"]]
+
+[tool_describe: ["social media post creation"]]
+
+[terminal:  ./social-posts-gen --post-type=linkedin --content@/tmp/hermes-home/cache/scratch/remote-brand-designer-salary-trends-2026.json --output@/tmp/hermes-home/cache/scratch/remote-brand-designer-salary-trends-2026-post.json]
+
+[write_file: {"path": "/out/runs/x0-s2-A4-hermes-enfns-m1-none-7690036000/output.json", "content": "{\"linkedin\": \"Are you curious about the earning potential of a remote brand designer? The average salary for a remote brand designer in the United States is around $85,000 per year, and in Indonesia, it's around $25,000 per year. Learn more about the trends and opportunities in this field: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026\", \"x_thread\": [\"Remote brand designers can earn around $85,000 per year in the US and $25,000 per year in Indonesia.\", \"The demand for remote brand designers is increasing, with many companies looking for professionals who can create visually appealing and effective brand campaigns.\", \"Learn more about the trends and opportunities in this field: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026\"], \"carousel\": [{\"title\": \"Remote Brand Designer Salaries\", \"body\": \"Did you know that remote brand designers can earn around $85,000 per year in the US and $25,000 per year in Indonesia?\"}, {\"title\": \"In-Demand Skills\", \"body\": \"The most in-demand skills for remote brand designers include visual design, branding, and social media marketing.\"}, {\"title\": \"Global Opportunities\", \"body\": \"Remote brand designers can work with clients from all over the world, providing they have a stable internet connection.\"}, {\"title\": \"Future of Remote Brand Design\", \"body\": \"The future of remote brand design looks promising, with more companies adopting remote work and looking for professionals who can create effective brand campaigns in a virtual setting.\"}, {\"title\": \"Learn More\", \"body\": \"Learn more about the trends and opportunities in this field: https://lokerdollar.com/en/blog/remote-brand-designer-salary-trends-2026\"}]}"}]

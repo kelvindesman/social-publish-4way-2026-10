@@ -1,0 +1,414 @@
+{
+	"human": {
+		"all": {
+			"of": 59,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 45,
+				"reference_only": 0,
+				"both_no": 14
+			},
+			"gate_agreement": 0.2373,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A1-cron": {
+			"of": 9,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 9,
+				"reference_only": 0,
+				"both_no": 0
+			},
+			"gate_agreement": 0.0,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A1-cron|none": {
+			"of": 9,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 9,
+				"reference_only": 0,
+				"both_no": 0
+			},
+			"gate_agreement": 0.0,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A2-cron-llm": {
+			"of": 17,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 10,
+				"reference_only": 0,
+				"both_no": 7
+			},
+			"gate_agreement": 0.4118,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A2-cron-llm|deepseek-v4-flash-0731": {
+			"of": 7,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 3,
+				"reference_only": 0,
+				"both_no": 4
+			},
+			"gate_agreement": 0.5714,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A2-cron-llm|llama-4-scout-17b-16e-instruct": {
+			"of": 10,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 7,
+				"reference_only": 0,
+				"both_no": 3
+			},
+			"gate_agreement": 0.3,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A3-langgraph": {
+			"of": 16,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 11,
+				"reference_only": 0,
+				"both_no": 5
+			},
+			"gate_agreement": 0.3125,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A3-langgraph|deepseek-v4-flash-0731": {
+			"of": 5,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 2,
+				"reference_only": 0,
+				"both_no": 3
+			},
+			"gate_agreement": 0.6,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A3-langgraph|llama-4-scout-17b-16e-instruct": {
+			"of": 11,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 9,
+				"reference_only": 0,
+				"both_no": 2
+			},
+			"gate_agreement": 0.1818,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A4-hermes": {
+			"of": 17,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 15,
+				"reference_only": 0,
+				"both_no": 2
+			},
+			"gate_agreement": 0.1176,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A4-hermes|deepseek-v4-flash-0731": {
+			"of": 17,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 15,
+				"reference_only": 0,
+				"both_no": 2
+			},
+			"gate_agreement": 0.1176,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A4-hermes|llama-4-scout-17b-16e-instruct": {
+			"of": 0,
+			"reference_publishable_rate": null,
+			"reference_publishable_ci": [null, null],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 0,
+				"reference_only": 0,
+				"both_no": 0
+			},
+			"gate_agreement": null,
+			"gate_precision": null,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		}
+	},
+	"editor": {
+		"all": {
+			"of": 190,
+			"reference_publishable_rate": 0.2789,
+			"reference_publishable_ci": [0.2158, 0.3579],
+			"gate_vs_reference": {
+				"both_yes": 41,
+				"gate_only": 81,
+				"reference_only": 12,
+				"both_no": 56
+			},
+			"gate_agreement": 0.5105,
+			"gate_precision": 0.3361,
+			"gate_recall": 0.7736,
+			"judge_spearman": 0.5109,
+			"usd_per_reference_publishable_post": 0.035555,
+			"usd_per_reference_publishable_ci": [0.0271, 0.0501]
+		},
+		"A1-cron": {
+			"of": 10,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 10,
+				"reference_only": 0,
+				"both_no": 0
+			},
+			"gate_agreement": 0.0,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A1-cron|none": {
+			"of": 10,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 10,
+				"reference_only": 0,
+				"both_no": 0
+			},
+			"gate_agreement": 0.0,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A2-cron-llm": {
+			"of": 60,
+			"reference_publishable_rate": 0.2667,
+			"reference_publishable_ci": [0.1333, 0.3833],
+			"gate_vs_reference": {
+				"both_yes": 11,
+				"gate_only": 31,
+				"reference_only": 5,
+				"both_no": 13
+			},
+			"gate_agreement": 0.4,
+			"gate_precision": 0.2619,
+			"gate_recall": 0.6875,
+			"judge_spearman": 0.5569,
+			"usd_per_reference_publishable_post": 0.006793,
+			"usd_per_reference_publishable_ci": [0.0047, 0.0135]
+		},
+		"A2-cron-llm|deepseek-v4-flash-0731": {
+			"of": 30,
+			"reference_publishable_rate": 0.5333,
+			"reference_publishable_ci": [0.2667, 0.7667],
+			"gate_vs_reference": {
+				"both_yes": 11,
+				"gate_only": 7,
+				"reference_only": 5,
+				"both_no": 7
+			},
+			"gate_agreement": 0.6,
+			"gate_precision": 0.6111,
+			"gate_recall": 0.6875,
+			"judge_spearman": 0.38,
+			"usd_per_reference_publishable_post": 0.004464,
+			"usd_per_reference_publishable_ci": [0.0031, 0.0088]
+		},
+		"A2-cron-llm|llama-4-scout-17b-16e-instruct": {
+			"of": 30,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 24,
+				"reference_only": 0,
+				"both_no": 6
+			},
+			"gate_agreement": 0.2,
+			"gate_precision": 0.0,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		},
+		"A3-langgraph": {
+			"of": 60,
+			"reference_publishable_rate": 0.2,
+			"reference_publishable_ci": [0.0667, 0.3667],
+			"gate_vs_reference": {
+				"both_yes": 7,
+				"gate_only": 35,
+				"reference_only": 5,
+				"both_no": 13
+			},
+			"gate_agreement": 0.3333,
+			"gate_precision": 0.1667,
+			"gate_recall": 0.5833,
+			"judge_spearman": 0.4583,
+			"usd_per_reference_publishable_post": 0.028313,
+			"usd_per_reference_publishable_ci": [0.0148, 0.0929]
+		},
+		"A3-langgraph|deepseek-v4-flash-0731": {
+			"of": 30,
+			"reference_publishable_rate": 0.3333,
+			"reference_publishable_ci": [0.1333, 0.5333],
+			"gate_vs_reference": {
+				"both_yes": 6,
+				"gate_only": 11,
+				"reference_only": 4,
+				"both_no": 9
+			},
+			"gate_agreement": 0.5,
+			"gate_precision": 0.3529,
+			"gate_recall": 0.6,
+			"judge_spearman": 0.2866,
+			"usd_per_reference_publishable_post": 0.022219,
+			"usd_per_reference_publishable_ci": [0.0125, 0.0629]
+		},
+		"A3-langgraph|llama-4-scout-17b-16e-instruct": {
+			"of": 30,
+			"reference_publishable_rate": 0.0667,
+			"reference_publishable_ci": [0.0, 0.2],
+			"gate_vs_reference": {
+				"both_yes": 1,
+				"gate_only": 24,
+				"reference_only": 1,
+				"both_no": 4
+			},
+			"gate_agreement": 0.1667,
+			"gate_precision": 0.04,
+			"gate_recall": 0.5,
+			"judge_spearman": 0.4135,
+			"usd_per_reference_publishable_post": 0.058784,
+			"usd_per_reference_publishable_ci": [0.0191, 0.0617]
+		},
+		"A4-hermes": {
+			"of": 60,
+			"reference_publishable_rate": 0.4167,
+			"reference_publishable_ci": [0.2833, 0.5],
+			"gate_vs_reference": {
+				"both_yes": 23,
+				"gate_only": 5,
+				"reference_only": 2,
+				"both_no": 30
+			},
+			"gate_agreement": 0.8833,
+			"gate_precision": 0.8214,
+			"gate_recall": 0.92,
+			"judge_spearman": 0.017,
+			"usd_per_reference_publishable_post": 0.057438,
+			"usd_per_reference_publishable_ci": [0.0452, 0.0786]
+		},
+		"A4-hermes|deepseek-v4-flash-0731": {
+			"of": 30,
+			"reference_publishable_rate": 0.8333,
+			"reference_publishable_ci": [0.5667, 1.0],
+			"gate_vs_reference": {
+				"both_yes": 23,
+				"gate_only": 5,
+				"reference_only": 2,
+				"both_no": 0
+			},
+			"gate_agreement": 0.7667,
+			"gate_precision": 0.8214,
+			"gate_recall": 0.92,
+			"judge_spearman": 0.017,
+			"usd_per_reference_publishable_post": 0.049201,
+			"usd_per_reference_publishable_ci": [0.0375, 0.0673]
+		},
+		"A4-hermes|llama-4-scout-17b-16e-instruct": {
+			"of": 30,
+			"reference_publishable_rate": 0.0,
+			"reference_publishable_ci": [0.0, 0.0],
+			"gate_vs_reference": {
+				"both_yes": 0,
+				"gate_only": 0,
+				"reference_only": 0,
+				"both_no": 30
+			},
+			"gate_agreement": 1.0,
+			"gate_precision": null,
+			"gate_recall": null,
+			"judge_spearman": null,
+			"usd_per_reference_publishable_post": null,
+			"usd_per_reference_publishable_ci": [null, null]
+		}
+	}
+}

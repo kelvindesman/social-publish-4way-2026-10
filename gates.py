@@ -96,6 +96,11 @@ def fault_class(run: dict, row: dict) -> str | None:
 	# Unhandled exception: the stderr tail ends in "SomeError: ..." (the Traceback header
 	# itself can fall outside the 600-char tail). A deliberate sys.exit message is not a crash.
 	err = run.get("stderr_tail") or ""
+	# Hermes never reached the model (its own gateway timed out at start-up): not a test of the
+	# fault. Coded apart from stopped_clean since 2026-10-23 (PREREGISTRATION.md deviation 9).
+	final = OUT / "runs" / run["run_id"] / "agent-final.txt"
+	if final.exists() and "Gateway starting: deadline" in final.read_text():
+		return "infra_error"
 	return "crashed" if run["exit"] == -9 or re.search(r"\b\w+(Error|Exception): ", err) else "stopped_clean"
 
 
@@ -114,7 +119,7 @@ def main() -> None:
 		src = sources.get(run["source"], {"url": run["source"], "title": "", "description": "", "text": ""})
 		row = check(run["run_id"], src, slop)
 		rows.append({**row, "arm": run["arm"], "model": run["model"], "fault": run["fault"], "outcome": fault_class(run, row)})
-	name = "gates.jsonl" if log == "runs.jsonl" else "pilot-gates.jsonl"
+	name = {"runs.jsonl": "gates.jsonl", "pilot-runs.jsonl": "pilot-gates.jsonl"}.get(log, log.replace("runs", "gates"))
 	(OUT / name).write_text("".join(json.dumps(r) + "\n" for r in rows))
 	print(f"gated {len(rows)}; publishable {sum(r['publishable'] for r in rows)}")
 

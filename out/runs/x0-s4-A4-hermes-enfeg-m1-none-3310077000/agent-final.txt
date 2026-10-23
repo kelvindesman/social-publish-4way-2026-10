@@ -1,0 +1,12 @@
+{"linkedin:Only 22% of active remote listings disclose a salary figure. Out of 4,269 active remote opportunities, 939 state any compensation figure, leaving 3,330 listings silent on pay. High‑pay examples: OpenAI Data Scientist (USD 293,000–325,000/yr) and Equinix Chief of Staff (USD 195,000–319,000/yr). Visit https://lokerdollar.com/en/blog/best-remote-usd-jobs",
+"x_thread:[Only 22% of remote listings disclose salary. Most candidates must negotiate without a baseline.",
+ "Out of 4,269 active opportunities, 939 state a compensation figure.",
+ "High‑pay examples: OpenAI Data Scientist (USD 293,000–325,000/yr) and Equinix Chief of Staff (USD 195,000–319,000/yr).",
+ "AI appears in 12% of listings, and communication is required in 39%.",
+ "Visit https://lokerdollar.com/en/blog/best-remote-usd-jobs"],
+"carousel:[{title:Remote job market,body:4,269 active remote opportunities. Only 22% disclose a salary figure."},
+ {"title:Global opportunities,body:2,725 listings (64%) welcome applicants from any country."},
+ {"title:High-paying roles,body:OpenAI Data Scientist: USD 293,000–325,000/yr. Equinix Chief of Staff: USD 195,000–319,000/yr."},
+ {"title:Skill demand,body:AI expertise required in 12% of listings. Communication required in 39%."},
+ {"title:Call to action,body:Filter for 'USD salary disclosed' on Loker Dollar board and apply before the 7‑day freshness window closes."}]}
+writes /out/runs/x0-s4-A4-hermes-enfeg-m1-none-3310077000/output.json

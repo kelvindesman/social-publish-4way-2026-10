@@ -25,6 +25,21 @@ agent:
   max_turns: 15
   run_budget_seconds: 600
 YAML
+# Exploratory A4-enf (run_enforced.py): force Hermes's documented tool-use enforcement prompt,
+# which "auto" gives only to gpt/gemini/qwen/deepseek-class model names. Unset for counted runs.
+if [ -n "${HERMES_ENFORCE:-}" ]; then
+	printf '  tool_use_enforcement: true\n' >> "$HERMES_HOME/config.yaml"
+fi
+# Exploratory A4-enf-exec: also the "Execution discipline" block (agent.execution_guidance), which
+# "auto" gives deepseek but not llama. Both blocks on = the prompt the probe's C6 cell used.
+if [ -n "${HERMES_EXEC_GUIDANCE:-}" ]; then
+	printf '  execution_guidance: true\n' >> "$HERMES_HOME/config.yaml"
+fi
+# Hermes reads `model.streaming`, not `model.stream` (agent/agent_init.py), so the line above
+# never turned streaming off. Counted runs streamed, as intended; only A4-enf-nostream sets this.
+if [ "${HERMES_STREAM:-true}" = "false" ]; then
+	sed -i 's/^  stream: false$/  streaming: false/' "$HERMES_HOME/config.yaml"
+fi
 exec hermes chat -Q -q "$PROMPT" \
 	--provider custom --base-url "$PROXY_BASE/run/$RUN_ID/v1" --api-key via-proxy \
 	-m "$MODEL" \

@@ -1,0 +1,33 @@
+{
+	"linkedin": "Remote hiring managers read applications on a screen, between meetings, often in a second language. Yours needs to be scannable.\n\nLead with the exact job title and where you saw it. Then one sentence on why your recent work fits. Save the life story for later.\n\nRemote teams want proof you can work without someone watching. Mention a project you ran with written updates, a document you owned, or a time zone gap you handled.\n\nMatch their words. If they write \"customer support\", do not write \"client care.\" Hiring software and tired humans look for the same words.\n\nKeep the CV to one clean page. Most recent remote or freelance work first, with what you shipped.\n\nFollow up once, politely, after a week. One clear note reads as professional; several reads as pressure.\n\nFull guide: http://fixtures:8000/no-numbers-post.md",
+	"x_thread": [
+		"Remote hiring managers read applications on a screen, between meetings, often in a second language. The ones that get a reply are easy to scan and written for the role.",
+		"Open with the exact job title and where you saw it. One sentence on why your recent work fits. Save the life story for later.",
+		"Remote teams want proof you can work without someone watching. Mention written updates, a shared document you owned, or a time zone gap you handled.",
+		"Match their words. If they say \"customer support\", do not write \"client care\". Hiring software and tired humans look for the same words.",
+		"Keep the CV to one clean page. Most recent remote or freelance work first, with what you shipped, not just what you were responsible for.",
+		"Follow up once after a week. One clear note reads as professional; more reads as pressure. Full guide: http://fixtures:8000/no-numbers-post.md"
+	],
+	"carousel": [
+		{
+			"title": "Write an application that gets read",
+			"body": "Remote hiring managers read on a screen, between meetings, often in a second language. Easy-to-scan applications get the reply."
+		},
+		{
+			"title": "Lead with the role",
+			"body": "Open with the exact job title and where you saw it. One sentence on why your recent work fits. Save the life story for later."
+		},
+		{
+			"title": "Show async proof",
+			"body": "Mention written updates, a shared document you owned, or a time zone gap you handled. Show you work without someone watching."
+		},
+		{
+			"title": "Match their words",
+			"body": "Read the post twice. If they say \"customer support\", do not write \"client care\". Hiring software and tired humans look for the same words."
+		},
+		{
+			"title": "Apply now with these steps",
+			"body": "Keep the CV to one page. Follow up once after a week. Full guide and examples at the link below."
+		}
+	]
+}
