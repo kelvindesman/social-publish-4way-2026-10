@@ -60,6 +60,14 @@ def main() -> None:
 		claims.append({"claim_id": cid, "value": v, "description": desc, "numerator": {"metric": metric, "count": count, "n": n, "pool": pool}, "derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main", "dataset_sha256": sha, "computed_at": date.today().isoformat()})
 		return v
 
+	# Facts-gate false positives ("$293k" read as a new number): pass rate with only those forgiven.
+	gates = {g["run_id"]: g for g in jl("gates.jsonl")}
+	k_fp = {c["run_id"] for c in codes if "facts_gate_k_abbrev_false_positive" in (c.get("flags") or [])}
+
+	def corrected(r: dict) -> bool:
+		g = gates.get(r["run_id"]) or {}
+		return bool(r["publishable"]) or (r["run_id"] in k_fp and all(g.get(k) for k in ("schema", "lengths", "link", "slop")))
+
 	arms = []
 	for a in ARMS:
 		rs = [r for r in clean if r["arm"] == a]
@@ -68,11 +76,13 @@ def main() -> None:
 		ed_yes = sum(1 for r in rs if r["editor_would_publish"] == 1)
 		s, v = summary["clean"][a], ed[a]
 		claim(f"{a}-gate-publishable", gate_yes, n, "gate_publishable", a, f"{a}: share of clean runs that pass every automated gate")
+		claim(f"{a}-gate-corrected", sum(corrected(r) for r in rs), n, "gate_publishable_k_abbrev_forgiven", a, f"{a}: share of clean runs passing every gate once facts-gate false positives on k-abbreviations are forgiven")
 		claim(f"{a}-editor-publishable", ed_yes, n, "editor_would_publish", a, f"{a}: share of clean runs an editor would publish as-is (one coder)")
 		arms.append({
 			"arm": a,
 			"runs": n,
-			"gatePublishable": {"count": gate_yes, "pct": pct(gate_yes / n)},
+			"gatePublishable": {"count": gate_yes, "pct": pct(gate_yes / n), "ciPct": [pct(x) for x in s["publishable_rate_ci"]]},
+			"gateCorrected": {"count": sum(corrected(r) for r in rs), "pct": pct(sum(corrected(r) for r in rs) / n)},
 			"editorPublishable": {"count": ed_yes, "pct": pct(ed_yes / n), "ciPct": [pct(x) for x in v["reference_publishable_ci"]]},
 			"usdPerGatePublishable": s["usd_per_publishable_post"],
 			"usdPerEditorPublishable": v["usd_per_reference_publishable_post"],
@@ -119,6 +129,15 @@ def main() -> None:
 		if "share" not in o:
 			return None
 		return {t: {"pct": pct(o["share"][t]), "ciPct": [pct(x) for x in o["share_ci"].get(t, (None, None))]} for t in ("model", "arm", "arm x model", "source", "residual")}
+
+	# Decision-rule steps on the gate outcome, per model subset: the gap and cost ratio each candidate faced.
+	rule_steps = []
+	for k, v in sens["prereg"].items():
+		outcome, baseline, model = (x.strip() for x in k.split("|"))
+		if outcome != "gate_publishable":
+			continue
+		for st in v["steps"]:
+			rule_steps.append({"baseline": baseline, "model": model, "candidate": st["candidate"], "vs": st["vs"], "diffPts": pct(st["diff"]), "ciLowPts": pct(st["ci_low"]), "costRatio": st["cost_ratio"], "costRatioInfinite": st["cost_ratio_infinite"], "gapOk": st["gap_ok"], "costOk": st["cost_ok"]})
 
 	sens_rows = [{"outcome": g["outcome"], "baseline": g["baseline"], "model": g["model"], "settings": g["settings"], "picks": g["pick_counts"]} for g in sens["grid"]]
 
@@ -174,6 +193,7 @@ def main() -> None:
 		"topModes": modes,
 		"decomposition": {"gatePublishable": shares("publishable"), "editorPublishable": shares("would_publish"), "judgeTextQuality": shares("text_quality"), "humanFineAsIs": shares("human_as_is")},
 		"sensitivity": sens_rows,
+		"ruleSteps": rule_steps,
 		"hermesProbe": [{"cell": k, **v} for k, v in probe.items()],
 		"faults": faults,
 		"panel": None if not panel else {"raters": len(panel["raters"]), "answers": panel["answers"], "alpha": panel["krippendorff_alpha_nominal"], "usable": panel["human_result_usable"], "bradleyTerry": panel["bradley_terry_log_strength"], "headToHead": [{"pairing": k, "wins": v["wins"], "neither": v["neither"]} for k, v in panel["head_to_head"].items()], "judgeSpearman": panel["llm_judge_spearman_vs_human"], "judgeN": panel["llm_judge_n_outputs"], "fineAsIs": {"yes": sum(v["yes"] for v in asis.values()), "of": sum(v["of"] for v in asis.values())}, "coderVsRater": agree},

@@ -9,7 +9,8 @@
 
 Pairs: 7 per arm pairing x 6 pairings = 42, both outputs from the same source post, drawn
 from clean counted runs that produced a schema-valid output. Model is drawn at random per
-side, so model and arm are not confounded within the panel. Seed 42.
+side, but Hermes on llama-4-scout produced no schema-valid output, so every Hermes side is
+deepseek-v4-flash while the other arms mix both models. Seed 42.
 """
 
 from __future__ import annotations

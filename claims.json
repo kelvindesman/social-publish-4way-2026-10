@@ -17,6 +17,20 @@
 			"computed_at": "2026-10-23"
 		},
 		{
+			"claim_id": "A1-cron-gate-corrected",
+			"value": "100.0%",
+			"description": "A1-cron: share of clean runs passing every gate once facts-gate false positives on k-abbreviations are forgiven",
+			"numerator": {
+				"metric": "gate_publishable_k_abbrev_forgiven",
+				"count": 10,
+				"n": 10,
+				"pool": "A1-cron"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
 			"claim_id": "A1-cron-editor-publishable",
 			"value": "0.0%",
 			"description": "A1-cron: share of clean runs an editor would publish as-is (one coder)",
@@ -37,6 +51,20 @@
 			"numerator": {
 				"metric": "gate_publishable",
 				"count": 42,
+				"n": 60,
+				"pool": "A2-cron-llm"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A2-cron-llm-gate-corrected",
+			"value": "78.3%",
+			"description": "A2-cron-llm: share of clean runs passing every gate once facts-gate false positives on k-abbreviations are forgiven",
+			"numerator": {
+				"metric": "gate_publishable_k_abbrev_forgiven",
+				"count": 47,
 				"n": 60,
 				"pool": "A2-cron-llm"
 			},
@@ -73,6 +101,20 @@
 			"computed_at": "2026-10-23"
 		},
 		{
+			"claim_id": "A3-langgraph-gate-corrected",
+			"value": "80.0%",
+			"description": "A3-langgraph: share of clean runs passing every gate once facts-gate false positives on k-abbreviations are forgiven",
+			"numerator": {
+				"metric": "gate_publishable_k_abbrev_forgiven",
+				"count": 48,
+				"n": 60,
+				"pool": "A3-langgraph"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
 			"claim_id": "A3-langgraph-editor-publishable",
 			"value": "20.0%",
 			"description": "A3-langgraph: share of clean runs an editor would publish as-is (one coder)",
@@ -93,6 +135,20 @@
 			"numerator": {
 				"metric": "gate_publishable",
 				"count": 28,
+				"n": 60,
+				"pool": "A4-hermes"
+			},
+			"derived_by": "scripts/research/social-publish-4way-2026-10/export_article.py#main",
+			"dataset_sha256": "f59ee2ac807f9a3671344860e75c9eeb3cf5c82185b47271c89bd2c7fc683746",
+			"computed_at": "2026-10-23"
+		},
+		{
+			"claim_id": "A4-hermes-gate-corrected",
+			"value": "50.0%",
+			"description": "A4-hermes: share of clean runs passing every gate once facts-gate false positives on k-abbreviations are forgiven",
+			"numerator": {
+				"metric": "gate_publishable_k_abbrev_forgiven",
+				"count": 30,
 				"n": 60,
 				"pool": "A4-hermes"
 			},

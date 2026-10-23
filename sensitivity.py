@@ -88,7 +88,8 @@ def verdict(rows, y, arms, g, r_max, price, shares) -> dict:
 			continue
 		diff = stat(other) - stat(base)
 		# The CI depends only on the two arms' runs, not on G, R or price: compute once.
-		ck = (id(rows), pick, cand)
+		# Keyed on the runs and their outcome values, not id(rows): CPython reuses ids of freed lists.
+		ck = (frozenset((x["run_id"], x[y]) for x in rows), pick, cand)
 		if ck not in CI_CACHE:
 			CI_CACHE[ck] = paired_diff_boot(base, other, stat)[0]
 		lo = CI_CACHE[ck]

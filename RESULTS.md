@@ -172,6 +172,8 @@ What the coding did establish, as counts anyone can recheck in the outputs:
   clean runs). 54 outputs use the blog page's own counters or sidebar ads as content ("1427
   open Engineering roles"); the gates passed 41 of them.
 - All 16 facts-gate failures are false positives on k-abbreviations ("$293k" vs "293,000").
+  Forgiving only those, the clean pass rate is A1 100%, A2 78%, A3 80%, A4 50%
+  (`export_article.py`, `gateCorrected`).
 - The source posts contain errors the arms copy: "4,269 Remote Jobs Paying USD" (most listings
   show no pay), "the only listing with a disclosed rate" in a post that also says 23% of its 4,441
   listings show pay.
@@ -188,16 +190,24 @@ What the coding did establish, as counts anyone can recheck in the outputs:
 | Judge text quality | 36% [19, 59] | 6% [4, 10] | 0% [0, 2] | 16% [1, 29] | 47% |
 | Coder would publish | 36% [29, 45] | 4% [0, 18] | 7% [3, 18] | 4% [0, 6] | 50% |
 
-On the gates, the arm x model interaction dominates (A4 is 0% on llama and 93% on deepseek).
-On both quality readings, the model explains several times more than the arm. Neither quality
-reading is validated by a human (see above), so this is suggestive, not established.
+On the gates, the arm x model interaction dominates (A4 is 0% on llama and 93% on deepseek);
+model alone and arm alone are both small. The judge row is shown for the record only: the judge
+failed its pre-registered check against the human (Spearman -0.085, bar 0.5), and its design is
+not balanced (A4 on llama-4-scout has no scored output, two cells have 29 runs), so its
+interaction share is not estimable and the 0% is an artifact of clamping. The coder row is one
+AI coder the human disagreed with 13 to 5. Neither supports "the model matters more than the arm".
 
 ### Sensitivity of the verdict (sensitivity.py, 80 settings per row)
 
 Varying the gap threshold (5-25 points), cost ratio (2-5x) and prices (0.5-2x) never changes the
 pick under the gate outcome: A1 for all arms, A2 among LLM arms, pooled and per model. With the
 panel not usable, the rule's human condition cannot be met, so no setting moves off the
-cheapest arm under any outcome.
+cheapest arm under any outcome. Against all arms the sweep cannot move by construction: A1 costs
+$0, so every cost ratio against it is infinite.
+
+Among LLM arms on deepseek-v4-flash alone, A4 beats A2 by +33 points on the gates (CI lower bound
++13), so the gap condition is met; the cost condition fails at 11x per publishable post against
+the 3x limit, and the human condition fails as above.
 
 ### Hermes on llama-4-scout
 
@@ -220,3 +230,18 @@ Model calls in the 264 counted runs: $2.29 (`experiment_usd_total`). Not include
 - Deviation 4's "failed in both streaming and non-streaming mode" is withdrawn: the pilot's
   config key (`model.stream`) is not one Hermes reads (`model.streaming`), so it always streamed.
 - A4 fault row corrected for 8 runs that never reached the model (see Faults).
+
+### Stats pre-read (2026-10-23, AI reviewer, not an independent human)
+
+A fresh-context Claude session with no access to this analysis's reasoning read the study folder
+and the draft article and returned 12 findings, 4 marked blocking. Changes made in response:
+the "model mattered more than the framework" framing was replaced with the interaction result;
+the judge row was dropped from the article; the sensitivity text now says the rule cannot leave
+A1 by construction and reports the deepseek A4 vs A2 result; the article lists every deviation
+from this plan; the headline table shows 95% CIs (unadjusted, 5 source clusters) and the
+k-abbreviation-corrected pass rate; the fault prose no longer reads A4's llama stops or A2/A3's
+404 exits as robustness differences; the Hermes probe claim is hedged to a first-turn probe.
+Pre-registered Bonferroni over 6 comparisons was not applied; under it A4 - A3 [-45, -2] would
+not hold. `panel.py`'s docstring claimed model and arm are not confounded in the panel; that is
+wrong for A4 (all deepseek) and was corrected. `sensitivity.py` keyed a CI cache on `id(rows)`;
+re-keyed on the run set and values, output unchanged.
