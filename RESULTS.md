@@ -245,3 +245,13 @@ Pre-registered Bonferroni over 6 comparisons was not applied; under it A4 - A3 [
 not hold. `panel.py`'s docstring claimed model and arm are not confounded in the panel; that is
 wrong for A4 (all deepseek) and was corrected. `sensitivity.py` keyed a CI cache on `id(rows)`;
 re-keyed on the run set and values, output unchanged.
+
+### Clean-clone rerun (2026-10-23, by Claude, not an outside person)
+
+A fresh `git clone` of the public mirror (commit 4faccee) reproduced, with no files from the
+working study folder: `gates.py` gave the same 264 gate rows, and `analyze.py` gave a
+`summary.json` and per-run CSV identical to the committed ones. The `py` image was then rebuilt
+from the clone with `--no-cache`, and A1 was rerun once per source post: all 5 outputs are
+byte-for-byte identical to the 10 counted A1 outputs (2 per post). The LLM arms were not rerun;
+their outputs vary run to run, and their transcripts are in `out/transcripts.tar.gz`. An outside
+rerun by someone other than the authors has not happened yet.
