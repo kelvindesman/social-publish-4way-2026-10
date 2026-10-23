@@ -2,3 +2,4 @@
 out/transcripts/
 out/renders/
 out/dbg-*
+__pycache__/
