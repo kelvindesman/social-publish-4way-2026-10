@@ -1,0 +1,5 @@
+# Bulky local artifacts; committed instead as out/transcripts.tar.gz and a few sample slides.
+out/transcripts/
+out/renders/
+out/dbg-*
+__pycache__/

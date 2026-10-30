@@ -1,0 +1,7 @@
+# Arm 3: LangGraph + LangChain OpenAI client.
+FROM python:3.12-slim
+LABEL poc=1
+RUN pip install --no-cache-dir langgraph langchain-openai && pip freeze > /app-versions.txt
+WORKDIR /app
+COPY common /app/common
+COPY arms /app/arms

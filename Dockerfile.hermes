@@ -1,0 +1,22 @@
+# Arm 4: Hermes Agent (Nous Research), pinned commit, lean editable install (upstream refuses wheel builds; no s6/web UI).
+# Shallow fetch of the one commit: the full repo history is ~1.2 GB. Python 3.14: every core dep in pyproject carries python_version >= 3.14.
+FROM python:3.14-slim
+LABEL poc=1
+RUN apt-get update && apt-get install -y --no-install-recommends git curl ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+ARG HERMES_SHA=60f56a6b13c8eb9a9e088c6fc1165257c92f7e11
+RUN pip install --no-cache-dir uv \
+ && mkdir /opt/hermes && cd /opt/hermes && git init -q \
+ && git remote add origin https://github.com/nousresearch/hermes-agent \
+ && git fetch -q --depth 1 origin "$HERMES_SHA" && git checkout -q FETCH_HEAD \
+ && uv export --frozen --no-dev --no-hashes --no-emit-project > /tmp/req.txt \
+ && uv pip install --system --no-cache -r /tmp/req.txt \
+ && uv pip install --system --no-cache --no-deps -e . \
+ && rm -rf /opt/hermes/.git
+ENV HERMES_HOME=/tmp/hermes-home
+# Hermes refuses to run its gateway as root.
+RUN useradd -m -u 1000 runner
+USER runner
+WORKDIR /app
+COPY common /app/common
+COPY arms /app/arms
